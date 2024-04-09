@@ -32,7 +32,8 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-.meow {
-  @apply bg-gradient-to-r from-[#5C2B4D] to-[#DC7D3C] bg-clip-text text-transparent;
+.gradient {
+  @apply bg-gradient-to-r from-[#4B0082] to-[#DC7D3C] bg-clip-text text-transparent;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+

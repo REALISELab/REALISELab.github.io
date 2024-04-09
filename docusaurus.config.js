@@ -12,7 +12,7 @@ import tailwindPlugin from "./plugins/tailwind-config.js";
 const config = {
   title: "Exploring the Frontiers of Technology:",
   tagline: "Our Lab's Journey",
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -69,6 +69,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -94,8 +95,8 @@ const config = {
             position: "left",
           },
           {
-            to: "/posts",
-             label: "Posts",
+            to: "/publications",
+             label: "Publications",
              position: "left",
            },
            {
@@ -103,13 +104,19 @@ const config = {
             label: "Apply",
             position: "left",
           },
+          {
+            to: "/contact",
+             label: "Contact Us",
+             position: "right",
+           },
         ],
       },
       footer: {
         style: "dark",
+      
         links: [
           {
-            title: "Explore",
+            title: "About Us",
             items: [
               {
                 label: "Team",
@@ -120,8 +127,8 @@ const config = {
                 to: "/partners",
               },
               {
-                label: "Partners",
-                to: "/posts",
+                label: "Publications",
+                to: "/publications",
               },
               
               {
@@ -146,17 +153,20 @@ const config = {
           },
           
           {
-            title: "Location",
+            title: "Contact Us",
             items: [
               {
-                label: "View Map",
-                href: "https://maps.app.goo.gl/8vvDyZu8xygsxh6Z8",
-              },
+                to: "/contact",
+                 label: "Contact Us",
+                 position: "right",
+               },
             ],
           },
+          
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} REALISE Lab`,
       },
+      
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

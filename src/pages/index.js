@@ -1,6 +1,6 @@
-import About from '@site/src/components/About';
+import Main from '@site/src/components/Main';
 export default function Home() {
   return (
-    <About />
+    <Main/>
   );
 }

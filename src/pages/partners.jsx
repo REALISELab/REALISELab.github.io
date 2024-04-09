@@ -1,79 +1,86 @@
 import React from "react";
 import "tailwindcss/tailwind.css";
 import Layout from'@theme/Layout';
-export default function Example() {
-    return (
-      <Layout>
+import "../css/custom.css";
 
-<div className="relative isolate -z-10 mt-32 sm:mt-48">
-          <div className="absolute inset-x-0 top-1/2 -z-10 flex -translate-y-1/2 justify-center overflow-hidden [mask-image:radial-gradient(50%_45%_at_50%_55%,white,transparent)]">
-            <svg className="h-[40rem] w-[80rem] flex-none stroke-gray-200" aria-hidden="true">
-              <defs>
-                <pattern
-                  id="e9033f3e-f665-41a6-84ef-756f6778e6fe"
-                  width={200}
-                  height={200}
-                  x="50%"
-                  y="50%"
-                  patternUnits="userSpaceOnUse"
-                  patternTransform="translate(-100 0)"
-                >
-                  <path d="M.5 200V.5H200" fill="none" />
-                </pattern>
-              </defs>
-              <svg x="50%" y="50%" className="overflow-visible fill-gray-50">
-                <path d="M-300 0h201v201h-201Z M300 200h201v201h-201Z" strokeWidth={0} />
-              </svg>
-              <rect width="100%" height="100%" strokeWidth={0} fill="url(#e9033f3e-f665-41a6-84ef-756f6778e6fe)" />
-            </svg>
+
+const Partners = () => {
+  const partners = [
+    {
+      id: 1,
+      name: 'Mozilla organization',
+      collaboration_topics: 'performance engineering',
+      imageUrl:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1200px-Firefox_logo%2C_2019.svg.png'
+    },
+    {
+      id: 2,
+      name: 'MongoDB',
+      collaboration_topics: 'performance engineering',
+      imageUrl:
+      'https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png'
+    },
+    {
+      id: 3,
+      name: 'Mozilla organization',
+      collaboration_topics: 'dependency management',
+      imageUrl:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1200px-Firefox_logo%2C_2019.svg.png'
+    },
+    {
+      id: 4,
+      name: 'Mozilla organization',
+      collaboration_topics: 'dependency management',
+      imageUrl:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1200px-Firefox_logo%2C_2019.svg.png'
+    },
+    {
+      id: 5,
+      name: 'Mozilla organization',
+      collaboration_topics: 'dependency management',
+      imageUrl:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1200px-Firefox_logo%2C_2019.svg.png'
+    },
+    {
+      id: 6,
+      name: 'Mozilla organization',
+      collaboration_topics: 'dependency management',
+      imageUrl:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1200px-Firefox_logo%2C_2019.svg.png'
+    },
+  
+  ];
+
+  return (
+    <Layout>
+      <div className="bg-white py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl gradient">Our partners</h2>
+            <p className="mt-8 text-lg leading-8 text-gray-600 whitespace-nowrap">
+              REALISE Lab collaborates with leading partners in order to deliver well-curated research
+            </p>
           </div>
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
-              Trusted by the world’s most innovative teams
-            </h2>
-            <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-              <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
-                alt="Transistor"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
-                alt="Reform"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
-                alt="Tuple"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-                alt="SavvyCal"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
-                alt="Statamic"
-                width={158}
-                height={48}
-              />
-            </div>
+          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            {partners.map((partner) => (
+              <article key={partner.id} className="flex max-w-xl flex-col items-start justify-between">
+                <div className="group relative">
+                  <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                    <a href={partner.imageUrl}>
+                      <span className="absolute inset-0 border" />
+                      <img className="mx-auto h-24 w-24 rounded-full mb-10" src={partner.imageUrl} alt="" width="500" height="600"/>
+                      <h5>{partner.name}</h5>
+                    </a>
+                  </h3>
+                  <h5>Collaboration topics: </h5><p>{partner.collaboration_topics}</p>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
-        </Layout>
+      </div>
+    </Layout>
+  );
+};
 
-
-
-
-        )
-    }
+export default Partners;

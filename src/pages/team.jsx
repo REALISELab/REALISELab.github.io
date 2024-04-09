@@ -5,53 +5,53 @@ import Layout from'@theme/Layout';
 
 const people = [
     {
-      name: 'Mohamed Bilel Besbes',
-      role: 'Developer',
+      name: 'Diego Elias Damasceno Costa',
+      role: 'Professor',
       imageUrl:
-        'img/bilel.jpeg',
+        'img/diego-elias-damasceno-costa.jpg',
+      twitterUrl: 'https://twitter.com/DiegoEliasCosta',
+      linkedinUrl: 'https://www.linkedin.com/in/diego-elias-costa/',
+    },
+    {
+      name: 'Rachna Raj',
+      role: 'Software Engineering Masters student',
+      imageUrl:
+        'img/rachna-raj.jpg',
       twitterUrl: '#',
-      linkedinUrl: '#',
+      linkedinUrl: 'https://www.linkedin.com/in/rachna-raj/',
     },
     {
         name: 'Genevieve Caumartin',
-        role: 'Front-end Developer',
+        role: 'Software Engineering Masters student',
         imageUrl:
-          'img/g.jpg',
+          'img/genevieve-caumartin.jpg',
         twitterUrl: '#',
-        linkedinUrl: '#',
-      },
-      {
-        name: 'Adam Al Assil',
-        role: 'Front-end Developer',
-        imageUrl:
-          'img/a.jpg',
-        twitterUrl: '#',
-        linkedinUrl: '#',
-      },
-      {
-        name: 'Rachna Raj',
-        role: 'Front-end Developer',
-        imageUrl:
-          'img/r.jpg',
-        twitterUrl: '#',
-        linkedinUrl: '#',
-      },
-      {
-        name: 'Zakaria Laib',
-        role: 'Front-end Developer',
-        imageUrl:
-          'img/z.jpeg',
-        twitterUrl: '#',
-        linkedinUrl: '#',
-      },
-      {
-        name: 'Diego Elias Damasceno Costa',
-        role: 'Front-end Developer',
-        imageUrl:
-          'img/d.jpg',
-        twitterUrl: '#',
-        linkedinUrl: '#',
-      },
+        linkedinUrl: 'https://www.linkedin.com/in/cbgen/',
+    },
+    {
+      name: 'Zakaria Laib',
+      role: 'Software Engineering Masters student',
+      imageUrl:
+        'img/zakaria-laib.jpeg',
+      twitterUrl: '#',
+      linkedinUrl: 'https://www.linkedin.com/in/zakaria-laib-97b28222b/',
+    },
+    {
+      name: 'Mohamed Bilel Besbes',
+      role: 'Software Engineering Masters student',
+      imageUrl:
+        'img/mohamed-bilel-besbes.jpeg',
+      twitterUrl: '#',
+      linkedinUrl: 'https://www.linkedin.com/in/mohamed-bilel-besbes/',
+    },
+    {
+      name: 'Adam Al Assil',
+      role: 'Software Engineering Undergraduate student',
+      imageUrl:
+        'img/adam-al-assil.jpg',
+      twitterUrl: '#',
+      linkedinUrl: 'https://www.linkedin.com/in/adamalassil/',
+    },
   ]
   
   export default function Example() {
@@ -62,21 +62,21 @@ const people = [
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our team</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-8 text-lg leading-8 text-gray-600 whitespace-nowrap">
               We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the
-              best results for our clients.
+              best results for our collaborators.
             </p>
           </div>
           <ul
             role="list"
-            className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+            className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 list-none"
           >
             {people.map((person) => (
               <li key={person.name}>
                 <img className="aspect-[5/5] w-full rounded-2xl object-cover" src={person.imageUrl} alt="" />
                 <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
                 <p className="text-base leading-7 text-gray-600">{person.role}</p>
-                <ul role="list" className="mt-6 flex gap-x-6">
+                <ul role="list" className="mt-6 flex gap-x-6 list-none">
                   <li>
                     <a href={person.twitterUrl} className="text-gray-400 hover:text-gray-500">
                       <span className="sr-only">Twitter</span>
