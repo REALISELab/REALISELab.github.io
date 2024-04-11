@@ -77,10 +77,7 @@ const config = {
         logo: {
           alt: '',
           src: 'img/logo.png',
-          style: {
-            width: '45px',    
-            height: '50px',
-          },
+         
         },
         items: [
           {
@@ -109,6 +106,11 @@ const config = {
              label: "Contact Us",
              position: "right",
            },
+           {
+            to: "/projects",
+             label: "Projects",
+             position: "left",
+           },
         ],
       },
       footer: {
@@ -135,6 +137,11 @@ const config = {
                 label: "Apply",
                 to: "/apply",
               },
+              {
+                label: "Projects",
+                to: "/projects",
+              },
+             
             ],
           },
           {

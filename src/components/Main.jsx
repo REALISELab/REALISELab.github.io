@@ -1,10 +1,40 @@
-import Layout from'@theme/Layout';
-import { ChevronRightIcon } from '@heroicons/react/20/solid'
-import Tweet from '../components/Tweet';
+import Layout from "@theme/Layout";
+import { ChevronRightIcon } from "@heroicons/react/20/solid";
+import Tweet from "../components/Tweet";
 export default function Example() {
   return (
     <Layout>
-    <div className="bg-white">
+      {/* FIRST CONTAINER HERE */}
+      <div className="bg-gray-900 w-screen h-[420px] shadow-xl">
+        <div className="flex flex-col justify-center items-center pt-12">
+          <img className="w-[150px]" src="img/logo.png" alt="REALISE" />
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl gradient ">
+            Exploring the Frontiers of Technology : Our Lab's Journey
+          </h1>
+        </div>
+      </div>
+
+      {/* RIGHT AND LEFT CONTAINER HERE */}
+      <div className=" w-screen flex justify-center  px-[200px] flex-wrap">
+        <div className="w-2/3 px-24 h-screen">
+          <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none ">
+            Located in Concordia University in the beautiful city of Montréal,{" "}
+            <b>RE</b>search on <b>A</b>naLytics and <b>I</b>ntelligence for{" "}
+            <b>S</b>oftware <b>E</b>ngineering lab is located in the middle of
+            the vibrant downtown. From dependency management to performance
+            engineering and building robust AI solutions, we tackle a wide range
+            of research topics in aim to enhance software for everyone
+          </p>
+        </div>
+        {/*
+        <div className="w-1/3 ">
+          <span className="text-white text-lg">
+           <Tweet/>
+          </span>
+        </div>
+  */}
+      </div>
+      {/* <div className="bg-white">
       <div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20 ">
         <div className="max-w-8xl pb-24 sm:pb-32 flex justify-center items-center flex-wrap lg:py-20 -ml-24">
           <div className=" lg:px-0 lg:pt-4 w-[950px]">
@@ -74,7 +104,7 @@ export default function Example() {
         </div>
         <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32" />
       </div>
-    </div>
+    </div> */}
     </Layout>
-  )
+  );
 }

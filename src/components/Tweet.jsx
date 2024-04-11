@@ -18,7 +18,7 @@ const TwitterTimeline = () => {
       className="twitter-timeline"
       data-width="500" 
       data-height="500" 
-      href="https://twitter.com/NASA?ref_src=twsrc%5Etfw"
+      href="https://twitter.com/DiegoEliasCosta?ref_src=twsrc%5Etfw"
     >
       Tweets by NASA
     </a>
