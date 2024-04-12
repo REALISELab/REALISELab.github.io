@@ -9,7 +9,7 @@ export default function Example() {
         <div className="flex flex-col justify-center items-center pt-12">
           <img className="w-[150px]" src="img/logo.png" alt="REALISE" />
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl gradient ">
-            Exploring the Frontiers of Technology : Our Lab's Journey
+            REsearch on AnaLytics and Intelligence for Software Engineering lab
           </h1>
         </div>
       </div>
@@ -26,13 +26,13 @@ export default function Example() {
             of research topics in aim to enhance software for everyone
           </p>
         </div>
-        {/*
+        
         <div className="w-1/3 ">
           <span className="text-white text-lg">
            <Tweet/>
           </span>
         </div>
-  */}
+
       </div>
       {/* <div className="bg-white">
       <div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20 ">

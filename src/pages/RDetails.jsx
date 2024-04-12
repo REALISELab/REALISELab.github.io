@@ -1,0 +1,55 @@
+import Layout from'@theme/Layout';
+
+  export default function Example() {
+    return (
+        <Layout>
+      <div className="bg-white">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+          <div>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Rachna Raj</h2>
+            <p className="text-base leading-7 text-gray-600">Software Engineering Masters student</p>
+            <p className="mt-4 text-gray-500">
+             this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote 
+            </p>
+  
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+             
+                <div className="border-t border-gray-200 pt-4">
+                  <dt className="font-medium text-gray-900">Background</dt>
+                  <dd className="mt-2 text-sm text-gray-500">hi i am background</dd>
+                </div>
+                <div className="border-t border-gray-200 pt-4">
+                  <dt className="font-medium text-gray-900 mb-4">Contact</dt>
+               
+                <a href="" className="text-gray-400 hover:text-gray-500 mr-6">
+                      <span className="sr-only">Twitter</span>
+                      <svg className="h-5 w-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                      </svg>
+                    </a>
+                    <a href="" className="text-gray-400 hover:text-gray-500">
+                      <span className="sr-only">LinkedIn</span>
+                      <svg className="h-5 w-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </a>
+                    </div>
+            </dl>
+          </div>
+          <div className="ml-24">
+            <img
+              src="img/rachna-raj.jpg"
+              alt="Top down view of walnut card tray with embedded magnets and card groove."
+              className="rounded-lg bg-gray-100"
+            />
+          </div>
+        </div>
+      </div>
+      </Layout>
+    )
+  }
+  

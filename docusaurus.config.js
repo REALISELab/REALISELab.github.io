@@ -85,22 +85,11 @@ const config = {
             label: "Team",
             position: "left",
           },
-          
-          {
-            to: "/partners",
-            label: "Partners",
-            position: "left",
-          },
           {
             to: "/publications",
              label: "Publications",
              position: "left",
            },
-           {
-            to: "/apply",
-            label: "Apply",
-            position: "left",
-          },
           {
             to: "/contact",
              label: "Contact Us",
@@ -111,6 +100,11 @@ const config = {
              label: "Projects",
              position: "left",
            },
+           {
+            to: "/apply",
+            label: "Apply",
+            position: "left",
+          },
         ],
       },
       footer: {
@@ -134,12 +128,12 @@ const config = {
               },
               
               {
-                label: "Apply",
-                to: "/apply",
-              },
-              {
                 label: "Projects",
                 to: "/projects",
+              },
+              {
+                label: "Apply",
+                to: "/apply",
               },
              
             ],

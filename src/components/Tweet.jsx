@@ -20,7 +20,7 @@ const TwitterTimeline = () => {
       data-height="500" 
       href="https://twitter.com/DiegoEliasCosta?ref_src=twsrc%5Etfw"
     >
-      Tweets by NASA
+      Tweets by Diego Elias Costa Damasceno
     </a>
   );
 };
