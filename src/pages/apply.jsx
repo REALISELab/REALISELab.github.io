@@ -44,26 +44,29 @@ const features = [
             <b>Disclaimer</b> In our research we do use AI methods to understand large amounts of data, propose intelligent solutions, or as an application for software engineering techniques. However, our research is not focused in developping AI methods. We use AI/ML/LLMs to help software developpers at delivering better quality software. If you are looking for a group that is specialized in AI research, this is not the right research group for you.
             <h2>Why join?</h2>
             A few good reasons to join our lab:
-You will be working on indutry-relevant problems that have a direct impact on the software industry.
-Montreal is one of the best cities to study in the world.
-Concordia University is one of the top young universities (under 50 years old) in North America..
-<h2>How to apply?</h2>
-<b>Qualifications:</b> Strong programming, problem-solving and communication skills.
+            <ul>
+            <li>You will be working on indutry-relevant problems that have a direct impact on the software industry.</li>
+            <li>Montreal is one of the best cities to <a href="https://www.topuniversities.com/city-rankings/2023">study</a> in the world.</li>
+            <li>Concordia University is one of the <a href="https://www.concordia.ca/news/stories/2022/02/25/concordia-remains-tops-under-50-in-canada.html?c=/news/archive">top young universities (under 50 years old) in North America..</a></li>
+            </ul>
+            <h2>How to apply?</h2>
+            <b>Qualifications:</b> Strong programming, problem-solving and communication skills.
 
-A degree in computer science, computer engineering or software engineering is expected. However, if you have a major in adjacent areas (e.g., electrical engineering, mathematics, physics) and have a strong programming background, you are also encouraged to apply. If you come from a completely different area, you should justify (with strong arguments) in your cover letter why you want to switch to software engineering.
-If you are interested in joining my research group, please contact (diego.costa [at] concordia.ca) and include:
+            A degree in computer science, computer engineering or software engineering is expected. However, if you have a major in adjacent areas (e.g., electrical engineering, mathematics, physics) and have a strong programming background, you are also encouraged to apply. If you come from a completely different area, you should justify (with strong arguments) in your cover letter why you want to switch to software engineering.
+            If you are interested in joining my research group, please contact (diego.costa [at] concordia.ca) and include:
             <ul>
             <li>Your CV</li>
-            <li>Brief cover letter including: your research interests, outline of previous research experience, preferred start date. You get a bonus point if you include which research topic you are interested on, or which papers from our group has caught your attention (see Publications).</li>
+            <li>Brief cover letter including: your research interests, outline of previous research experience, preferred start date. You get a bonus point if you include which research topic you are interested on, or which papers from our group has caught your attention (see <a href="/publications">Publications</a>).</li>
             <li>Unofficial transcripts</li>
             <li>(Optional) Sample of your papers (if you have any)</li>
             </ul>
             <h2>Important tips:</h2>
-
-Make sure to show in your email that you are actually interested in our work. Generic application e-mails (especially those that are addressed to multiple professors!) will be ignored.
-Take a look at the <a href="https://www.concordia.ca/gradstudies/future-students.html">Concordia University website</a> for information on graduate admissions, tuitions, scholarships and the programs.
-Check out Dr. Evan’s advice for prospective research students when contacting us (or any professor).
-</p>
+            <ul>
+            <li>Make sure to show in your email that you are actually interested in our work. Generic application e-mails (especially those that are addressed to multiple professors!) <b>will be ignored</b>.</li>
+            <li>Take a look at the <a href="https://www.concordia.ca/gradstudies/future-students.html">Concordia University website</a> for information on graduate admissions, tuitions, scholarships and the programs.</li>
+            <li>Check out Dr. Evan’s advice for <a href="https://uvasrg.github.io/prospective/">prospective research students</a> when contacting us (or any professor).</li>
+            </ul>
+          </p>
           </div>
           </div>
           {/*
