@@ -13,7 +13,7 @@ const features = [
     return (
       <Layout>
 
-      <div className="bg-white">
+      <div className="bg-gray-900/5">
         <div aria-hidden="true" className="relative">
           <img
             src="img/concordia.jpg"
@@ -25,7 +25,7 @@ const features = [
   
         <div className="relative mx-auto -mt-12 max-w-7xl px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
           <div className="mx-auto max-w-2xl text-center lg:max-w-4xl">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl gradient">Join the Team And Apply Now</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl no">Join the Team And Apply Now</h2>
             <p className="mt-4 text-gray-500">
              send the requirements bellow on our email 
              lab@gmail.com

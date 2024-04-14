@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import "tailwindcss/tailwind.css";
 import Layout from "@theme/Layout";
 import { FaGithub, FaRegFilePdf } from "react-icons/fa";
@@ -13,9 +14,9 @@ const Example = () => {
       venue: "MSR 2024 Mining Challenge, 2024",
       authors: "Rachna Raj, Diego Elias Costa",
       pdfPathHref: "https://arxiv.org/pdf/2311.07786.pdf",
-      githubLink: "https://arxiv.org/pdf/2311.07786.pdf",
-      datasetLink: "https://arxiv.org/pdf/2311.07786.pdf",
-      presentationLink: "https://arxiv.org/pdf/2311.07786.pdf",
+      githubLink: "",
+      datasetLink: "",
+      presentationLink: "",
     },
     {
       id: 2,
@@ -428,10 +429,24 @@ const Example = () => {
       presentationLink: "",
     },
   ];
+  const [showTextAreas, setShowTextAreas] = useState(
+    Array(publications.length).fill(false)
+  );
+
+  // Function to toggle the text area for a specific publication
+  const toggleTextArea = (index) => {
+    setShowTextAreas((prevState) => {
+      const newState = [...prevState];
+      newState[index] = !newState[index];
+      return newState;
+    });
+  };
+
+  const preDefinedText = "this a text";
 
   return (
     <Layout>
-      <div className=" py-24 sm:py-32">
+      <div className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 ">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -442,20 +457,21 @@ const Example = () => {
             </p>
           </div>
 
-          <div className="mx-auto mt-10  max-w-2xl  border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none flex-col justfify-center items-center ">
-            {publications.map((publication) => (
+          <div className="mx-auto mt-10 max-w-2xl border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none flex-col justfify-center items-center ">
+            {publications.map((publication, index) => (
               <article
                 key={publication.id}
-                className="flex max-w-4xl flex-col items-start justify-between mx-auto mb-10 hover:scale-105 duration-300"
+                className="flex max-w-4xl flex-col items-start justify-between mx-auto mb-10"
               >
                 <div className="flex items-center gap-x-4 text-xs">
-                  <time 
+                  <time
                     dateTime={publication.datetime}
                     className="text-gray-500"
                   >
                     {publication.dateTime}
                   </time>
                 </div>
+
                 <div className="group relative w-full">
                   <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                     <div className="text-2xl">
@@ -463,35 +479,53 @@ const Example = () => {
                       {publication.title}
                     </div>
                   </h3>
-                  <h5>Authors: {publication.authors}</h5>
-                  <div className="flex justify-end items-center gap-3 w-full mb-3">
+
+                  <h5 style={{ display: 'inline' }}>Authors:</h5><p style={{ display: 'inline' }}> {publication.authors}</p><br></br>
+                  <h5 style={{ display: 'inline' }}>Venue:</h5><p style={{ display: 'inline' }}> {publication.venue}</p>
+                </div>
+
+                <div className="flex justify-end items-center gap-3 w-full mb-3">
                   {publication.pdfPathHref ? (
-                      <a
-                        className="flex justify-center items-center hover:scale-105 duration-300"
-                        href={publication.pdfPathHref}
-                      >
-                        <FaRegFilePdf size={20} /> <span>PDF</span>
-                      </a>
-                    ) : null}
                     <a
+                      href={publication.pdfPathHref}
                       className="flex justify-center items-center hover:scale-105 duration-300"
-                      href={publication.databasePath}
                     >
-                     <GoDatabase size={20} /> <span>Database</span>
+                      <FaRegFilePdf size={20} /> <span>PDF</span>
                     </a>
-                    <a
-                      className="flex justify-center items-center hover:scale-105 duration-300"
-                      href={publication.githubPath}
-                    >
-                      <FaGithub size={20} /> <span>Github</span>
-                    </a>
-                    <a
-                      className="flex justify-center items-center hover:scale-105 duration-300"
-                      href={publication.presentationPath}
-                    >
-                      <LuPresentation size={20} /> <span>Presentation   </span>
-                    </a>
-                  </div>
+                  ) : null}
+                  <a
+                    className="flex justify-center items-center hover:scale-105 duration-300"
+                    href={publication.datasetLink}
+                  >
+                    <GoDatabase size={20} /> <span>Database</span>
+                  </a>
+                  <a
+                    className="flex justify-center items-center hover:scale-105 duration-300"
+                    href={publication.githubLink}
+                  >
+                    <FaGithub size={20} /> <span>Github</span>
+                  </a>
+                  <a
+                    className="flex justify-center items-center hover:scale-105 duration-300"
+                    href={publication.presentationLink}
+                  >
+                    <LuPresentation size={20} /> <span>Presentation </span>
+                  </a>
+
+                  {/* Toggle Text Area button */}
+                  <button className="text-gray-400 border-none font-semibold " onClick={() => toggleTextArea(index)}>
+                    BibTex
+                  </button>
+
+                  {/* Pre-defined text area */}
+                  {showTextAreas[index] && (
+                    <textarea className="rounded-[7px] border border-gray-400 "
+                      rows={4}
+                      cols={50}
+                      value={preDefinedText}
+                      readOnly
+                    />
+                  )}
                 </div>
               </article>
             ))}
