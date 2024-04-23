@@ -3,10 +3,10 @@ import Layout from'@theme/Layout';
   export default function Example() {
     return (
         <Layout>
-      <div className="bg-white">
+      <div className="bg-gray-900/5">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
           <div>
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Mohamed Bilel Besbes</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Adam Al Assil</h2>
             <p className="text-base leading-7 text-gray-600">Software Engineering Masters student</p>
             <p className="mt-4 text-gray-500">
              this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote 
@@ -42,7 +42,7 @@ import Layout from'@theme/Layout';
           </div>
           <div className="ml-24">
             <img
-              src="img/mohamed-bilel-besbes.jpeg"
+              src="img/genevieve-caumartin.jpg"
               alt="Top down view of walnut card tray with embedded magnets and card groove."
               className="rounded-lg bg-gray-100"
             />

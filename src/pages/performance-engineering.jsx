@@ -1,8 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import { LuPresentation } from "react-icons/lu";
-import { FaGithub, FaRegFilePdf } from "react-icons/fa";
-import { GoDatabase } from "react-icons/go";
+import PublicationsIteration from "../components/PublicationsIteration";
+
 const publications = [
   {
     id: 1,
@@ -47,57 +46,7 @@ const projectDetail1 = () => {
           Related Publications:{" "}
         </span>
       </div>
-      <div className="mx-auto  max-w-2xl border-t border-gray-200 pt-3   lg:mx-0 lg:max-w-none flex-col justfify-center items-center ">
-        {publications.map((publication) => (
-          <article
-            key={publication.id}
-            className="flex max-w-4xl flex-col items-start justify-between mx-auto mb-10 hover:scale-105 duration-300"
-          >
-            <div className="flex items-center gap-x-4 text-xs">
-              <time dateTime={publication.datetime} className="text-gray-500">
-                {publication.dateTime}
-              </time>
-            </div>
-            <div className="group relative w-full">
-              <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                <div className="text-2xl">
-                  <span className="absolute inset-0" />
-                  {publication.title}
-                </div>
-              </h3>
-              <h5>Authors: {publication.authors}</h5>
-              <div className="flex justify-end items-center gap-3 w-full mb-3">
-                {publication.pdfPathHref ? (
-                  <a
-                    className="flex justify-center items-center hover:scale-105 duration-300"
-                    href={publication.pdfPathHref}
-                  >
-                    <FaRegFilePdf size={20} /> <span>PDF</span>
-                  </a>
-                ) : null}
-                <a
-                  className="flex justify-center items-center hover:scale-105 duration-300"
-                  href={publication.pdfPathHref}
-                >
-                  <GoDatabase size={20} /> <span>Database</span>
-                </a>
-                <a
-                  className="flex justify-center items-center hover:scale-105 duration-300"
-                  href={publication.pdfPathHref}
-                >
-                  <FaGithub size={20} /> <span>Github</span>
-                </a>
-                <a
-                  className="flex justify-center items-center hover:scale-105 duration-300"
-                  href={publication.pdfPathHref}
-                >
-                  <LuPresentation size={20} /> <span>Presentation </span>
-                </a>
-              </div>
-            </div>
-          </article>
-        ))}
-      </div>
+      <PublicationsIteration array={publications} all={false}/>
     </Layout>
   );
 };
