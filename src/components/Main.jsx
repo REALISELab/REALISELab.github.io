@@ -5,7 +5,7 @@ export default function Example() {
   return (
     <Layout>
       {/* FIRST CONTAINER HERE */}
-      <div className="bg-gray-900 w-screen h-[420px] shadow-xl">
+      <div className="bg-gray-900  h-[420px] shadow-xl">
         <div className="flex flex-col justify-center items-center pt-12">
           <img className="w-[150px]" src="img/logo.png" alt="REALISE" />
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl gradient ">
@@ -15,7 +15,7 @@ export default function Example() {
       </div>
 
       {/* RIGHT AND LEFT CONTAINER HERE */}
-      <div className=" w-screen flex justify-center  px-[200px] flex-wrap">
+      <div className=" flex justify-center  px-[200px] flex-wrap py-12">
         <div className="w-2/3 px-24 h-screen">
           <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none ">
             Located in Concordia University in the beautiful city of Montréal,{" "}
