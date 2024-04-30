@@ -2,24 +2,6 @@ import React from "react";
 import Layout from "@theme/Layout";
 import PublicationsIteration from "../components/PublicationsIteration";
 
-const publications = [
-  {
-    id: 1,
-    title: "The role of library versions in Developer-ChatGPT conversations",
-    description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
-    datetime: "2024-01-29",
-    authors: "D. Costa, R. Raj",
-  },
-  {
-    id: 2,
-    title: "Predicting the Impact of Crashes Across Release Channels",
-    description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
-    datetime: "2024-01-29",
-    authors: "D. Costa, S. Mujahid, C. Castelluccio",
-  },
-];
 const projectDetail1 = () => {
   return (
     <Layout>
@@ -46,7 +28,9 @@ const projectDetail1 = () => {
           Related Publications:{" "}
         </span>
       </div>
-      <PublicationsIteration array={publications} all={false}/>
+      <div className=" px-64">
+      <PublicationsIteration project={"performance-engineering"} all={false}/>
+      </div>
     </Layout>
   );
 };
