@@ -55,8 +55,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+         
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -101,10 +100,27 @@ const config = {
              position: "left",
            },
            {
+            to: "/partners",
+             label: "Partners",
+             position: "left",
+           },
+           {
+            to: "/blog",
+             label: "News",
+             position: "left",
+           },
+           {
+            to: "/events",
+             label: "Events",
+             position: "left",
+           },
+           {
             to: "/apply",
             label: "Apply",
             position: "left",
           },
+        
+         
         ],
       },
       footer: {
@@ -142,13 +158,8 @@ const config = {
             title: "Social Media",
             items: [
               {
-                label: "LinkedIn",
-                href: "https://github.com/ayonious/console-table-printer",
-                
-              },
-              {
-                label: "Facebook",
-                href: "https://www.npmjs.com/package/console-table-printer",
+                label: "Twitter",
+                href: "https://twitter.com/diegoeliascosta?lang=en",
               },
             ],
           },
