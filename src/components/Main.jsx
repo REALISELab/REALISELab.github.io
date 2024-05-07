@@ -1,22 +1,26 @@
 import Layout from "@theme/Layout";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import Tweet from "../components/Tweet";
+import { IoIosReturnRight } from "react-icons/io";
+import PartnersMainPage from "./NewsOnHomePage";
+import { news } from "../../content/HomeNews";
+import { FaNewspaper } from "react-icons/fa";
 export default function Example() {
   return (
     <Layout>
       {/* FIRST CONTAINER HERE */}
-      <div className="bg-gray-900  h-[420px] shadow-xl">
+      <div className="bg-gray-100  h-[420px] shadow-xl">
         <div className="flex flex-col justify-center items-center pt-12">
           <img className="w-[150px]" src="img/logo.png" alt="REALISE" />
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl gradient ">
-            REsearch on AnaLytics and Intelligence for Software Engineering lab
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl gradient px-36 text-center">
+            REALISE
           </h1>
         </div>
       </div>
 
       {/* RIGHT AND LEFT CONTAINER HERE */}
       <div className=" flex justify-center  px-[200px] flex-wrap py-12">
-        <div className="w-2/3 px-24 h-screen">
+        <div className="w-2/3 px-24 ">
           <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none ">
             Located in Concordia University in the beautiful city of Montréal,{" "}
             <b>RE</b>search on <b>A</b>naLytics and <b>I</b>ntelligence for{" "}
@@ -26,15 +30,45 @@ export default function Example() {
             of research topics in aim to enhance software for everyone
           </p>
         </div>
-        
+
         <div className="w-1/3 ">
           <span className="text-white text-lg">
-           <Tweet/>
+            <Tweet />
           </span>
         </div>
+        <div className=" mt-16 relative mx-28">
+          <span className="flex justify-center font-bold text-lg bg-white relative mx-auto px-4 w-fit z-50 rounded-lg text-gray-900">
+            News
+          </span>
+          <div className=" border-dashed border-b border-t-0 border-x-0 w-full absolute top-4 z-0">
+            {" "}
+          </div>
+          {news.map((item, index) => (
+            <div className="my-4 relative pb-5" key={index}>
+              <div className="flex ">
+                <FaNewspaper size={25} className="pt-2"/>
+                <h2>{item.title}</h2>
+              </div>
 
+              <p>{item.description}</p>
+              <div className="absolute -bottom-1 right-3">
+                <a
+                  href={item.href}
+                  type="button"
+                  className="rounded bg-indigo-50 px-2 py-1 text-sm font-semibold text-indigo-400 shadow-sm hover:bg-indigo-100 border-0 flex justify-end items-center"
+                >
+                  Go to News Page
+                  <IoIosReturnRight size={20} />
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+        <span className="flex justify-center font-bold text-lg bg-white relative mx-auto px-4 w-fit z-50 rounded-lg text-gray-900">
+            <h1>Our partners</h1>
+        </span>
+        <PartnersMainPage />
       </div>
-      
     </Layout>
   );
 }
