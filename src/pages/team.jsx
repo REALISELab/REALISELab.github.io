@@ -29,9 +29,6 @@ export default function Example() {
               Our team
             </h2>
             <p className="mt-8 text-lg leading-8 text-gray-600 whitespace-nowrap">
-              We’re a dynamic group of individuals who are passionate about what
-              we do and dedicated to delivering the best results for our
-              collaborators.
             </p>
           </div>
      

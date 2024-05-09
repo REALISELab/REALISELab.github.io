@@ -5,6 +5,7 @@ export const members = [
     imageUrl: "Img/diego-elias-damasceno-costa.jpg",
     twitterUrl: "https://twitter.com/DiegoEliasCosta",
     linkedinUrl: "https://www.linkedin.com/in/diego-elias-costa/",
+    researchGateUrl: "https://www.researchgate.net/profile/Diego_Elias_Costa",
     details: "teamInfo/diego",
   },
   {
@@ -14,7 +15,7 @@ export const members = [
       'Img/rachna-raj.jpg',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/rachna-raj/',
-    details: "teamInfo/rd"
+    details: "teamInfo/rachna"
   },
   {
     name: 'Genevieve Caumartin',
@@ -23,7 +24,7 @@ export const members = [
       'Img/genevieve-caumartin.jpg',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/cbgen/',
-    details: "teamInfo/g"
+    details: "teamInfo/genevieve"
   },
   {
     name: 'Zakaria Laib',
@@ -59,7 +60,7 @@ export const members = [
       'Img/adam-al-assil.jpg',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/adamalassil/',
-    details: "teamInfo/a"
+    details: "teamInfo/adam"
   },
   {
     name: 'Yasmine Drissi',
