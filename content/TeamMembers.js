@@ -5,7 +5,8 @@ export const members = [
     imageUrl: "Img/diego-elias-damasceno-costa.jpg",
     twitterUrl: "https://twitter.com/DiegoEliasCosta",
     linkedinUrl: "https://www.linkedin.com/in/diego-elias-costa/",
-    researchGateUrl: "https://www.researchgate.net/profile/Diego_Elias_Costa",
+    researchGateUrl: "https://www.researchgate.net/profile/Diego-Costa-20",
+    googleScholarUrl: "hhttps://scholar.google.com/citations?user=HOWCJPMAAAAJ&hl=pt-BR",
     details: "teamInfo/diego",
   },
   {

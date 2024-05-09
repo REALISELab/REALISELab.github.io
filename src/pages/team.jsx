@@ -29,6 +29,7 @@ export default function Example() {
               Our team
             </h2>
             <p className="mt-8 text-lg leading-8 text-gray-600 whitespace-nowrap">
+              Meet the people who make the REALISE lab.
             </p>
           </div>
      
@@ -94,6 +95,10 @@ export default function Example() {
                             </svg>
                           </a>
                         )}
+
+                        
+                          
+                        
 
                         
                       </div>

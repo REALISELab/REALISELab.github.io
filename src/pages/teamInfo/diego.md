@@ -30,6 +30,17 @@ Teaching courses:
 - [MGL 7811: Ingénierie des systèmes d’IAntelligence artificielle](https://github.com/create-se4ai/engineering-ai-systems-course/tree/mgl7811-winter-2023)  *winter 2023* 
 - [SOEN 691: Engineering AI-based software systems](https://github.com/create-se4ai/engineering-ai-systems-course) *winter 2022* 
 
+### Grants and Awards
+
+- [FRQNT Support for New Academics Grant](https://frq.gouv.qc.ca/en/program/research-support-for-new-academics-frqnt/) (2024-25)
+- [NSERC DISCOVERY Grant](https://www.nserc-crsng.gc.ca/professors-professeurs/grants-subs/dgigp-psigp_eng.asp) (2023-27) 
+- [NSERC CREATE SE4AI](https://se4ai.org) (2022-27)
+- [Horizon Postdoctoral Fellowship](https://www.concordia.ca/sgs/postdoctoral-fellows/funding/horizon.html) (2019-21)  
+- [Heidelberg Graduate School MathComp Scholarship](https://www.mathcomp.uni-heidelberg.de/) (2015-17) 
+
+
+
+
 
 ### Contact
 - [Twitter](#)
