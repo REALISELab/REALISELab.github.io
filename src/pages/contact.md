@@ -1,17 +1,12 @@
 # Get in touch
 
-For collaborations, applications, and other inquiries, reach out on the following coordinates:
+If you want to get in contact with REALISE and our research, please email the lab head [Diego Elias Costa](/teamInfo/diego) at  [diego.costa@concordia.ca](mailto:diego@example.com)
 
-## Contact
-
-### Diego Elias Damasceno Costa
-
-- Email: [diego@example.com](mailto:diego@example.com)
-- Phone number: +1 (555) 905-5678
 
 ## Locations
 
-You can visit us in our lab at the following address: 12th floor, 2155 Guy St, Montreal, Quebec H3H 2L9
+You can visit us in our lab in the Concordia ER Building, at 2155 Guy St, Montreal, Quebec H3H 2L9. 
+Our lab is on the 12th floor, room 1204.
 
 <div>
   <iframe
