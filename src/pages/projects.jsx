@@ -71,12 +71,6 @@ const projects = () => {
                 <span className="text-gray-300 font-normal text-md">
                   {post.description}
                 </span>
-                <h3 className="mt-3 text-lg font-semibold leading-6 text-white">
-                  <a href={post.href}>
-                    <span className="absolute inset-0" />
-                    {post.title}
-                  </a>
-                </h3>
               </article>
             ))}
           </div>
