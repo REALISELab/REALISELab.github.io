@@ -65,8 +65,10 @@ const projects = () => {
                 <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
                 <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
 
-                <div className="flex flex-wrap items-center gap-y-1 overflow-hidden text-lg font-bold leading-6 text-gray-200 mb-4">
-                  <span className="mr-8">{post.title}</span>
+                <div className="flex flex-wrap items-center gap-y-1 overflow-hidden text-lg font-bold leading-6 text-white mb-4">
+                  <a href={post.href}>
+                    <span className="mr-8 text-white">{post.title}</span>
+                  </a>
                 </div>
                 <span className="text-gray-300 font-normal text-md">
                   {post.description}
