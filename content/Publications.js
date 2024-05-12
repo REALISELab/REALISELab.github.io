@@ -99,7 +99,7 @@ export const DefaultPublications = [
       authors:
         "Mahmoud Alfadel, Nicholas Alexandre Nagy, Diego Costa, Rabe Abdalkareem, Emad Shihab",
       pdfPathHref:
-        "Empirical-analysis-of-security-related-code-reviews-in-npm-packages.pdf",
+        "publications/Empirical-analysis-of-security-related-code-reviews-in-npm-packages.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -272,7 +272,7 @@ export const DefaultPublications = [
         "Toward the Personalization of Biceps Fatigue Detection Model For Gym Activity: An Approach to Utilize Wearables’ Data From The Crowd",
       venue: "Sensors Journal: Applications of Body Worn Sensors and Wearables",
       authors: "Mohamed Elshafei, Diego Elias Costa, and Emad Shihab",
-      pdfPathHref: "Toward-the-Personalization-of-Biceps-Fatigue-Detection-Model-For-Gym-Activity.pdf",
+      pdfPathHref: "publications/Toward-the-Personalization-of-Biceps-Fatigue-Detection-Model-For-Gym-Activity.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -304,7 +304,7 @@ export const DefaultPublications = [
       venue:
         "Sensors Journal: Sensors Technology and Machine Learning for Human Activity Recognition",
       authors: "Mahsa Sadat Afzali Arani, Diego Elias Costa , Emad Shihab",
-      pdfPathHref: "Human-Activity-Recognition-A-Comparative-Study-to-Assess-the-Contribution-Level-of-Accelerometer.pdf",
+      pdfPathHref: "publications/Human-Activity-Recognition-A-Comparative-Study-to-Assess-the-Contribution-Level-of-Accelerometer.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -333,7 +333,7 @@ export const DefaultPublications = [
       title: "How do developers use the Java Stream API?",
       venue: "TOSEM journal, 2023",
       authors: "D. Costa, R. Raj",
-      pdfPathHref: "How-do-developers-use-the-Java-Stream-API.pdf",
+      pdfPathHref: "publications/How-do-developers-use-the-Java-Stream-API.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -430,7 +430,7 @@ export const DefaultPublications = [
       venue:
         "Sensors Journal: Physical Human Activity Recognition Using Wearable Sensors",
       authors: "Mohamed Elshafei, Diego Costa, Emad Shihab",
-      pdfPathHref: "On-the-Impact-of-Biceps-Muscle-Fatigue-in-Human-Activity-Recognition.pdf",
+      pdfPathHref: "publications/On-the-Impact-of-Biceps-Muscle-Fatigue-in-Human-Activity-Recognition.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
