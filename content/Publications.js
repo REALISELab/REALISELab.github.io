@@ -34,7 +34,7 @@ export const DefaultPublications = [
         " IEEE Software journal, Software Engineering Educating and Training, 2023",
       authors:
         "Ahmad Abdellatif, Gita Ghiasi, Diego Elias Costa, Tanja Tajmel, Emad Shihab",
-      pdfPathHref: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10274712",
+      pdfPathHref: "publications/Training-Program-Considering-Technical-Social-and-Professional-Aspects-of-AI-Based-Software-Systems.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -175,7 +175,7 @@ export const DefaultPublications = [
       venue:
         "ACM Transactions on Software Engineering and Methodology (TOSEM), 2022",
       authors: "Mahmoud Alfadel, Diego Elias Costa, Emad Shihab, Bram Adams.",
-      pdfPathHref: "https://dl.acm.org/doi/pdf/10.1145/3571848",
+      pdfPathHref: "publications/On-the-Discoverability-of-npm-Vulnerabilities-in-Node-js-Projects.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -364,7 +364,7 @@ export const DefaultPublications = [
         "In MSR'21: in International Conference on Mining Software Repositories",
       authors: "Mahmoud Alfadel, Diego Elias Costa, Emad Shihab",
       pdfPathHref:
-        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9463148",
+        "publications/On-the-Use-of-Dependabot-Security-Pull-Requests.pdf",
       githubLink: "",
       datasetLink: "https://zenodo.org/records/4437290",
       presentationLink: "",
@@ -382,7 +382,7 @@ export const DefaultPublications = [
       authors:
         "Jasmine Latendresse, Rabe Abdalkareem, Diego Elias Costa, Emad Shihab",
       pdfPathHref:
-        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9463134",
+        "publications/How-Effective-is-Continuous-Integration-in-Indicating-Single-Statement-Bugs.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -464,7 +464,7 @@ export const DefaultPublications = [
       authors:
         "Ahmad Abdellatif, Diego Costa, Khaled Badran, Rabe Abdalkareem, and Emad Shihab",
       pdfPathHref:
-        "https://dl.acm.org/doi/pdf/10.1145/3379597.3387472",
+        "publications/Challenges-in-Chatbot-Development-A Study-of-Stack-Overflow-Posts.pdf",
       githubLink: "",
       datasetLink: "https://zenodo.org/records/3610714",
       presentationLink: "",
@@ -511,7 +511,7 @@ export const DefaultPublications = [
       authors:
         "Juan P. S. Alcocer, Harold C. Jaimes, Diego Costa, Alexandre Bergel and Fabian Beck",
       pdfPathHref:
-        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8900964",
+        "publications/Enhancing-Commit-Graphs-with-Visual-Runtime-Clues.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -579,7 +579,7 @@ export const DefaultPublications = [
       authors:
         "Andreas Spitz, Diego Costa, Kai Chen, Jan Greulich, Johanna Geiß, Stefan Wiesberg, and Michael Gertz",
       pdfPathHref:
-        "https://dl.acm.org/doi/pdf/10.1145/3210259.3210266",
+        "publications/Heterogeneous-subgraph-features-for-information-networks.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -611,7 +611,7 @@ export const DefaultPublications = [
         "ISSRE'16: International Symposium on Software Reliability Engineering",
       authors: "Zhen Dong, Artur Andrzejak, David Lo and Diego Costa",
       pdfPathHref:
-        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7774519",
+        "publications/ORPLocator-Identifying-Read-Points-of-Configuration-Options-via-Static-Analysis.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -628,7 +628,7 @@ export const DefaultPublications = [
         "MASCOTS'15: IEEE International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",
       authors: "Diego Costa and Rivalino Matias Jr.",
       pdfPathHref:
-        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7330178",
+        "publications/Characterization-of-Dynamic-Memory-Allocations-in-Real-World-Applications-An-Experimental-Study.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -646,7 +646,7 @@ export const DefaultPublications = [
       authors:
         "Rivalino Matias, Artur Andrzejak, Fumio Machida, Diego Costa and Kishor Trivedi",
       pdfPathHref:
-        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6983406",
+        "publications/A-Systematic-Differential-Analysis-for-Fast-and-Robust-Detection-of-Software-Aging.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -658,11 +658,11 @@ export const DefaultPublications = [
     },
     {
       title:
-        "Experimental and theoretical analyses of memory allocation algorithm",
+        "Experimental and theoretical analyses of memory allocation algorithms",
       venue: "SAC'14: ACM Symposium on Applied Computing",
       authors: "Diego Costa, Rivalino Matias, Marcia Fernandes, and Lucio Borges",
       pdfPathHref:
-        "https://dl.acm.org/doi/pdf/10.1145/2554850.2555149",
+        "publications/Experimental-and-theoretical-analyses-of-memory-allocation-algorithms.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
