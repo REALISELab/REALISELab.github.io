@@ -426,7 +426,7 @@ export const DefaultPublications = [
     },
     {
       title:
-        "On the Impact of Biceps Muscle Fatigue in Human Activity Recognition?",
+        "On the Impact of Biceps Muscle Fatigue in Human Activity Recognition",
       venue:
         "Sensors Journal: Physical Human Activity Recognition Using Wearable Sensors",
       authors: "Mohamed Elshafei, Diego Costa, Emad Shihab",
