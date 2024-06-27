@@ -2,7 +2,7 @@ export const members = [
   {
     name: "Diego Elias Damasceno Costa",
     role: "Professor",
-    imageUrl: "Img/diego-elias-damasceno-costa.jpg",
+    imageUrl: "img/diego-elias-damasceno-costa.jpg",
     twitterUrl: "https://twitter.com/DiegoEliasCosta",
     linkedinUrl: "https://www.linkedin.com/in/diego-elias-costa/",
     researchGateUrl: "https://www.researchgate.net/profile/Diego-Costa-20",
@@ -13,7 +13,7 @@ export const members = [
     name: 'Rachna Raj',
     role: 'Masters student',
     imageUrl:
-      'Img/rachna-raj.jpg',
+      'img/rachna-raj.jpg',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/rachna-raj/',
     details: "teamInfo/rachna"
@@ -22,7 +22,7 @@ export const members = [
     name: 'Genevieve Caumartin',
     role: 'Masters student',
     imageUrl:
-      'Img/genevieve-caumartin.jpg',
+      'img/genevieve-caumartin.jpg',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/cbgen/',
     details: "teamInfo/genevieve"
