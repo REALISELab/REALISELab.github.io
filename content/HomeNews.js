@@ -1,7 +1,7 @@
 export const news = [
     {
         title: 'Our paper on "A Transformer-based Approach for Augmenting Software Engineering Chatbots Datasets" has been accepted at ESEM 2024! Pre-print coming soon.',
-        description: 'July, 2024'
+        description: 'July, 2024',
         href:"/blog/esem-2024"
     },
     {
