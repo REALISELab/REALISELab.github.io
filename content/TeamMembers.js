@@ -31,7 +31,7 @@ export const members = [
     name: 'Zakaria Laib',
     role: 'Masters student',
     imageUrl:
-      'Img/zakaria-laib.jpeg',
+      'img/zakaria-laib.jpeg',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/zakaria-laib-97b28222b/',
     details: "/teamInfo/zak"
@@ -40,7 +40,7 @@ export const members = [
     name: 'Mohamed Bilel Besbes',
     role: 'Masters student',
     imageUrl:
-      'Img/mohamed-bilel-besbes.jpeg',
+      'img/mohamed-bilel-besbes.jpeg',
     twitterUrl: '',
     linkedinUrl: 'https://www.linkedin.com/in/mohamed-bilel-besbes/',
     details: "teamInfo/bilel"
@@ -49,7 +49,7 @@ export const members = [
     name: 'Matin Koohjani',
     role: 'Masters student',
     imageUrl:
-      'Img/matin-koohjani.jpeg',
+      'img/matin-koohjani.jpeg',
     twitterUrl: '',
     linkedinUrl: 'https://ir.linkedin.com/in/matin-koohjani-a6096719a',
     details: "teamInfo/matin"
@@ -58,7 +58,7 @@ export const members = [
     name: 'Adam Al Assil',
     role: 'Undergraduate student',
     imageUrl:
-      'Img/adam-al-assil.jpg',
+      'img/adam-al-assil.jpg',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/adamalassil/',
     details: "teamInfo/adam"
@@ -67,7 +67,7 @@ export const members = [
     name: 'Yasmine Drissi',
     role: 'Undergraduate student',
     imageUrl:
-      'Img/yasmine-drissi.jpeg',
+      'img/yasmine-drissi.jpeg',
     twitterUrl: '',
     linkedinUrl: 'https://ca.linkedin.com/in/yasmine-drissi-24043127a',
     details: "teamInfo/yasmine"
