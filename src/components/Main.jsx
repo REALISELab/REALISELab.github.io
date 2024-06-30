@@ -9,19 +9,19 @@ export default function Example() {
   return (
     <Layout>
       {/* FIRST CONTAINER HERE */}
-      <div className="bg-gray-100  h-[420px] shadow-xl">
+      <div className="h-[420px] bg-gradient-to-b from-gray-400 to-white/5">
         <div className="flex flex-col justify-center items-center pt-12">
           <img className="w-[150px]" src="img/logo.png" alt="REALISE" />
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl gradient px-36 text-center">
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl gradient  text-center">
             REALISE
           </h1>
         </div>
       </div>
 
       {/* RIGHT AND LEFT CONTAINER HERE */}
-      <div className=" flex justify-center  px-[200px] flex-wrap py-12">
-        <div className="w-2/3 px-24 ">
-          <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none ">
+      <div className="lg:flex lg:justify-center lg:px-[200px] flex-wrap py-12">
+        <div className="md:w-2/3 md:px-24 px-5 text-center md:text-left ">
+          <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none mx-auto">
             Located in Concordia University in the beautiful city of Montréal,{" "}
             <b>RE</b>search on <b>A</b>naLytics and <b>I</b>ntelligence for{" "}
             <b>S</b>oftware <b>E</b>ngineering lab is located in the middle of
@@ -31,40 +31,37 @@ export default function Example() {
           </p>
         </div>
 
-        <div className="w-1/3 ">
-          <span className="text-white text-lg">
-            <Tweet />
-          </span>
+        <div className="md:w-1/3 px-7">
+          <Tweet />
         </div>
-        <div className=" mt-16 relative mx-28">
-          <span className="flex justify-center font-bold text-lg bg-white relative mx-auto px-4 w-fit z-50 rounded-lg text-gray-900">
-            Latest News
-          </span>
-          <div className=" border-dashed border-b border-t-0 border-x-0 w-full absolute top-4 z-0">
-            {" "}
-          </div>
+        <div className=" mt-16 relative md:mx-28 mx-5">
+          <span className="my-4 relative text-left mb-12 hover:scale-105 duration-150">
+              <div className="flex justify-center gap-2">
+                <h2>Latest News</h2>
+              </div>
+            </span>
           {news.map((item, index) => (
-            <div className="my-4 relative pb-5" key={index}>
-              <div className="flex ">
-                <FaNewspaper size={25} className="pt-2"/>
-                <h2>{item.title}</h2>
+            <div
+              className="my-4 relative text-left mb-12 hover:scale-105 duration-150"
+              key={index}
+            >
+              <div className="flex items-start gap-3">
+                <div>
+                  <FaNewspaper size={25} />
+                </div>
+                <div className="text-sm">
+                  <a href={item.href}>
+                    <h2>{item.title}</h2>
+                  </a>
+                </div>
               </div>
-
-              <p>{item.description}</p>
-              <div className="absolute -bottom-1 right-3">
-                <a
-                  href={item.href}
-                  type="button"
-                  className="rounded bg-indigo-50 px-2 py-1 text-sm font-semibold text-indigo-400 shadow-sm hover:bg-indigo-100 border-0 flex justify-end items-center"
-                >
-                  Go to News Page
-                  <IoIosReturnRight size={20} />
-                </a>
-              </div>
+              <p className="ml-10">{item.description}</p>
             </div>
           ))}
-          <span className="flex justify-center font-bold text-lg bg-white relative mx-auto px-4 w-fit z-50 rounded-lg text-gray-900">
-            <h1>Our partners</h1>
+          <span className="my-4 relative text-left mb-12 hover:scale-105 duration-150">
+            <div className="flex justify-center gap-2">
+              <h1>Our Partners</h1>
+            </div>
           </span>
           <PartnersMainPage />
         </div>
