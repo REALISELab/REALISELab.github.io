@@ -1,8 +1,13 @@
 export const news = [
     {
-        title: 'Our paper on "A Transformer-based Approach for Augmenting Software Engineering Chatbots Datasets" has been accepted at ESEM 2024! Pre-print coming soon.',
+        title: 'Our paper on "Early Detection of Performance Regressions by Bridging Local Performance Data and Architectural Models" has been accepted at ICSE 2025! Pre-print coming soon.',
         description: 'July, 2024',
-        href:"/blog/esem-2024"
+        href:"/blog/performance-icse-2025"
+    },
+    {
+        title: 'Our paper on "A Transformer-based Approach for Augmenting Software Engineering Chatbots Datasets" has been accepted at ESEM 2024! Pre-print coming soon.',
+        description: 'June, 2024',
+        href:"/blog/augmentation-esem-2024"
     },
     {
         title: 'FRQNT has supported a 2-year reserach project to support open source library maintainers',

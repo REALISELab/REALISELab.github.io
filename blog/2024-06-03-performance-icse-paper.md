@@ -1,5 +1,5 @@
 ---
-slug: performance-icse-2024
+slug: performance-icse-2025
 title: Our Approach for Early Detection of Performance Regressions was accepted at ICSE 2025. 
 tags: [paper]
 author: Diego Elias Costa
