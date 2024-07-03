@@ -23,11 +23,20 @@ export default function Example() {
         <div className="md:w-2/3 md:px-24 px-5 text-center md:text-left ">
           <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none mx-auto">
             Located in Concordia University in the beautiful city of Montréal,{" "}
-            <b>RE</b>search on <b>A</b>naLytics and <b>I</b>ntelligence for{" "}
-            <b>S</b>oftware <b>E</b>ngineering lab is located in the middle of
-            the vibrant downtown. From dependency management to performance
-            engineering and building robust AI solutions, we tackle a wide range
-            of research topics in aim to enhance software for everyone
+            the <b>RE</b>search on <b>A</b>naLytics and <b>I</b>ntelligence for{" "}
+            <b>S</b>oftware <b>E</b>ngineering Lab is a research group that focuses on studying and developing techniques to help software engineers build better software.
+
+            Overall, we use data analytics and artificial intelligence techniques to improve practices related to software maintenance and evolution. We work on the following software engineering areas:
+           
+            <ul className="list-disc ml-5">
+              <li>Software Performance Testing</li>
+              <li>Open-Source Software Development and Dependency Management</li>
+              <li>Software Development Assistants</li>
+              <li>Maintenance and Reliability of Artificial Intelligence-Based Systems</li>
+            </ul>
+
+            This website is a hub for our research activities, publications, and news. We are always looking for new collaborations and partnerships. If you are interested in working with us, please contact us.
+
           </p>
         </div>
 

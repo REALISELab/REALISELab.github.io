@@ -149,10 +149,10 @@ const config = {
                 label: "Projects",
                 to: "/projects",
               },
-              {
-                label: "Apply",
-                to: "/apply",
-              },
+              // {
+              //   label: "Apply",
+              //   to: "/apply",
+              // },
              
             ],
           },
