@@ -20,7 +20,7 @@ export default function Example() {
 
       {/* RIGHT AND LEFT CONTAINER HERE */}
       <div className="lg:flex lg:justify-center lg:px-[200px] flex-wrap py-12">
-        <div className="md:w-2/3 md:px-24 px-5 text-center md:text-left ">
+        <div className="md:w-2/3 md:px-24 px-5">
           <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none mx-auto">
             Located in Concordia University in the beautiful city of Montréal,{" "}
             the <b>RE</b>search on <b>A</b>naLytics and <b>I</b>ntelligence for{" "}
