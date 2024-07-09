@@ -83,7 +83,7 @@ export default function PublicationsIteration({ project, all }) {
                     </time>
                   </div>
                   <div className="group relative w-full">
-                    <h3 className="text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                    <h3 className="text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 mb-2">
                       <div className="text-2xl">
                         <span className="absolute inset-0" />
                         {pub.title}
@@ -95,7 +95,7 @@ export default function PublicationsIteration({ project, all }) {
                     <h5 style={{ display: "inline" }}>Venue:</h5>
                     <p style={{ display: "inline" }}> {pub.venue}</p>
                   </div>
-                  <div className="flex justify-end items-center gap-3 w-full">
+                  <div className="flex justify-start items-center gap-3 w-full mb-8">
                     {pub.pdfPathHref && (
                       <a
                         href={pub.pdfPathHref}
