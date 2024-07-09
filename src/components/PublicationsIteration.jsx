@@ -3,7 +3,7 @@ import { FaGithub, FaRegFilePdf } from "react-icons/fa";
 import { GoDatabase } from "react-icons/go";
 import { LuPresentation } from "react-icons/lu";
 import { useState } from "react";
-import { FaQuoteLeft } from "react-icons/fa";
+import { FaQuoteLeft, FaCopy } from "react-icons/fa";
 import { DefaultPublications } from "../../content/Publications";
 
 export default function PublicationsIteration({ project, all }) {
@@ -43,38 +43,6 @@ export default function PublicationsIteration({ project, all }) {
         publications: groupPublicationsByYearAndType(DefaultPublications)[year][type],
       })),
     }));
-  const convertToBibTeX = (publication) => {
-    const authors = publication.authors
-      .split(", ")
-      .map((author) => `${author.trim()}`)
-      .join(", ");
-    switch (publication.type) {
-      case "Journals":
-        return `@article{${publication.title.replace(/[^a-zA-Z0-9]/g, "")},
-                  title={${publication.title}},
-                  author={${authors}},
-                  journal={${publication.venue}}
-              }`;
-      case "Conferences":
-        return `@inproceedings{${publication.title.replace(
-          /[^a-zA-Z0-9]/g,
-          ""
-        )},
-                  title={${publication.title}},
-                  author={${authors}},
-                  booktitle={${publication.venue}}
-              }`;
-      case "Thesis":
-        return `@phdthesis{${publication.title.replace(/[^a-zA-Z0-9]/g, "")},
-                  title={${publication.title}},
-                  author={${authors}},
-                  school={${publication.venue}}
-              }`;
-      default:
-        return "";
-    }
-  };
-
   const filteredPublications = DefaultPublications.filter(publication => publication.project === project);
   const groupedPublicationsOfProject = Object.keys(groupPublicationsByYearAndType(filteredPublications))
     .sort((a, b) => b - a)
@@ -201,15 +169,28 @@ export default function PublicationsIteration({ project, all }) {
                     </div>
                   </div>
                   {/* Pre-defined text area */}
+
+
+
                   {showTextAreas[publication.year + "0" + innerIndex] && (
-                    <textarea
-                      className="rounded-[7px] border border-gray-400 flex justify-center w-full"
-                      rows={4}
-                      cols={50}
-                      value={convertToBibTeX(pub)}
-                      readOnly
-                    />
-                  )}
+  <div className="relative w-full">
+    <textarea
+      className="rounded-[7px] bg-gray-200 border-0 w-full p-2"
+      rows={4}
+      cols={50}
+      value={pub.citation}
+      readOnly
+    />
+    <button
+      className="absolute top-2 right-6 bg-transparent text-gray-600 p-2 rounded-md hover:text-gray-800 focus:outline-none opacity-20"
+      onClick={() => navigator.clipboard.writeText(pub.citation)}
+      title="Copy to clipboard"
+    >
+      <FaCopy />
+    </button>
+  </div>
+)}
+
                 </article>
               ))}
             </div>
