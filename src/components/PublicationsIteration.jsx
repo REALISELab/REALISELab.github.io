@@ -173,23 +173,26 @@ export default function PublicationsIteration({ project, all }) {
 
 
                   {showTextAreas[publication.year + "0" + innerIndex] && (
-  <div className="relative w-full">
-    <textarea
-      className="rounded-[7px] bg-gray-200 border-0 w-full p-2"
-      rows={4}
-      cols={50}
-      value={pub.citation}
-      readOnly
-    />
-    <button
-      className="absolute top-2 right-6 bg-transparent text-gray-600 p-2 rounded-md hover:text-gray-800 focus:outline-none opacity-20"
-      onClick={() => navigator.clipboard.writeText(pub.citation)}
-      title="Copy to clipboard"
-    >
-      <FaCopy />
-    </button>
-  </div>
-)}
+                    <div className="relative w-full pop-down">
+                      <textarea
+                        className="rounded-[7px] bg-gray-200 border-0 w-full p-2"
+                        rows={4}
+                        cols={50}
+                        value={pub.citation}
+                        readOnly
+                      />
+                      <button
+                        className="absolute top-2 right-6 bg-transparent text-gray-600 p-2 rounded-md hover:text-gray-800 focus:outline-none opacity-20"
+                        onClick={() => navigator.clipboard.writeText(pub.citation)}
+                        title="Copy to clipboard"
+                      >
+                        <FaCopy />
+                      </button>
+                    </div>
+                  )}
+
+
+
 
                 </article>
               ))}
