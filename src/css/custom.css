@@ -80,3 +80,8 @@
   @apply bg-gradient-to-r from-[#4B0082] to-[#DC7D3C] bg-clip-text text-transparent;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+.blog-list-page h2[class*="title"]
+{
+  font-size: 2rem;
+}
