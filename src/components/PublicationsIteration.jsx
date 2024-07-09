@@ -56,7 +56,7 @@ export default function PublicationsIteration({ project, all }) {
 
   const ChosenPublication = all == false? groupedPublicationsOfProject : groupedPublications
   return (
-    <div className="mx-auto mt-10 max-w-2xl border-t border-gray-200 pt-4 sm:mt-16  lg:mx-0 lg:max-w-none flex-col justfify-center items-center">
+    <div className="mx-auto max-w-2xl border-t border-gray-200 pt-4 lg:mx-0 lg:max-w-none flex-col justfify-center items-center">
       {ChosenPublication.map((publication, index) => (
         <div key={index}>
           <div className="flex justify-start w-full  mb-3">
@@ -83,7 +83,7 @@ export default function PublicationsIteration({ project, all }) {
                     </time>
                   </div>
                   <div className="group relative w-full">
-                    <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                    <h3 className="text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                       <div className="text-2xl">
                         <span className="absolute inset-0" />
                         {pub.title}
@@ -95,7 +95,7 @@ export default function PublicationsIteration({ project, all }) {
                     <h5 style={{ display: "inline" }}>Venue:</h5>
                     <p style={{ display: "inline" }}> {pub.venue}</p>
                   </div>
-                  <div className="flex justify-end items-center gap-3 w-full mb-3">
+                  <div className="flex justify-end items-center gap-3 w-full">
                     {pub.pdfPathHref && (
                       <a
                         href={pub.pdfPathHref}
