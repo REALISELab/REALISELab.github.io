@@ -1,4 +1,33 @@
 export const DefaultPublications = [
+
+    {
+      title: "A Transformer-based Approach for Augmenting Software Engineering Chatbots Datasets",
+      venue: "ESEM 2024, 2024",
+      authors: "Ahmad Abdellatif, Khaled Badran, Diego Elias Costa, Emad Shihab",
+      pdfPathHref: "",
+      githubLink: "",
+      datasetLink: "",
+      presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2024,
+      type: "Conferences",
+      project: "se4ai"
+    },
+    {
+      title: "Early Detection of Performance Regressions by Bridging Local Performance Data and Architectural Models",
+      venue: "ICSE 2025, 2024",
+      authors: "Lizhi Liao, Simon Eismann, Heng Li, Cor-Paul Bezemer, Diego Elias Costa, André van Hoorn",
+      pdfPathHref: "",
+      githubLink: "",
+      datasetLink: "",
+      presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2025,
+      type: "Conferences",
+      project:"performance-engineering"
+    },
     {
       title: "The role of library versions in Developer-ChatGPT conversations",
       venue: "MSR 2024 Mining Challenge, 2024",
