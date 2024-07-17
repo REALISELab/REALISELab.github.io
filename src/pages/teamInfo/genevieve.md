@@ -15,14 +15,14 @@ I am a thesis-based Software Engineering Masters student and a Senior Software D
 - DEC Technique in Computer Science [College de Maisonneuve](https://www.cmaisonneuve.qc.ca/) (<em>1999 - 2001</em>)
 
 ### Professional Experience
-- Senior Software Developer at [Adacel](www.adacel.com) (<em>2003 - 2008 and 2001 - Present</em>)
-- Technical Project Lead at [Adacel](www.adacel.com) (<em>2009 - 2011</em>)
-- Team Lead, Simulation Team at [Adacel](www.adacel.com) (<em>2008 - 2009</em>)
-- User Interface Developer at [Adacel](www.adacel.com) (<em>2002 - 2003</em>)
-- Web Development Intern at [Adacel](www.adacel.com) (<em>2001 - 2002</em>)
+- Senior Software Developer at [Adacel](https://www.adacel.com/) (<em>2003 - 2008 and 2001 - Present</em>)
+- Technical Project Lead at [Adacel](https://www.adacel.com/) (<em>2009 - 2011</em>)
+- Team Lead, Simulation Team at [Adacel](https://www.adacel.com/) (<em>2008 - 2009</em>)
+- User Interface Developer at [Adacel](https://www.adacel.com/) (<em>2002 - 2003</em>)
+- Web Development Intern at [Adacel](https://www.adacel.com/) (<em>2001 - 2002</em>)
 
 ### Certifications / Memberships
-- Certified Scrum Master (CSM) [ScrumAlliance](www.scrumalliance.org) (<em>2018 - Present</em>)
+- Certified Scrum Master (CSM) [ScrumAlliance](https://www.scrumalliance.org/) (<em>2018 - Present</em>)
 - Association for Computing Machinery (member) (<em>2013 - Present</em>)
 
 ### Awards
