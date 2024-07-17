@@ -4,7 +4,7 @@ export const DefaultPublications = [
       title: "A Transformer-based Approach for Augmenting Software Engineering Chatbots Datasets",
       venue: "ESEM 2024, 2024",
       authors: "Ahmad Abdellatif, Khaled Badran, Diego Elias Costa, Emad Shihab",
-      pdfPathHref: "",
+      pdfPathHref: "https://arxiv.org/abs/2407.11955",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
