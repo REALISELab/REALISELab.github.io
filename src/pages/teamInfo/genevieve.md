@@ -4,9 +4,14 @@ title: Genevieve
 
 ## Genevieve Caumartin
 
-I am a thesis-based Software Engineering Masters student and a Senior Software Developer with over 20 years of experience in the Aerospace industry. The love of learning new subjects in technology brought me back to academia to pursue research on AI-related subjects. 
-
-> I am driven by curiosity and a passion for technology, seeking to bridge the gap between cutting-edge research and real-world applications.
+<div style={{ display: 'flex', alignItems: 'center' }}>
+  <img src={require('../../../static/img/genevieve-caumartin.jpg').default} alt="Me" style={{ width: '150px', marginRight: '20px' }} />
+  <div>
+    I am a thesis-based Software Engineering Masters student and a Senior Software Developer with over 20 years of experience in the Aerospace industry. The love of learning new subjects in technology brought me back to academia to pursue research on AI-related subjects.
+    
+    > I am driven by curiosity and a passion for technology, seeking to bridge the gap between cutting-edge research and real-world applications.
+  </div>
+</div>
 
 ### Education
 - Software Engineering masters at [Concordia University](https://www.concordia.ca/) (<em>Jan 2024-Present</em>)
@@ -35,5 +40,5 @@ Given the latest Artificial Intelligence technology and its potential huge impac
 ### Contact
 You can reach me at:
 - [LinkedIn](https://www.linkedin.com/in/cbgen/)
+- [Twitter](https://x.com/gen_c_b)
 
-![Me](../../../static/img/genevieve-caumartin.jpg)
