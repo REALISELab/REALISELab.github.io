@@ -12,7 +12,8 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2024,
       type: "Conferences",
-      project: "se4ai"
+      project: "se4ai",
+      citation: ""
     },
     {
       title: "Early Detection of Performance Regressions by Bridging Local Performance Data and Architectural Models",
@@ -26,7 +27,8 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2025,
       type: "Conferences",
-      project:"performance-engineering"
+      project:"performance-engineering",
+      citation: ""
     },
     {
       title: "The role of library versions in Developer-ChatGPT conversations",

@@ -111,11 +111,6 @@ const config = {
              label: "News",
              position: "left",
            },
-           {
-            to: "/events",
-             label: "Events",
-             position: "left",
-           },
           //  {
           //   to: "/apply",
           //   label: "Apply",
