@@ -11,7 +11,7 @@ title: Adam
     I am an Undergraduate student at Gina Cody School of Software Engineering and Computer Science at Concordia University. Pursuing a degree in Computer Science and Business/Finance. 
     
     I work at REALISE Lab under the supervision of Dr. Diego Costa. My research interests include mining software repositories, software data analytics, and software performance/quality engineering.
-
+	</div>
 </div>
 
 ### Education
