@@ -140,10 +140,10 @@ const config = {
                 to: "/publications",
               },
               
-              {
-                label: "Projects",
-                to: "/projects",
-              },
+              // {
+              //   label: "Projects",
+              //   to: "/projects",
+              // },
               // {
               //   label: "Apply",
               //   to: "/apply",
