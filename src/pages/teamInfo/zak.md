@@ -17,10 +17,10 @@ I am a Master’s student in Computer Science at Concordia University with over 
  
 ### Professional Experience
  
-- Business Intelligence Responsible at SWLSB (</em>Jan 2023 - present</em>)
-- Project Manager at Ry nova (</em>Oct 2017 - Dec 2022</em>)
-- Software Engineer at Ry nova (</em>July 2016 - Oct 2017</em>)
-- Mobile App Developer at Ryzk Invest Box (</em>Apr 2015 - June 2016</em>)
+- Business Intelligence Responsible at SWLSB (<em>Jan 2023 - present</em>)
+- Project Manager at Ry nova (<em>Oct 2017 - Dec 2022</em>)
+- Software Engineer at Ry nova (<em>July 2016 - Oct 2017</em>)
+- Mobile App Developer at Ryzk Invest Box (<em>Apr 2015 - June 2016</em>)
  
 ### Contact
 - [LinkedIn](https://www.linkedin.com/in/zakaria-laib-97b28222b)
