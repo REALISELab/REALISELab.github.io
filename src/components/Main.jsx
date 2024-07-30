@@ -11,7 +11,7 @@ export default function Example() {
       {/* FIRST CONTAINER HERE */}
       <div className="h-[420px] gradient-bg-light">
         <div className="flex flex-col justify-center items-center pt-12">
-          <img className="w-[1000px]" src="img/testlogo.png" alt="REALISE" />
+          <img className="w-[1000px]" src="img/realise-logo.png" alt="REALISE" />
         </div>
       </div>
 
