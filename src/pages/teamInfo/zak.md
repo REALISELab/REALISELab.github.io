@@ -10,10 +10,10 @@ I am a Master’s student in Computer Science at Concordia University with over 
  
 ### Academic Experience
  
-- Master’s in Software Engineering at Concordia University (</em>Jan 2024-Present</em>)
-- Research Intern at Centre de Recherche en Biotechnologie (</em>Jan 2018- May 2018</em>)
-- Master’s in Networks and Distributed Systems at Abdelhamid Mehri University (</em>Sept 2016- Jul 2018</em>)
-- Bachelor in Mathematics and Computer Science at Constantine 2 University (</em>Sept 2012- Jul 2016</em>)
+- Master’s in Software Engineering at Concordia University (<em>Jan 2024-Present</em>)
+- Research Intern at Centre de Recherche en Biotechnologie (<em>Jan 2018- May 2018</em>)
+- Master’s in Networks and Distributed Systems at Abdelhamid Mehri University (<em>Sept 2016- Jul 2018</em>)
+- Bachelor in Mathematics and Computer Science at Constantine 2 University (<em>Sept 2012- Jul 2016</em>)
  
 ### Professional Experience
  
