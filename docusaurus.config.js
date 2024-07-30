@@ -12,7 +12,7 @@ import tailwindPlugin from "./plugins/tailwind-config.js";
 const config = {
   title: "REALISE Lab",
   tagline: "Research on Analytics and Intelligence for Software Engineering",
-  favicon: 'img/logo.png',
+  favicon: 'img/icon.png',
 
   // Set the production url of your site here
   url: 'https://REALISELab.github.io',
@@ -77,7 +77,7 @@ const config = {
         title: '',
         logo: {
           alt: '',
-          src: 'img/logo.png',
+          src: 'img/icon.png',
          
         },
         items: [

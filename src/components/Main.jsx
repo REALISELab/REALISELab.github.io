@@ -9,12 +9,9 @@ export default function Example() {
   return (
     <Layout>
       {/* FIRST CONTAINER HERE */}
-      <div className="h-[420px] bg-gradient-to-b from-gray-400 to-white/5">
+      <div className="h-[420px] gradient-bg-light">
         <div className="flex flex-col justify-center items-center pt-12">
-          <img className="w-[150px]" src="img/logo.png" alt="REALISE" />
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl gradient  text-center">
-            REALISE
-          </h1>
+          <img className="w-[1000px]" src="img/testlogo.png" alt="REALISE" />
         </div>
       </div>
 
