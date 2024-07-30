@@ -23,6 +23,6 @@ I am a Master’s student in Computer Science at Concordia University with over 
 - Mobile App Developer at Ryzk Invest Box (</em>Apr 2015 - June 2016</em>)
  
 ### Contact
-- [LinkedIn](https://www.linkedin.com/in/zakaria-laib-97b28222b/)
+- [LinkedIn](https://www.linkedin.com/in/zakaria-laib-97b28222b)
  
 ![Top down view of walnut card tray with embedded magnets and card groove.](../../../static/img/zakaria-laib.jpeg)
