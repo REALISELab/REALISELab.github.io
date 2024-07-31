@@ -9,11 +9,27 @@ export default function Example() {
   return (
     <Layout>
       {/* FIRST CONTAINER HERE */}
-      <div className="h-[420px] gradient-bg-light">
+      <div className="h-auto gradient-bg-light">
         <div className="flex flex-col justify-center items-center pt-12">
-          <img className="w-[1000px]" src="img/realise-logo.png" alt="REALISE" />
+          <img 
+            className="w-full max-w-[90%] md:max-w-[85%] lg:max-w-[50%] xl:max-w-[50%]" 
+            src="img/realise-logo.png" 
+            alt="REALISE" 
+          />
         </div>
+        <div className="extra-black-space"></div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
 
       {/* RIGHT AND LEFT CONTAINER HERE */}
       <div className="lg:flex lg:justify-center lg:px-[200px] flex-wrap py-12">

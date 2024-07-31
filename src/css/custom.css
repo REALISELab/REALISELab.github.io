@@ -86,7 +86,26 @@
   font-size: 2rem;
 }
 
-
 :root:not([data-theme="dark"]) .gradient-bg-light {
   background: #000000;
+  position: relative;
 }
+
+.extra-black-space {
+  background: #000000;
+  height: 50px; /* Default height for mobile */
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .extra-black-space {
+    height: 100px; /* Increased height for large screens (laptops) */
+  }
+}
+
+@media (min-width: 1280px) {
+  .extra-black-space {
+    height: 100px; /* Ensure the height stays consistent for extra-large screens */
+  }
+}
+
