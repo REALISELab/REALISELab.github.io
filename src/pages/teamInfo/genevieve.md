@@ -17,10 +17,10 @@ title: Genevieve
 - Software Engineering masters at [Concordia University](https://www.concordia.ca/) (<em>Jan 2024-Present</em>)
 - Software Engineering Short Program at [UQAM](https://uqam.ca/) (<em>Jan 2023 - Dec 2023</em>)
 - Computer Science Certificate at [UQAM](https://uqam.ca/) (<em>2011 - 2014</em>)
-- DEC Technique in Computer Science [College de Maisonneuve](https://www.cmaisonneuve.qc.ca/) (<em>1999 - 2001</em>)
+- DEC Technique, Computer Science at [College de Maisonneuve](https://www.cmaisonneuve.qc.ca/) (<em>1999 - 2001</em>)
 
 ### Professional Experience
-- Senior Software Developer at [Adacel](https://www.adacel.com/) (<em>2003 - 2008 and 2001 - Present</em>)
+- Senior Software Developer at [Adacel](https://www.adacel.com/) (<em>2003 - 2008 and 2011 - Present</em>)
 - Technical Project Lead at [Adacel](https://www.adacel.com/) (<em>2009 - 2011</em>)
 - Team Lead, Simulation Team at [Adacel](https://www.adacel.com/) (<em>2008 - 2009</em>)
 - User Interface Developer at [Adacel](https://www.adacel.com/) (<em>2002 - 2003</em>)
