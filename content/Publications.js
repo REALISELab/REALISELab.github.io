@@ -1,6 +1,21 @@
 export const DefaultPublications = [
 
     {
+      title: "Predicting the First Response Latency of Maintainers and Contributors in Pull Requests",
+      venue: "TSE, 2024",
+      authors: "SayedHassan Khatoonabadi, Ahmad Abdellatif, Diego Elias Costa, Emad Shihab",
+      pdfPathHref: "https://arxiv.org/abs/2311.07786",
+      githubLink: "",
+      datasetLink: "",
+      presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2024,
+      type: "Journals",
+      project: "",
+      citation: ""
+    },
+    {
       title: "A Transformer-based Approach for Augmenting Software Engineering Chatbots Datasets",
       venue: "ESEM 2024, 2024",
       authors: "Ahmad Abdellatif, Khaled Badran, Diego Elias Costa, Emad Shihab",

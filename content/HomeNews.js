@@ -3,7 +3,7 @@ export const news = [
     {
         title: 'Our paper on "Predicting the First Response Latency of Maintainers and Contributors in Pull Requests" has been accepted at TSE!',
         description: 'August, 2024',
-        href:"latency-tse-2025" 
+        href:"/blog/latency-tse-2025" 
 
     },
     {
