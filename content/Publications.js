@@ -17,7 +17,7 @@ export const DefaultPublications = [
     },
     {
       title: "A Transformer-based Approach for Augmenting Software Engineering Chatbots Datasets",
-      venue: "ESEM 2024, 2024",
+      venue: "ESEM, 2024",
       authors: "Ahmad Abdellatif, Khaled Badran, Diego Elias Costa, Emad Shihab",
       pdfPathHref: "https://arxiv.org/abs/2407.11955",
       githubLink: "",
@@ -32,7 +32,7 @@ export const DefaultPublications = [
     },
     {
       title: "Early Detection of Performance Regressions by Bridging Local Performance Data and Architectural Models",
-      venue: "ICSE 2025, 2024",
+      venue: "ICSE, 2025",
       authors: "Lizhi Liao, Simon Eismann, Heng Li, Cor-Paul Bezemer, Diego Elias Costa, André van Hoorn",
       pdfPathHref: "",
       githubLink: "",
@@ -47,7 +47,7 @@ export const DefaultPublications = [
     },
     {
       title: "The role of library versions in Developer-ChatGPT conversations",
-      venue: "MSR 2024 Mining Challenge, 2024",
+      venue: "MSR Mining Challenge, 2024",
       authors: "Rachna Raj, Diego Elias Costa",
       pdfPathHref: "https://arxiv.org/pdf/2401.16340",
       githubLink: "",
@@ -76,7 +76,7 @@ export const DefaultPublications = [
     },
     {
       title: "Predicting the Impact of Crashes Across Release Channels",
-      venue: "MSR 2024 Industrial Track, 2024",
+      venue: "MSR Industrial Track, 2024",
       authors: "Suhaib Mujahid, Diego Elias Costa, Marco Castelluccio",
       pdfPathHref: "https://arxiv.org/pdf/2401.13667",
       githubLink: "",
