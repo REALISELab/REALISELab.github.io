@@ -10,7 +10,7 @@ import tailwindPlugin from "./plugins/tailwind-config.js";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "REALISE Lab",
+  title: "REALISE Lab | Concordia University",
   tagline: "Research on Analytics and Intelligence for Software Engineering",
   favicon: 'img/icon.png',
 
