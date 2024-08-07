@@ -97,6 +97,12 @@
   width: 100%;
 }
 
+[data-theme='dark'] .extra-black-space {
+  background: transparent;
+  height: 50px; /* Default height for mobile */
+  width: 100%;
+}
+
 @media (min-width: 1024px) {
   .extra-black-space {
     height: 100px; /* Increased height for large screens (laptops) */
