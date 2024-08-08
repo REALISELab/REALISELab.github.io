@@ -4,12 +4,13 @@ title: Genevieve
 
 ## Genevieve Caumartin
 
-<div style={{ display: 'flex', alignItems: 'center' }}>
-  <img src={require('../../../static/img/genevieve-caumartin.jpg').default} alt="Me" style={{ width: '150px', marginRight: '20px' }} />
-  <div>
-    I am a thesis-based Software Engineering Masters student and a Senior Software Developer with over 20 years of experience in the Aerospace industry. The love of learning new subjects in technology brought me back to academia to pursue research on AI-related subjects.
-    
-    > I am driven by curiosity and a passion for technology, seeking to bridge the gap between cutting-edge research and real-world applications.
+<div style={{ display: 'flex', alignItems: 'flex-start', flexWrap: 'wrap' }}>
+  <img src={require('../../../static/img/genevieve-caumartin.jpg').default} alt="Me" style={{ width: '150px', marginRight: '20px', marginBottom: '20px' }} />
+  <div style={{ flex: 1, textAlign: 'left' }}>
+    <p>I am a thesis-based Software Engineering Masters student and a Senior Software Developer with over 20 years of experience in the Aerospace industry. The love of learning new subjects in technology brought me back to academia to pursue research on AI-related subjects.</p>
+    <blockquote>
+      I am driven by curiosity and a passion for technology, seeking to bridge the gap between cutting-edge research and real-world applications.
+    </blockquote>
   </div>
 </div>
 
