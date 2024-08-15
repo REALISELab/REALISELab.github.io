@@ -1,6 +1,6 @@
 ## Rachna Raj
 
-![Profile Picture](../../../static/img/RachnaRaj.jpeg)
+![Top down view of walnut card tray with embedded magnets and card groove.](../../../static/img/RachnaRaj.jpeg)
 
 I'm a PhD student in Software Engineering. Before returning to school, I spent around five years as a software developer at Infosys and IBM India Software Labs. I'm driven to create solutions that automate boring, repetitive tasks for software developers so they can focus on the fun stuff—building awesome software for everyone! Right now, I'm focusing on dependency management and working on developing a tool to support library developers.
 
