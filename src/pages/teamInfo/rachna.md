@@ -1,8 +1,8 @@
 ## Rachna Raj
 
-![Profile Picture](../../../static/img/rachna-raj.jpg)
+![Profile Picture](../../../static/img/RachnaRaj.jpeg)
 
-I'm a Master's student in Software Engineering. Before returning to school, I spent over five years as a software developer at Infosys and IBM India Software Labs. I'm driven to create solutions that automate boring, repetitive tasks for software developers so they can focus on the fun stuff—building awesome software for everyone! Right now, I'm focusing on dependency management and working on developing a tool to support library developers.
+I'm a PhD student in Software Engineering. Before returning to school, I spent around five years as a software developer at Infosys and IBM India Software Labs. I'm driven to create solutions that automate boring, repetitive tasks for software developers so they can focus on the fun stuff—building awesome software for everyone! Right now, I'm focusing on dependency management and working on developing a tool to support library developers.
 
 
 ### Why Research ?
@@ -42,7 +42,7 @@ I'm a Master's student in Software Engineering. Before returning to school, I sp
 
 ### Research Interests
 
-I am passionate about working on the topic of Software Maintenance, with a special focus on Dependency Management, Software Bills of Materials, and handling breaking changes. My career ambition is to conduct cutting-edge research in software engineering and artificial intelligence, supporting the AI applications development lifecycle (SE4AI). I aim to uncover innovative methods to harness AI (applied AI) in software engineering (AI4SE) to create technically advanced applications. As I progress in my academic journey, I also aspire to engage in EDI (Equity, Diversity, and Inclusion) within Software Engineering research, contributing to a safer and more inclusive future. Though these goals are ambitious, they inspire me to aim high!
+I am passionate about working on the topic of Software Maintenance, particularly in supporting open-source library developers and maintainers, exploring and enhancing Software Bills of Materials, and handling breaking changes. My career goal is to conduct cutting-edge research in software engineering and artificial intelligence, supporting the AI applications development lifecycle (SE4AI). I aim to explore innovative methods to harness AI (applied AI) in software engineering (AI4SE) to create technically advanced applications. As I progress in my academic journey, I also aspire to engage in EDI (Equity, Diversity, and Inclusion) within Software Engineering research, contributing to a safer and more inclusive future. Though these goals are ambitious, they inspire me to aim high!
 
 ### Leisure Activities
 

@@ -11,7 +11,7 @@ export const members = [
   },
   {
     name: 'Rachna Raj',
-    role: 'Masters student',
+    role: 'PhD student',
     imageUrl:
       'img/rachna-raj.jpg',
     twitterUrl: '#',
