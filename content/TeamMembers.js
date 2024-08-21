@@ -72,4 +72,13 @@ export const members = [
     linkedinUrl: 'https://ca.linkedin.com/in/yasmine-drissi-24043127a',
     details: "teamInfo/yasmine"
   },
+  {
+    name: 'Kawsar Ahmed Bhuiyan',
+    role: 'Masters student',
+    imageUrl:
+      'img/kawsar-ahmed-bhuiyan.jpeg',
+    twitterUrl: '',
+    linkedinUrl: 'https://www.linkedin.com/in/kawsarahmedbhuiyan',
+    details: "teamInfo/kawsar"
+  },
 ]
