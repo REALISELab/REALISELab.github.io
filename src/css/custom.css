@@ -114,3 +114,11 @@
     height: 100px; /* Ensure the height stays consistent for extra-large screens */
   }
 }
+
+.mb-custom {
+  margin-bottom: 0.5rem; /* Adjust as needed */
+}
+
+a.inline-block {
+  display: inline-block;
+}
