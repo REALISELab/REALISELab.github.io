@@ -45,7 +45,7 @@ export default function Example() {
         </div>
         <span className="block max-w-4xl mx-auto mt-4 mb-1 md:mt-8 md:mb-2 lg:mt-12 lg:mb-4 xl:mt-16 xl:mb-6 text-left hover:scale-105 duration-150">
           <div className="flex justify-center gap-2">
-            <h2>Meet our team</h2>
+            <h2>Meet the REALISEers</h2>
           </div>
         </span>
         <div className="flex justify-center my-4">
