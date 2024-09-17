@@ -19,19 +19,6 @@ export default function Example() {
         </div>
         <div className="extra-black-space"></div>
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-      {/* RIGHT AND LEFT CONTAINER HERE */}
       <div className="lg:flex lg:justify-center lg:px-[200px] flex-wrap py-12">
         <div className="md:w-2/3 md:px-24 px-5">
           <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none mx-auto">
@@ -55,6 +42,20 @@ export default function Example() {
 
         <div className="md:w-1/3 px-7">
           <Tweet />
+        </div>
+        <span className="block max-w-4xl mx-auto mt-4 mb-1 md:mt-8 md:mb-2 lg:mt-12 lg:mb-4 xl:mt-16 xl:mb-6 text-left hover:scale-105 duration-150">
+          <div className="flex justify-center gap-2">
+            <h2>Meet the Team</h2>
+          </div>
+        </span>
+        <div className="flex justify-center my-4">
+          
+          <img 
+            src="img/group_picture.jpg" 
+            alt="Group Picture" 
+            className="w-full max-w-[95%] md:max-w-[90%] lg:max-w-[80%] xl:max-w-[75%] rounded-lg shadow-lg"
+            onClick={() => window.location.href = '/team'}
+          />
         </div>
         <div className=" mt-16 relative md:mx-28 mx-5">
           <span className="my-4 relative text-left mb-12 hover:scale-105 duration-150">
