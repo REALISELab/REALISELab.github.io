@@ -6,7 +6,7 @@ export const members = [
     twitterUrl: "https://twitter.com/DiegoEliasCosta",
     linkedinUrl: "https://www.linkedin.com/in/diego-elias-costa/",
     researchGateUrl: "https://www.researchgate.net/profile/Diego-Costa-20",
-    googleScholarUrl: "hhttps://scholar.google.com/citations?user=HOWCJPMAAAAJ&hl=pt-BR",
+    googleScholarUrl: "https://scholar.google.com/citations?user=HOWCJPMAAAAJ&hl=pt-BR",
     details: "teamInfo/diego",
   },
   {

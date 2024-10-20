@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState } from "react"; 
 import { FaGithub, FaRegFilePdf, FaQuoteLeft, FaCopy } from "react-icons/fa";
 import { GoDatabase } from "react-icons/go";
 import { LuPresentation } from "react-icons/lu";
 import { DefaultPublications } from "../../content/Publications";
 
-export default function PublicationsIteration({ project, all }) {
+export default function PublicationsIteration({ project, year, all }) {
   const [showTextAreas, setShowTextAreas] = useState({});
 
   const toggleTextArea = (id) => {
@@ -29,55 +29,35 @@ export default function PublicationsIteration({ project, all }) {
     }, {});
   };
 
-  const groupedPublications = Object.keys(groupPublicationsByYearAndType(DefaultPublications))
-    .sort((a, b) => b - a)
-    .map((year) => ({
-      year: parseInt(year),
-      types: Object.keys(groupPublicationsByYearAndType(DefaultPublications)[year]).map((type) => ({
-        type,
-        publications: groupPublicationsByYearAndType(DefaultPublications)[year][type],
-      })),
-    }));
+  const filteredPublications = DefaultPublications.filter((publication) => {
+    const projectMatch = project ? publication.project === project : true;
+    const yearMatch = year ? publication.year === year : true;
+    return projectMatch && yearMatch;
+  });
 
-  const filteredPublications = DefaultPublications.filter(publication => publication.project === project);
-  const groupedPublicationsOfProject = Object.keys(groupPublicationsByYearAndType(filteredPublications))
-    .sort((a, b) => b - a)
-    .map((year) => ({
-      year: parseInt(year),
-      types: Object.keys(groupPublicationsByYearAndType(filteredPublications)[year]).map((type) => ({
-        type,
-        publications: groupPublicationsByYearAndType(filteredPublications)[year][type],
-      })),
-    }));
+  const groupedPublications = groupPublicationsByYearAndType(filteredPublications);
 
-  const ChosenPublication = all === false ? groupedPublicationsOfProject : groupedPublications;
+  // Sort the years in descending order
+  const sortedYears = Object.keys(groupedPublications).sort((a, b) => b - a);
 
   return (
-    <div className="mx-auto max-w-2xl border-t border-gray-200 pt-4 lg:mx-0 lg:max-w-none flex-col justfify-center items-center">
-      {ChosenPublication.map((publication, index) => (
-        <div key={index}>
-          <div className="flex justify-start w-full mb-3">
-            <span className="text-3xl font-bold tracking-tight text-gray-900 gradient mb-5">
-              {publication.year}
-            </span>
-          </div>
-          {publication.types.map((typeItem, subIndex) => (
-            <div key={subIndex}>
+    <div className="mx-auto max-w-2xl border-t border-gray-200 pt-4 lg:mx-0 lg:max-w-none flex-col justify-center items-center">
+      {sortedYears.map((year) => (
+        <div key={year}>
+          {Object.keys(groupedPublications[year]).map((type) => (
+            <div key={type}>
               <h2 className="text-xl font-bold text-gray-900 mb-3 ml-3">
-                {typeItem.type}:
+                {type}:
               </h2>
-              {typeItem.publications.map((pub, innerIndex) => {
-                const uniqueId = `${publication.year}0${innerIndex}0${typeItem.type}`;
+              {groupedPublications[year][type].map((pub, innerIndex) => {
+                const uniqueId = `${year}0${innerIndex}0${type}`;
                 return (
                   <article
                     key={innerIndex}
                     className="flex max-w-4xl flex-col items-start justify-between mx-auto "
                   >
                     <div className="flex items-center gap-x-4 text-xs">
-                      <time
-                        dateTime={pub.datetime}
-                        className="text-gray-500"
-                      >
+                      <time dateTime={pub.datetime} className="text-gray-500">
                         {pub.dateTime}
                       </time>
                     </div>
@@ -91,8 +71,8 @@ export default function PublicationsIteration({ project, all }) {
                       <h5 style={{ display: "inline" }}>Authors:</h5>
                       <p style={{ display: "inline" }}> {pub.authors}</p>
                       <br />
-                      <h5 style={{ display: "inline" }}>Venue:</h5>
-                      <p style={{ display: "inline" }}> {pub.venue}</p>
+                      <h5 style={{ display: "inline" }}>Type:</h5>
+                      <p style={{ display: "inline" }}> {pub.type}</p>
                     </div>
                     <div className="flex justify-start items-center gap-3 w-full mb-8">
                       {pub.pdfPathHref && (
