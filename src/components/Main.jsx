@@ -28,7 +28,7 @@ export default function Example() {
           <div className="md:w-[60%]  ">
             <p className="relative mt-6 text-lg leading-8 text-gray-600">
               Located in Concordia University in the beautiful city of Montréal,{" "}
-              the <b>RE</b>search on <b>A</b>naLytics and <b>I</b>ntelligence for{" "}
+              the <b>RE</b>search on <b>A</b>na<b>L</b>ytics and <b>I</b>ntelligence for{" "}
               <b>S</b>oftware <b>E</b>ngineering Lab is a research group that focuses on studying and developing techniques to help software engineers build better software.
 
               Overall, we use data analytics and artificial intelligence techniques to improve practices related to software maintenance and evolution. We work on the following software engineering areas:
