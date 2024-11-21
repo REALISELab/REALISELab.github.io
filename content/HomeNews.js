@@ -1,10 +1,20 @@
 export const news = [
-    
+
+
+    {
+        title: 'Our paper on "A Machine Learning-Based Approach For Detecting Malicious PyPI Packages" has been accepted at ACM SAC! Pre-print coming soon.',
+        description: 'November, 2024',
+        // href:"" 
+    },
+    {
+        title: 'Our paper on "Opportunities and Security Risks of Technical Leverage: A Replication Study on the NPM Ecosystem" has been accepted to the EMSE journal! Pre-print coming soon.',
+        description: 'November, 2024',
+        // href: "" 
+    },
     {
         title: 'Our paper on "Predicting the First Response Latency of Maintainers and Contributors in Pull Requests" has been accepted at TSE!',
         description: 'August, 2024',
         href:"/blog/latency-tse-2025" 
-
     },
     {
         title: 'Our paper on "Early Detection of Performance Regressions by Bridging Local Performance Data and Architectural Models" has been accepted at ICSE 2025!',
