@@ -12,6 +12,11 @@ export const news = [
         // href: "" 
     },
     {
+        title: 'Concordia has funded our application for ReAnimate 2025, the 2nd Summer School on Retro Gaming History, Critic, and Development.',
+        description: 'November, 2024',
+        href: "/blog/reanimate-2025" 
+    },
+    {
         title: 'Our paper on "Predicting the First Response Latency of Maintainers and Contributors in Pull Requests" has been accepted at TSE!',
         description: 'August, 2024',
         href:"/blog/latency-tse-2025" 
