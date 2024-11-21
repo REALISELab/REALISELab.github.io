@@ -71,8 +71,8 @@ export default function PublicationsIteration({ project, year, all }) {
                       <h5 style={{ display: "inline" }}>Authors:</h5>
                       <p style={{ display: "inline" }}> {pub.authors}</p>
                       <br />
-                      <h5 style={{ display: "inline" }}>Type:</h5>
-                      <p style={{ display: "inline" }}> {pub.type}</p>
+                      <h5 style={{ display: "inline" }}>Venue:</h5>
+                      <p style={{ display: "inline" }}> {pub.venue}</p>
                     </div>
                     <div className="flex justify-start items-center gap-3 w-full mb-8">
                       {pub.pdfPathHref && (
