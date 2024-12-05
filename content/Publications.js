@@ -1,10 +1,10 @@
 export const DefaultPublications = [
     {
       title: "Exploring the Potential of Llama Models in Automated Code Refinement: A Replication Study",
-      venue: "SANER, 2025",
+      venue: "The IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER), 2025",
       authors: "Genevieve Caumartin, Qiaolin Qin, Sharon Chatragadda, Janmitsinh Panjrolia, Heng Li, Diego Elias Costa",
       pdfPathHref: "https://arxiv.org/abs/2412.02789",
-      githubLink: "",
+      githubLink: "https://github.com/gencau/code_refinement_llama",
       datasetLink: "",
       presentationLink: "",
       replicationPackageLink: "",
@@ -16,7 +16,7 @@ export const DefaultPublications = [
     },
     {
       title: "A Machine Learning-Based Approach For Detecting Malicious PyPI Package",
-      venue: "ACM SAC, 2025",
+      venue: "The 40th ACM/SIGAPP Symposium On Applied Computing (ACM SAC), 2025",
       authors: "Haya Samaana, Diego Elias Costa, Ahmad Abdellatif, Emad Shihab",
       pdfPathHref: "",
       githubLink: "",
@@ -72,7 +72,21 @@ export const DefaultPublications = [
       year: 2024,
       type: "Conferences",
       project: "se4ai",
-      citation: ""
+      citation: `@inproceedings{10.1145/3674805.3686695,
+          author = {Abdellatif, Ahmad and Badran, Khaled and Costa, Diego Elias and Shihab, Emad},
+          title = {A Transformer-based Approach for Augmenting Software Engineering Chatbots Datasets},
+          year = {2024},
+          isbn = {9798400710476},
+          publisher = {Association for Computing Machinery},
+          address = {New York, NY, USA},
+          url = {https://doi.org/10.1145/3674805.3686695},
+          doi = {10.1145/3674805.3686695},
+          booktitle = {Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement},
+          pages = {359–370},
+          numpages = {12},
+          location = {Barcelona, Spain},
+          series = {ESEM '24}
+      }`
     },
     {
       title: "Early Detection of Performance Regressions by Bridging Local Performance Data and Architectural Models",
@@ -82,7 +96,7 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      replicationPackageLink: "",
+      replicationPackageLink: "https://zenodo.org/records/13135986",
       videoLink: "",
       year: 2025,
       type: "Conferences",
