@@ -76,7 +76,7 @@ export const members = [
     name: 'Kawsar Ahmed Bhuiyan',
     role: 'Masters student',
     imageUrl:
-      'img/kawsar-ahmed-bhuiyan.jpeg',
+      'img/kawsar-ahmed-bhuiyan.jpg',
     twitterUrl: '',
     linkedinUrl: 'https://www.linkedin.com/in/kawsarahmedbhuiyan',
     details: "teamInfo/kawsar"
