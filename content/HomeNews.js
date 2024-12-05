@@ -1,8 +1,12 @@
 export const news = [
 
-
     {
-        title: 'Our paper on "A Machine Learning-Based Approach For Detecting Malicious PyPI Packages" has been accepted at ACM SAC! Pre-print coming soon.',
+        title: 'Our paper "Exploring the Potential of Llama Models in Automated Code Refinement: A Replication Study" has been accepted at SANER 2025! ',
+        description: 'December, 2024',
+        href: "/blog/llama-saner-2025", 
+    },
+    {
+        title: 'Our paper "A Machine Learning-Based Approach For Detecting Malicious PyPI Packages" has been accepted at ACM SAC! Pre-print coming soon.',
         description: 'November, 2024',
         // href:"" 
     },
