@@ -1,21 +1,34 @@
 export const DefaultPublications = [
-
-
-  {
-    title: "A Machine Learning-Based Approach For Detecting Malicious PyPI Package",
-    venue: "ACM SAC, 2025",
-    authors: "Haya Samaana, Diego Elias Costa, Ahmad Abdellatif, Emad Shihab",
-    pdfPathHref: "",
-    githubLink: "",
-    datasetLink: "",
-    presentationLink: "",
-    replicationPackageLink: "",
-    videoLink: "",
-    year: 2025,
-    type: "Conferences",
-    project: "",
-    citation: ""
-  },
+    {
+      title: "Exploring the Potential of Llama Models in Automated Code Refinement: A Replication Study",
+      venue: "SANER, 2025",
+      authors: "Genevieve Caumartin, Qiaolin Qin, Sharon Chatragadda, Janmitsinh Panjrolia, Heng Li, Diego Elias Costa",
+      pdfPathHref: "https://arxiv.org/abs/2412.02789",
+      githubLink: "",
+      datasetLink: "",
+      presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2025,
+      type: "Conferences",
+      project: "",
+      citation: ""
+    },
+    {
+      title: "A Machine Learning-Based Approach For Detecting Malicious PyPI Package",
+      venue: "ACM SAC, 2025",
+      authors: "Haya Samaana, Diego Elias Costa, Ahmad Abdellatif, Emad Shihab",
+      pdfPathHref: "",
+      githubLink: "",
+      datasetLink: "",
+      presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2025,
+      type: "Conferences",
+      project: "",
+      citation: ""
+    },
     {
       title: "Opportunities and Security Risks of Technical Leverage: A Replication Study on the NPM Ecosystems",
       venue: "EMSE, 2025",
