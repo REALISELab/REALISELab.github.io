@@ -31,7 +31,7 @@ export const DefaultPublications = [
     },
     {
       title: "Opportunities and Security Risks of Technical Leverage: A Replication Study on the NPM Ecosystems",
-      venue: "EMSE, 2025",
+      venue: "EMSE journal, 2025",
       authors: "Haya Samaana, Diego Elias Costa, Ahmad Abdellatif, Emad Shihab",
       pdfPathHref: "",
       githubLink: "",

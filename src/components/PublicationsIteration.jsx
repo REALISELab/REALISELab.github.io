@@ -46,9 +46,6 @@ export default function PublicationsIteration({ project, year, all }) {
         <div key={year}>
           {Object.keys(groupedPublications[year]).map((type) => (
             <div key={type}>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 ml-3">
-                {type}:
-              </h2>
               {groupedPublications[year][type].map((pub, innerIndex) => {
                 const uniqueId = `${year}0${innerIndex}0${type}`;
                 return (

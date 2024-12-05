@@ -5,13 +5,14 @@ tags: [paper]
 author: Diego Elias Costa
 ---
 
-How does smaller and open-source Large Language Models compare to ChatGPT in tasks like code refinement?
-Our study dives into code reviews, a cornerstone of modern software development. While code reviews are indispensable for ensuring quality and transferring knowledge, they can also become bottlenecks in large-scale projects.
+The efficiency of a Pull Request (PR) process hinges on how quickly maintainers and contributors respond to each other. Knowing how long this might take can improve interactions and manage expectations. 
 
-Inspired by a recent papaer by [Guo et al](https://arxiv.org/abs/2309.08221), we explore how open-source models like CodeLlama and Llama 2 (7B parameters) measure up against proprietary solutions like ChatGPT for automating code refinement tasks. Our findings show that with proper tuning, these open-source models can offer an interesting balance between performance, cost-efficiency, and privacy.
+Our new study introduces a machine-learning method to predict these response times by analyzing data from 20 popular open-source GitHub projects. We examine various features of the projects and PRs, and identified key factors that influence response times. 
+- PRs submitted earlier in the week, with a moderate number of commits and clear descriptions, tend to get quicker responses. 
+- Contributors who are more engaged and have a good track record also tend to respond faster. 
+- We also highlight how understanding and predicting response times can enhance the PR review process.
 
-This research not only opens doors for privacy-conscious and cost-effective solutions but also sheds light on where current AI models shine—and where they still need a human touch.
 
 :::info
-Interested? You can find a pre-print of our paper [here](https://arxiv.org/abs/2412.02789). 
+Interested? You can find a pre-print of our paper [here](https://arxiv.org/abs/2311.07786). 
 :::
