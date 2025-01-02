@@ -26,7 +26,7 @@ export default function Example() {
           <div className="md:w-[60%]">
             <p className="relative mt-6 text-justify text-lg leading-8 text-gray-600">
               <span className="text-gray-600">
-                Welcome to the <b>RE</b>search on <b>A</b>na<b>L</b>ytics and <b>I</b>ntelligence for  
+                Welcome to the <b>RE</b>search on <b>A</b>na<b>L</b>ytics and <b>I</b>ntelligence for {" "} 
                 <b>S</b>oftware <b>E</b>ngineering (REALISE) Lab!
               </span>
               <br />
@@ -50,7 +50,7 @@ export default function Example() {
               <a href="https://csrankings.org/#/fromyear/2014/toyear/2024/index?soft&world" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline"> 5th in the world</a>.
 
               We warmly welcome collaborations and partnerships. If you’d like to work with us, please <a href="/contact" className="text-blue-500 underline">get in touch</a>.
-
+              <br/>
               For prospective graduate students, Concordia offers a strong research environment in Software Engineering. If you’re interested in joining our lab, please read the 
               <a href="/apply" className="text-blue-500 underline"> application instructions</a>.
             </p>
