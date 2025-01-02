@@ -5,6 +5,7 @@ import { IoIosReturnRight } from "react-icons/io";
 import PartnersMainPage from "./PartnersOnHomePage";
 import { news } from "../../content/HomeNews";
 import { FaNewspaper } from "react-icons/fa";
+
 export default function Example() {
   return (
     <Layout>
@@ -21,33 +22,45 @@ export default function Example() {
       </div>
       <div className="lg:flex lg:justify-center lg:px-[200px] flex-wrap py-12">
 
-
-
-
         <div className="w-full flex flex-col md:flex-row md:justify-between mx-auto px-8">
-          <div className="md:w-[60%]  ">
-            <p className="relative mt-6 text-lg leading-8 text-gray-600">
-              Located in Concordia University in the beautiful city of Montréal,{" "}
-              the <b>RE</b>search on <b>A</b>na<b>L</b>ytics and <b>I</b>ntelligence for{" "}
-              <b>S</b>oftware <b>E</b>ngineering Lab is a research group that focuses on studying and developing techniques to help software engineers build better software.
+          <div className="md:w-[60%]">
+            <p className="relative mt-6 text-justify text-lg leading-8 text-gray-600">
+              <span className="text-gray-600">
+                Welcome to the <b>RE</b>search on <b>A</b>na<b>L</b>ytics and <b>I</b>ntelligence for  
+                <b>S</b>oftware <b>E</b>ngineering (REALISE) Lab!
+              </span>
+              <br />
+              We are a dynamic and inclusive research group 
+              at Concordia University, located in the vibrant city of Montréal.
+              At REALISE, our mission is to help engineers build better software. We leverage the power of 
+              data analytics and artificial intelligence to enhance software maintenance and evolution practices. 
 
-              Overall, we use data analytics and artificial intelligence techniques to improve practices related to software maintenance and evolution. We work on the following software engineering areas:
+              <span className="text-gray-600">
+                Our current research focuses on:
+                <ul className="list-disc ml-5">
+                  <li><b>Software Performance Testing</b></li>
+                  <li><b>Open-Source Software Development and Dependency Management</b></li>
+                  <li><b>Software Development Assistants</b></li>
+                  <li><b>Maintenance and Reliability of AI-Based Systems</b></li>
+                </ul>
+              </span>
 
-              <ul className="list-disc ml-5">
-                <li>Software Performance Testing</li>
-                <li>Open-Source Software Development and Dependency Management</li>
-                <li>Software Development Assistants</li>
-                <li>Maintenance and Reliability of Artificial Intelligence-Based Systems</li>
-              </ul>
+              Montréal, Canada’s second-largest city, is known for its innovation, culture, and academic excellence. 
+              Concordia University is one of the top 100 universities under 50 years and has an exceptional Software Engineering program, currently ranked 
+              <a href="https://csrankings.org/#/fromyear/2014/toyear/2024/index?soft&world" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline"> 5th in the world</a>.
 
-              This website is a hub for our research activities, publications, and news. We are always looking for new collaborations and partnerships. If you are interested in working with us, please contact us.
+              We warmly welcome collaborations and partnerships. If you’d like to work with us, please <a href="/contact" className="text-blue-500 underline">get in touch</a>.
+
+              For prospective graduate students, Concordia offers a strong research environment in Software Engineering. If you’re interested in joining our lab, please read the 
+              <a href="/apply" className="text-blue-500 underline"> application instructions</a>.
             </p>
           </div>
 
-          <div className="md:w-[40%] flex justify-end ">
+          <div className="md:w-[38%] flex justify-end">
             <Tweet />
           </div>
         </div>
+
         <span className="block max-w-4xl mx-auto mt-4 mb-1 md:mt-8 md:mb-2 lg:mt-12 lg:mb-4 xl:mt-16 xl:mb-6 text-left hover:scale-105 duration-150">
           <div className="flex justify-center gap-2">
             <h2>Meet the Team</h2>
