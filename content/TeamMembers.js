@@ -20,7 +20,7 @@ export const members = [
   },
   {
     name: 'Genevieve Caumartin',
-    role: 'Masters student',
+    role: 'PhD student',
     imageUrl:
       'img/genevieve-caumartin.jpg',
     twitterUrl: '#',
