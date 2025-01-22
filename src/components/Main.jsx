@@ -46,7 +46,7 @@ export default function Example() {
               </span>
 
               Montréal, Canada’s second-largest city, is known for its innovation, culture, and academic excellence. 
-              Concordia University is one of the top 100 universities under 50 years and has an exceptional Software Engineering program, currently ranked 
+              Concordia University is one of the top 100 universities under 50 years and has an exceptional Software Engineering program, currently ranked
               <a href="https://csrankings.org/#/fromyear/2014/toyear/2024/index?soft&world" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline"> 5th in the world</a>.
 
               We warmly welcome collaborations and partnerships. If you’d like to work with us, please <a href="/contact" className="text-blue-500 underline">get in touch</a>.

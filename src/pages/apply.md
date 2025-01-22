@@ -1,14 +1,12 @@
-# Joining the REALISE Lab
-
-Send the requirements below to our email [lab@gmail.com](mailto:lab@gmail.com)
-
-## Prospective Students
+# Joining REALISE Lab
 
 We are always on the lookout for hiring self-motivated MSc and PhD students to work on topics related to software engineering. You can see our research in detail in the [Publications](/publications). Currently, our lab is focusing efforts on the following projects: SE4AI, Performance engineering, and dependency management.
 
-- **Securint the Software Supply Chain:** How to develop and reliably reuse open source software components (e.g., libraries, packages)? 
-- **Performance Testing:** How to better identify performance regressions during development?
 - **Engineering AI systems:** How to build and maintain reliable AI software systems?
+- **AI for Software Developers:** How can we use AI/LLM to help developers write better code and maintain their software quality?
+- **Securing the Software Supply Chain:** How to develop and reliably reuse open source software components (e.g., libraries, packages)? 
+- **Performance Testing:** How to better identify performance regressions during development?
+
 
 **Disclaimer:** In our research, we use AI methods to understand large amounts of data, propose intelligent solutions, or as an application for software engineering techniques. However, our research is not focused on developing AI methods. We use AI/ML/LLMs to help software developers deliver better quality software. If you are looking for a group that is specialized in AI research, this is not the right research group for you.
 
@@ -26,15 +24,19 @@ A few good reasons to join our lab:
 
 A degree in computer science, computer engineering, or software engineering is expected. However, if you have a major in adjacent areas (e.g., electrical engineering, mathematics, physics) and have a strong programming background, you are also encouraged to apply. If you come from a completely different area, you should justify (with strong arguments) in your cover letter why you want to switch to software engineering.
 
-If you are interested in joining my research group, please contact [diego.costa@concordia.ca](mailto:diego.costa@concordia.ca) and include:
+If you are interested in joining my research group, please submit your application using the DearProf system: 
+- [PhD Position application](https://dearprof.com/positions/67910b7f06160210cd43c880/apply)
+- [MSc Position application](https://dearprof.com/positions/67910ccb06160210cd43c881/apply)
 
-- Your CV
-- Brief cover letter including: your research interests, outline of previous research experience, preferred start date. You get a bonus point if you include which research topic you are interested in, or which papers from our group have caught your attention (see [Publications](/publications)).
-- Unofficial transcripts
-- (Optional) Sample of your papers (if you have any)
+<!-- contact [diego.costa@concordia.ca](mailto:diego.costa@concordia.ca) and include: -->
+
+<!-- - Your CV -->
+<!-- - Brief cover letter including: your research interests, outline of previous research experience, preferred start date. You get a bonus point if you include which research topic you are interested in, or which papers from our group have caught your attention (see [Publications](/publications)). -->
+<!-- - Unofficial transcripts -->
+<!-- - (Optional) Sample of your papers (if you have any) -->
 
 ## Important Tips
 
-- Make sure to show in your email that you are actually interested in our work. Generic application emails (especially those that are addressed to multiple professors!) **will be ignored**.
+- Make sure to show in your application that you are actually interested in our work. Generic application emails (especially those that are addressed to multiple professors!) **will be ignored**.
 - Take a look at the [Concordia University website](https://www.concordia.ca/gradstudies/future-students.html) for information on graduate admissions, tuitions, scholarships, and the programs.
 - Check out Dr. Evan’s advice for [prospective research students](https://uvasrg.github.io/prospective/) when contacting us (or any professor).
