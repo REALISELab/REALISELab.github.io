@@ -1,4 +1,20 @@
 export const DefaultPublications = [
+
+    {
+      title: "Batch Execution of Microbenchmarks for Efficient Performance Testing",
+      venue: "18th IEEE International Conference on Software Testing, Verification and Validation (ICST), 2025",
+      authors: "Mostafa Jangali, Kundi Yao, Yiming Tang, Diego Elias Costa, Weiyi Shang",
+      pdfPathHref: "",
+      githubLink: "",
+      datasetLink: "",
+      presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2025,
+      type: "Conferences",
+      project: "",
+      citation: ""
+    },
     {
       title: "Exploring the Potential of Llama Models in Automated Code Refinement: A Replication Study",
       venue: "The IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER), 2025",

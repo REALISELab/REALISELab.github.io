@@ -1,6 +1,11 @@
 export const news = [
 
     {
+        title: 'Our paper "Batch Execution of Microbenchmarks for Efficient Performance Testing" has been accepted at ICST 2025! ',
+        description: 'January, 2025',
+        // href: "", 
+    },
+    {
         title: 'Our paper "Exploring the Potential of Llama Models in Automated Code Refinement: A Replication Study" has been accepted at SANER 2025! ',
         description: 'December, 2024',
         href: "/blog/llama-saner-2025", 
