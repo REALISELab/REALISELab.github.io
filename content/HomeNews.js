@@ -1,6 +1,16 @@
 export const news = [
 
     {
+        title: 'Our paper "Opportunities and Security Risks of Technical Leverage: A Replication Study on the NPM Ecosystem" has been accepted to the EMSE journal! ',
+        description: 'March, 2025',
+        href: "/blog/technical-leverage-2025", 
+    },
+    {
+        title: 'Our paper on "Early Detection of Performance Regressions by Bridging Local Performance Data and Architectural Models" has received the ACM SIGSOFT Distinsguished paper award at ICSE 2025!',
+        description: 'March, 2025',
+        href:"/blog/performance-icse-2025"
+    },
+    {
         title: 'Our paper "Batch Execution of Microbenchmarks for Efficient Performance Testing" has been accepted at ICST 2025! ',
         description: 'January, 2025',
         // href: "", 
@@ -14,11 +24,6 @@ export const news = [
         title: 'Our paper "A Machine Learning-Based Approach For Detecting Malicious PyPI Packages" has been accepted at ACM SAC! Pre-print coming soon.',
         description: 'November, 2024',
         // href:"" 
-    },
-    {
-        title: 'Our paper on "Opportunities and Security Risks of Technical Leverage: A Replication Study on the NPM Ecosystem" has been accepted to the EMSE journal! Pre-print coming soon.',
-        description: 'November, 2024',
-        // href: "" 
     },
     {
         title: 'Concordia has funded our application for ReAnimate 2025, the 2nd Summer School on Retro Gaming History, Critic, and Development.',
