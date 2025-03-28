@@ -1,6 +1,12 @@
 export const news = [
 
     {
+        title: 'Our paper \'A Dataset of Performance Measurements and Alerts from Mozilla (Data Artifact)\' has been accepeted to ICPE\'25',
+        description: 'March, 2025',
+        href:"/blog/icpe-performance-paper-2025"
+    },
+    {
+        title: 'Our paper "Batch Execution of Microbenchmarks for Efficient Performance Testing" has been accepted at ICST 2025! ',
         title: 'Our paper "Towards Assessing DeepLearning Test Input Generators" has been accepted to EASE 2025! Pre-print coming soon.',
         description: 'March, 2025',
         //  href: "", 

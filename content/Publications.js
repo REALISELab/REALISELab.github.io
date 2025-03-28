@@ -1,5 +1,20 @@
 export const DefaultPublications = [
-
+    {
+      title:
+        "A Dataset of Performance Measurements and Alerts from Mozilla (Data Artifact)",
+      venue:
+        "International Conference on Performance Engineering (ICPE)",
+      authors: "Mohamed Bilel Besbes, Diego Elias Costa, Suhaib Mujahid, Gregory Mierzwinski, Marco Castelluccio",
+      pdfPathHref: "https://arxiv.org/pdf/2503.16332",
+      githubLink: "",
+      datasetLink: "https://doi.org/10.5281/zenodo.14642238",
+      presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2025,
+      type: "Conferences",
+      project:"performance-engineering"
+    },
     {
       title: "Towards Assessing DeepLearning Test Input Generators",
       venue: "29th International Conference on Evaluation and Assessment in Software Engineering (EASE), 2025",
