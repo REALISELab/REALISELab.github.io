@@ -1,6 +1,21 @@
 export const DefaultPublications = [
 
     {
+      title: "Towards Assessing DeepLearning Test Input Generators",
+      venue: "29th International Conference on Evaluation and Assessment in Software Engineering (EASE), 2025",
+      authors: "Seif Mzoughi, Ahmed Hajyahmed, Mohamed Elsafei, Foutse Khomh, Diego Elias Costa",
+      pdfPathHref: "",
+      githubLink: "",
+      datasetLink: "",
+      presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2025,
+      type: "Conferences",
+      project: "",
+      citation: ""
+    },  
+    {
       title: "Batch Execution of Microbenchmarks for Efficient Performance Testing",
       venue: "18th IEEE International Conference on Software Testing, Verification and Validation (ICST), 2025",
       authors: "Mostafa Jangali, Kundi Yao, Yiming Tang, Diego Elias Costa, Weiyi Shang",

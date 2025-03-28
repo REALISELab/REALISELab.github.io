@@ -1,6 +1,11 @@
 export const news = [
 
     {
+        title: 'Our paper "Towards Assessing DeepLearning Test Input Generators" has been accepted to EASE 2025! Pre-print coming soon.',
+        description: 'March, 2025',
+        //  href: "", 
+    },
+    {
         title: 'Our paper "Opportunities and Security Risks of Technical Leverage: A Replication Study on the NPM Ecosystem" has been accepted to the EMSE journal! ',
         description: 'March, 2025',
         href: "/blog/technical-leverage-2025", 
@@ -11,7 +16,7 @@ export const news = [
         href:"/blog/performance-icse-2025"
     },
     {
-        title: 'Our paper "Batch Execution of Microbenchmarks for Efficient Performance Testing" has been accepted at ICST 2025! ',
+        title: 'Our paper "Batch Execution of Microbenchmarks for Efficient Performance Testing" has been accepted at ICST 2025! Pre-print coming soon.',
         description: 'January, 2025',
         // href: "", 
     },
