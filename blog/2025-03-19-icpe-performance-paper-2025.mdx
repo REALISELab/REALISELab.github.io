@@ -7,7 +7,7 @@ author: Mohamed Bilel Besbes, Diego Elias Costa
 
 import CSVTable from "@site/src/components/CSVTable";
 
-## What is the paper about?
+### What is the paper about?
 
 Performance regressions in software systems can lead to significant financial losses and degraded user satisfaction, making their early detection and mitigation critical. 
 
@@ -29,7 +29,8 @@ By making this dataset publicly available [here](https://doi.org/10.5281/zenodo.
 - **Root cause investigation**  
 
 Feel fre to check the paper pre-print [here](https://arxiv.org/abs/2503.16332).
-## What Is the Context of the Dataset?
+
+### What Is the Context of the Dataset?
 
 As new code is pushed to Mozilla's codebase, multiple performance tests are executed on periodic basis to assess the performance of the new code. For example, we noticed that their testing repository, called [Autoland](https://hg.mozilla.org/integration/autoland/), have a test execution periodicity of 4 hours.
 For each code [revision](https://wiki.mercurial-scm.org/Revision) (commit) under test, performance tests run on various environments (referred to as 'platforms' in Mozilla's context). 
@@ -47,7 +48,7 @@ Alerts related to the same software revision are grouped in an **alert summary**
 Performance Sheriffs can also create new alerts manually, if they notice a performance anomaly that was missed by Perfherder. 
 In case the investigated alert summary presents an actual regression, a bug is created and associated with the given alert summary.
 
-## What Does the Dataset Contain? 
+### What Does the Dataset Contain? 
 
 ![Dataset structuring](../static/img/class_diagram.png)
 
@@ -65,6 +66,6 @@ The following is a sample of the timeseries:
 
 <CSVTable filePath="https://realiselab.github.io/other/sample_timeseries_data.csv" />
 
-## Where will we present it?
+### Where will we present it?
 
 We will present this work at **ICPE 2025**, which will take place at **York University in Toronto, from May 5th to May 9th, 2025**.  
