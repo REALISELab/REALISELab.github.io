@@ -154,7 +154,7 @@ export const DefaultPublications = [
       pdfPathHref: "https://arxiv.org/pdf/2401.16340",
       githubLink: "https://github.com/rachnaraj/MSR-RR_Mining_Challenge2023",
       datasetLink: "",
-      presentationLink: "",
+      presentationLink: "slides/Rachna-Slide-MSR.pdf",
       replicationPackageLink: "",
       videoLink: "",
       year: 2024,
