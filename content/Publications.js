@@ -17,7 +17,7 @@ export const DefaultPublications = [
       title: "Towards Assessing DeepLearning Test Input Generators",
       venue: "29th International Conference on Evaluation and Assessment in Software Engineering (EASE), 2025",
       authors: "Seif Mzoughi, Ahmed Hajyahmed, Mohamed Elsafei, Foutse Khomh, Diego Elias Costa",
-      pdfPathHref: "",
+      pdfPathHref: "https://www.arxiv.org/abs/2504.02329",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -32,7 +32,7 @@ export const DefaultPublications = [
       title: "Batch Execution of Microbenchmarks for Efficient Performance Testing",
       venue: "18th IEEE International Conference on Software Testing, Verification and Validation (ICST), 2025",
       authors: "Mostafa Jangali, Kundi Yao, Yiming Tang, Diego Elias Costa, Weiyi Shang",
-      pdfPathHref: "",
+      pdfPathHref: "https://ece.uwaterloo.ca/~wshang/pubs/MOSTAFA_ICST_2025.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -200,12 +200,9 @@ export const DefaultPublications = [
 }`
     },
     {
-      title:
-        "SE4AI: A Training Program Considering Technical, Social, and Professional Aspects of AI-based Software Systems",
-      venue:
-        " IEEE Software journal, Software Engineering Educating and Training, 2023",
-      authors:
-        "Ahmad Abdellatif, Gita Ghiasi, Diego Elias Costa, Tanja Tajmel, Emad Shihab",
+      title: "SE4AI: A Training Program Considering Technical, Social, and Professional Aspects of AI-based Software Systems",
+      venue: "IEEE Software journal, Software Engineering Educating and Training, 2023",
+      authors: "Ahmad Abdellatif, Gita Ghiasi, Diego Elias Costa, Tanja Tajmel, Emad Shihab",
       pdfPathHref: "publications/Training-Program-Considering-Technical-Social-and-Professional-Aspects-of-AI-Based-Software-Systems.pdf",
       githubLink: "",
       datasetLink: "",
@@ -233,11 +230,24 @@ export const DefaultPublications = [
 }`
     },
     {
-      title:
-        "Understanding the Helpfulness of Stale Bot for Pull-based Development",
+      title: "Qualitative Analysis of Security-Related Code Reviews in npm Packages: An Empirical Study.",
+      venue: "Journal of Systems and Software (JSS), 2023",
+      authors: "Mahmoud Alfadel, Nicholas Nagy, Diego Costa, Rabe Abdalkareem, Emad Shihab",
+      pdfPathHref: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4161317",
+      githubLink: "",
+      datasetLink: "",
+      presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2023,
+      type: "Journals",
+      project:"",
+      citation: "",
+    },
+    {
+      title: "Understanding the Helpfulness of Stale Bot for Pull-based Development",
       venue: "TOSEM journal, 2023",
-      authors:
-        " SayedHassan Khatoonabadi, Diego Elias Costa, Suhaib Mujahid, Emad Shihab",
+      authors: "SayedHassan Khatoonabadi, Diego Elias Costa, Suhaib Mujahid, Emad Shihab",
       pdfPathHref: "https://arxiv.org/pdf/2305.18150",
       githubLink: "https://github.com/shassankhatoonabadi/stale-bot",
       datasetLink: "",
@@ -262,10 +272,8 @@ export const DefaultPublications = [
 }`
     },
     {
-      title:
-        "Where to Go Now? Finding Alternatives for Declining Packages in the npm Ecosystem",
-      venue:
-        "ASE'23: IEEE/ACM International Conference on Automated Software Engineering",
+      title: "Where to Go Now? Finding Alternatives for Declining Packages in the npm Ecosystem",
+      venue: "ASE'23: IEEE/ACM International Conference on Automated Software Engineering",
       authors: "Suhaib Mujahid, Diego Elias Costa, Rabe Abdalkareem, Emad Shihab",
       pdfPathHref: "https://arxiv.org/pdf/2308.08667.pdf",
       githubLink: "",
@@ -288,10 +296,8 @@ export const DefaultPublications = [
     },
     {
       title: "An Empirical Study on Bugs Inside PyTorch: A Replication Study",
-      venue:
-        "ICSME'23: International Conference on Software Maintenance and Evolution",
-      authors:
-        "Sharon Ho, Vahid Majdinasab, Mohayeminul Islam, Diego Elias Costa, Emad Shihab, Foutse Khomh, Sarah Nadi, Muhammad Raza",
+      venue: "ICSME'23: International Conference on Software Maintenance and Evolution",
+      authors: "Sharon Ho, Vahid Majdinasab, Mohayeminul Islam, Diego Elias Costa, Emad Shihab, Foutse Khomh, Sarah Nadi, Muhammad Raza",
       pdfPathHref: "https://arxiv.org/pdf/2307.13777.pdf",
       githubLink: "",
       datasetLink: "",
@@ -312,13 +318,10 @@ export const DefaultPublications = [
 }`
     },
     {
-      title:
-        "Empirical analysis of security-related code reviews in npm packages",
+      title: "Empirical analysis of security-related code reviews in npm packages",
       venue: "JSS journal, 2023",
-      authors:
-        "Mahmoud Alfadel, Nicholas Alexandre Nagy, Diego Costa, Rabe Abdalkareem, Emad Shihab",
-      pdfPathHref:
-        "publications/Empirical-analysis-of-security-related-code-reviews-in-npm-packages.pdf",
+      authors: "Mahmoud Alfadel, Nicholas Alexandre Nagy, Diego Costa, Rabe Abdalkareem, Emad Shihab",
+      pdfPathHref: "publications/Empirical-analysis-of-security-related-code-reviews-in-npm-packages.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -870,15 +873,13 @@ export const DefaultPublications = [
 }`
     },
     {
-      title:
-        "Breaking Type-Safety in Go: An Empirical Study on the Usage of the unsafe Package",
+      title: "Breaking Type-Safety in Go: An Empirical Study on the Usage of the unsafe Package",
       venue: "IEEE Transactions on Software Engineering (TSE)",
       authors: "Diego Costa, Suhaib Mujahid, Rabe Abdalkareem, and Emad Shihab",
-      pdfPathHref:
-        "https://arxiv.org/pdf/2006.09973",
+      pdfPathHref: "https://arxiv.org/pdf/2006.09973",
       githubLink: "",
       datasetLink: "",
-      presentationLink: "",
+      presentationLink: "slides/ICSE_GO_DiegoCosta.pdf",
       replicationPackageLink: "https://zenodo.org/records/3871931",
       videoLink: "",
       year: 2021,
