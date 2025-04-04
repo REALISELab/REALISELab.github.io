@@ -50,7 +50,7 @@ export const DefaultPublications = [
       pdfPathHref: "https://arxiv.org/abs/2412.02789",
       githubLink: "https://github.com/gencau/code_refinement_llama",
       datasetLink: "",
-      presentationLink: "",
+      presentationLink: "slides/Gen_SANER_2025.pdf",
       replicationPackageLink: "",
       videoLink: "",
       year: 2025,
