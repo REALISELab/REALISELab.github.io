@@ -1,4 +1,18 @@
 export const DefaultPublications = [
+  {
+    title: "Exploring the Lifecycle and Maintenance Practices of Pre-Trained Models in Open-Source Software Repositories",
+    venue: "The Mining Software Repositories (MSR) conference",
+    authors: "Matin Koohjani, Diego Elias Costa",
+    pdfPathHref: "",
+    githubLink: "",
+    datasetLink: "",
+    presentationLink: "",
+    replicationPackageLink: "",
+    videoLink: "",
+    year: 2025,
+    type: "Conferences",
+    project:""
+  },
     {
       title: "A Dataset of Performance Measurements and Alerts from Mozilla (Data Artifact)",
       venue: "International Conference on Performance Engineering (ICPE)",
