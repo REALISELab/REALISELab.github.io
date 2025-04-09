@@ -1,7 +1,7 @@
 export const news = [
 
     {
-        title: 'Our registered report \'Exploring the Lifecycle and Maintenance Practices of Pre-Trained Models in Open-Source Software Repositories\' has been accepeted to MSR\'25! Pre-print coming soon.',
+        title: 'Our plan to \'Explore the Lifecycle and Maintenance Practices of Pre-Trained Models in Open-Source Software Repositories\' has been accepted to MSR\'25! ',
         description: 'April, 2025',
         //  href:""
     },
