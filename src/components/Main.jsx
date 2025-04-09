@@ -1,6 +1,5 @@
 import Layout from "@theme/Layout";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
-import Tweet from "../components/Tweet";
 import { IoIosReturnRight } from "react-icons/io";
 import PartnersMainPage from "./PartnersOnHomePage";
 import { news } from "../../content/HomeNews";
@@ -23,7 +22,7 @@ export default function Example() {
       <div className="lg:flex lg:justify-center lg:px-[200px] flex-wrap py-12">
 
         <div className="w-full flex flex-col md:flex-row md:justify-between mx-auto px-8">
-          <div className="md:w-[60%]">
+          <div className="w-full">
             <p className="relative mt-6 text-justify text-lg leading-8 text-gray-600">
               <span className="text-gray-600">
                 Welcome to the <b>RE</b>search on <b>A</b>na<b>L</b>ytics and <b>I</b>ntelligence for {" "} 
@@ -52,10 +51,6 @@ export default function Example() {
               <br/>
               For prospective graduate students, Concordia offers a strong research environment in Software Engineering. If you’re interested in joining our lab, please read the <a href="/apply" className="text-blue-500 underline">application instructions</a>.
             </p>
-          </div>
-
-          <div className="md:w-[38%] flex justify-end">
-            <Tweet />
           </div>
         </div>
 
