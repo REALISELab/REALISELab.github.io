@@ -104,11 +104,11 @@ const config = {
              label: "Projects",
              position: "left",
            },
-           {
-            to: "/partners",
-             label: "Partners",
-             position: "left",
-           },
+          //  {
+          //   to: "/partners",
+          //    label: "Partners",
+          //    position: "left",
+          //  },
            {
             to: "/blog",
              label: "News",
