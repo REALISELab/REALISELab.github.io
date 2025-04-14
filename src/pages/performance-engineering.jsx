@@ -1,0 +1,44 @@
+import React from "react";
+import Layout from "@theme/Layout";
+import PublicationsIteration from "../components/PublicationsIteration";
+
+const projectDetail1 = () => {
+  return (
+    <Layout>
+      <div className="w-full">
+        <div className="w-full md:w-1/3 flex justify-center mx-auto px-3 my-11">
+          <img
+            src="https://miro.medium.com/v2/resize:fit:1400/1*_h3eAlu6jGu0Js50mRuK1Q.jpeg"
+            alt=""
+            className="rounded-xl w-full h-full"
+          />
+        </div>
+        <div className="w-full mx-auto">
+          <span className=" text-2xl font-bold flex justify-center ">
+            {" "}
+            Boost your conversion rate{" "}
+          </span>
+        </div>
+        <p className="mx-auto text-gray-700 text-lg w-full text-center my-10 flex justify-center px-5">
+          Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam
+          vitae illo. Non aliquid explicabo necessitatibus unde. Sed
+          exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti
+          dicta.
+        </p>
+        <div className=" w-full ">
+          <span className=" text-2xl font-bold flex justify-center text-gray-500 ">
+            Related Publications:{" "}
+          </span>
+        </div>
+      </div>
+      <div className="w-1/2 flex justify-center mx-auto">
+        <PublicationsIteration
+          project={"performance-engineering"}
+          all={false}
+        />
+      </div>
+    </Layout>
+  );
+};
+
+export default projectDetail1;

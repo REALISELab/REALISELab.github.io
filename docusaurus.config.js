@@ -99,16 +99,16 @@ const config = {
              label: "Contact Us",
              position: "right",
            },
-           // {
-           //  to: "/projects",
-           //   label: "Projects",
-           //   position: "left",
-           // },
-          //  {
-          //   to: "/partners",
-          //    label: "Partners",
-          //    position: "left",
-          //  },
+           {
+            to: "/projects",
+             label: "Projects",
+             position: "left",
+           },
+           {
+            to: "/partners",
+             label: "Partners",
+             position: "left",
+           },
            {
             to: "/blog",
              label: "News",

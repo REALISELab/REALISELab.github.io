@@ -1,0 +1,41 @@
+import React from "react";
+import Layout from "@theme/Layout";
+import PublicationsIteration from "../components/PublicationsIteration";
+
+const projectDetail1 = () => {
+  return (
+<Layout>
+      <div className="w-full">
+        <div className="w-full md:w-1/3 flex justify-center mx-auto px-3 my-11">
+          <img
+            src="https://imageio.forbes.com/specials-images/imageserve/6605a29c0716ab7cefa7cce3/AI-chatbot---Artificial-Intelligence-digital-concept/960x0.jpg?format=jpg&width=1440"
+            alt=""
+            className="rounded-xl w-full h-full"
+          />
+        </div>
+        <div className="w-full mx-auto">
+          <span className=" text-2xl font-bold flex justify-center ">
+          {" "}
+          Boost your conversion rate{" "}
+          </span>
+        </div>
+        <p className="mx-auto text-gray-700 text-lg w-full text-center my-10 flex justify-center px-5">
+          Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam
+          vitae illo. Non aliquid explicabo necessitatibus unde. Sed
+          exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti
+          dicta.
+        </p>
+        <div className=" w-full ">
+          <span className=" text-2xl font-bold flex justify-center text-gray-500 ">
+            Related Publications:{" "}
+          </span>
+        </div>
+      </div>
+      <div className="w-1/2 flex justify-center mx-auto">
+      <PublicationsIteration project={"se4ai"} all={false}/>
+      </div>
+    </Layout>
+  );
+};
+
+export default projectDetail1;
