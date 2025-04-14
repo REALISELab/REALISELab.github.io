@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-const posts = [
+const projectslist = [
   {
     id: 1,
     title: "Securing the Software Supply Chain",
@@ -8,7 +8,7 @@ const posts = [
     description:
       "How to reduce the risks of developing and reusing open source software components? ",
     imageUrl:
-      "https://penntoday.upenn.edu/sites/default/files/2020-03/iStock-486570435%20%281%29.jpg",
+      "img/software_supply_chain.jpg",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
   },
@@ -19,7 +19,7 @@ const posts = [
     description:
       "How do we make our Performance Testing more agile?",
     imageUrl:
-      "https://miro.medium.com/v2/resize:fit:1400/1*_h3eAlu6jGu0Js50mRuK1Q.jpeg",
+      "img/performance_engineering.jpg",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
   },
@@ -30,11 +30,11 @@ const posts = [
     description:
       "How do we ensure our AI systems are reliable, safe, and secure?",
     imageUrl:
-      "https://imageio.forbes.com/specials-images/imageserve/6605a29c0716ab7cefa7cce3/AI-chatbot---Artificial-Intelligence-digital-concept/960x0.jpg?format=jpg&width=1440",
+      "img/se4ai.png",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
   },
-  // Add more posts here...
+  // Add more projects here...
 ];
 
 const projects = () => {
@@ -51,14 +51,14 @@ const projects = () => {
             </p>
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 ">
-            {posts.map((post) => (
+            {projectslist.map((project) => (
               <article
-                href={post.href}
-                key={post.id}
+                href={project.href}
+                key={project.id}
                 className="hover:scale-105 duration-300 relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
               >
                 <img
-                  src={post.imageUrl}
+                  src={project.imageUrl}
                   alt=""
                   className="absolute inset-0 -z-10 h-full w-full object-cover"
                 />
@@ -66,12 +66,12 @@ const projects = () => {
                 <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
 
                 <div className="flex flex-wrap items-center gap-y-1 overflow-hidden text-lg font-bold leading-6 text-white mb-4">
-                  <a href={post.href}>
-                    <span className="mr-8 text-white">{post.title}</span>
+                  <a href={project.href}>
+                    <span className="mr-8 text-white">{project.title}</span>
                   </a>
                 </div>
                 <span className="text-gray-300 font-normal text-md">
-                  {post.description}
+                  {project.description}
                 </span>
               </article>
             ))}

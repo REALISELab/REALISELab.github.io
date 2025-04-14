@@ -8,7 +8,7 @@ const projectDetail1 = () => {
       <div className="w-full">
         <div className="w-full md:w-1/3 flex justify-center mx-auto px-3 my-11">
           <img
-            src="https://miro.medium.com/v2/resize:fit:1400/1*_h3eAlu6jGu0Js50mRuK1Q.jpeg"
+            src="img/performance_engineering.jpg"
             alt=""
             className="rounded-xl w-full h-full"
           />

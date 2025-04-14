@@ -8,7 +8,7 @@ const projectDetail1 = () => {
       <div className="w-full">
         <div className="w-full md:w-1/3 flex justify-center mx-auto px-3 my-11">
           <img
-            src="https://imageio.forbes.com/specials-images/imageserve/6605a29c0716ab7cefa7cce3/AI-chatbot---Artificial-Intelligence-digital-concept/960x0.jpg?format=jpg&width=1440"
+            src="img/se4ai.png"
             alt=""
             className="rounded-xl w-full h-full"
           />

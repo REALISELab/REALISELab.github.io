@@ -7,7 +7,7 @@ const projectDetail1 = () => {
       <div className="w-full">
         <div className="w-full md:w-1/3 flex justify-center mx-auto px-3 my-11">
           <img
-            src="https://penntoday.upenn.edu/sites/default/files/2020-03/iStock-486570435%20%281%29.jpg"
+            src="img/software_supply_chain.jpg"
             alt=""
             className="rounded-xl w-full h-full"
           />
