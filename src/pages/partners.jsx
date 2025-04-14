@@ -10,9 +10,7 @@ const Partners = () => {
       <div className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-5xl lg:mx-0 px-4">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl gradient">
-              Our partners
-            </h2>
+            <h2>Our partners</h2>
             <p className="mt-8 text-lg leading-8 text-gray-600 break-words">
               REALISE Lab collaborates with leading partners in order to deliver
               well-curated research
