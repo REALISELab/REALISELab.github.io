@@ -24,7 +24,7 @@ export default function Example() {
         <div className="w-full flex flex-col md:flex-row md:justify-between mx-auto px-8">
           <div className="w-full">
             <p className="relative mt-6 text-justify text-lg leading-8 text-gray-600">
-              <span className="text-gray-600">
+              <span>
                 Welcome to the <b>RE</b>search on <b>A</b>na<b>L</b>ytics and <b>I</b>ntelligence for {" "} 
                 <b>S</b>oftware <b>E</b>ngineering (REALISE) Lab!
               </span>
@@ -34,7 +34,7 @@ export default function Example() {
               At REALISE, our mission is to help engineers build better software. We leverage the power of 
               data analytics and artificial intelligence to enhance software maintenance and evolution practices. 
 
-              <span className="text-gray-600">
+              <span>
                 Our current research focuses on:
                 <ul className="list-disc ml-5">
                   <li><b>Software Performance Testing</b></li>

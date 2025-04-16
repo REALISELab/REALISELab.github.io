@@ -93,13 +93,13 @@
 
 .extra-black-space {
   background: #000000;
-  height: 50px; /* Default height for mobile */
+  height: 100px; /* Default height for mobile */
   width: 100%;
 }
 
 [data-theme='dark'] .extra-black-space {
   background: transparent;
-  height: 50px; /* Default height for mobile */
+  height: 100px  !important; /* Default height for mobile */
   width: 100%;
 }
 
