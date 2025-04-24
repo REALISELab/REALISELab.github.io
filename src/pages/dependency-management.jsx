@@ -23,42 +23,45 @@ const projectDetail1 = () => {
         </p> */}
 
         {/* === Project Card Starts Here === */}
-        <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-xl p-8 my-10 border border-gray-200">
-          <h2 className="text-xl font-semibold mb-4 text-gray-800">
+        <div className="max-w-4xl mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-xl p-8 my-10 border border-gray-200 dark:border-gray-700">
+          <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-100">
             Leveraging the Community to Support Open-Source Library Maintainers
           </h2>
-          <p className="text-gray-700 mb-4 text-justify">
-            Modern software systems rely extensively on open-source libraries. However, managing dependencies and avoiding breaking changes is a persistent challenge. This project focuses on minimizing risks associated with dependency evolution by providing maintainers with actionable insights and automated tools. Our goal is to enhance reliability, security, and maintainability across the open source software supply chain—an impact critical to both industry and open-source ecosystems.
+          <p className="text-gray-700 dark:text-gray-300 mb-4 text-justify">
+          Modern software relies heavily on open-source libraries, yet safely managing changes within these libraries remains challenging. 
+          Maintainers often lack constructive feedback or actionable guidance from their users to effectively evolve their projects. 
+          This project aims to address this gap by bridging the communication between maintainers and their users, 
+          fostering mutual support within the open-source community. 
+          By providing practical insights and useful tools, 
+          our ongoing work enables maintainers to proactively manage change and prevent issues before they impact users. 
+          Ultimately, this enhances software reliability, security, and maintainability: delivering direct value to businesses, developers, and supporting broader technological innovation.
           </p>
 
-          <h3 className="text-lg font-semibold mt-4 mb-2 text-gray-800">Research Focus:</h3>
-          <ul className="list-disc list-inside text-gray-700 mb-6 text-justify">
-            <li>How can analyzing usage-patterns from dependents drive proactive, high-impact maintenance strategies?</li>
-            <li>How can dependent test suites be leveraged to automatically generate tests to enhance library testing?</li>
-            <li>Can simulating a library release with ecosystem data effectively predict and prevent breaking changes?</li>
-            <li>How can automation support maintainers in improving software reliability?</li>
+          <h3 className="text-lg font-semibold mt-4 mb-2 text-gray-800 dark:text-gray-100">Research Focus:</h3>
+          <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 mb-6 text-justify">
+            <li>How can we support open-source maintainers in better managing their software?</li>
+            <li>How can information from software users help maintainers improve their software?</li>
+            <li>Can tests from one software help make other software safer?</li>
+            <li>Can looking at how people use software predict future problems?</li>
+            
           </ul>
 
-          {/* Contacts and Status in the same row */}
           <div className="flex flex-wrap items-center gap-8 mt-6">
-            {/* Contacts */}
             <div className="flex items-center">
-              <h3 className="text-lg font-semibold text-gray-800 mr-2">Contacts:</h3>
-              <p className="text-gray-700">
+              <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mr-2">Contacts:</h3>
+              <p className="text-gray-700 dark:text-gray-300">
                 <a href="/teamInfo/rachna" className="text-blue-600 hover:underline">Rachna Raj</a>,{" "}
                 <a href="/teamInfo/diego" className="text-blue-600 hover:underline">Dr. Diego Costa</a>
               </p>
             </div>
 
-            {/* Status */}
             <div className="flex items-center">
-              <h3 className="text-lg font-semibold text-gray-800 mr-2">Status:</h3>
-              <p className="text-gray-700">Ongoing</p>
+              <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mr-2">Status:</h3>
+              <p className="text-gray-700 dark:text-gray-300">Ongoing</p>
             </div>
           </div>
-
-
         </div>
+
         {/* === Project Card Ends Here === */}
 
 
