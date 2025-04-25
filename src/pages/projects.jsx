@@ -34,6 +34,17 @@ const projectslist = [
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
   },
+  {
+    id: 1,
+    title: "AI for Software Engineering",
+    href: "/ai4se",
+    description:
+      "How do we automate software engineering tasks?",
+    imageUrl:
+      "img/ai4se.png",
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+  },
   // Add more projects here...
 ];
 

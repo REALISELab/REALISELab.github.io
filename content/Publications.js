@@ -69,7 +69,7 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2025,
       type: "Conferences",
-      project: "",
+      project: "ai4se",
       citation: ""
     },
     {
@@ -84,7 +84,7 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2025,
       type: "Conferences",
-      project: "",
+      project: "ai4se",
       citation: ""
     },
     {
@@ -788,7 +788,7 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2021,
       type: "Conferences",
-      project:"",
+      project:"ai4se",
       citation: `@article{Abdellatif_2022,
          title={A Comparison of Natural Language Understanding Platforms for Chatbots in Software Engineering},
          volume={48},
