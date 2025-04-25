@@ -28,35 +28,64 @@ const projectDetail1 = () => {
             Leveraging the Community to Support Open-Source Library Maintainers
           </h2>
           <p className="text-gray-700 dark:text-gray-300 mb-4 text-justify">
-          Modern software relies heavily on open-source libraries, yet safely managing changes within these libraries remains challenging. 
-          Maintainers often lack constructive feedback or actionable guidance from their users to effectively evolve their projects. 
-          This project aims to address this gap by bridging the communication between maintainers and their users, 
-          fostering mutual support within the open-source community. 
-          By providing practical insights and useful tools, 
-          our ongoing work enables maintainers to proactively manage change and prevent issues before they impact users. 
-          Ultimately, this enhances software reliability, security, and maintainability: delivering direct value to businesses, developers, and supporting broader technological innovation.
+            Modern software relies heavily on open-source libraries, yet safely
+            managing changes within these libraries remains challenging.
+            Maintainers often lack constructive feedback or actionable guidance
+            from their users to effectively evolve their projects. This project
+            aims to address this gap by bridging the communication between
+            maintainers and their users, fostering mutual support within the
+            open-source community. By providing practical insights and useful
+            tools, our ongoing work enables maintainers to proactively manage
+            change and prevent issues before they impact users. Ultimately, this
+            enhances software reliability, security, and maintainability:
+            delivering direct value to businesses, developers, and supporting
+            broader technological innovation.
           </p>
 
-          <h3 className="text-lg font-semibold mt-4 mb-2 text-gray-800 dark:text-gray-100">Research Focus:</h3>
+          <h3 className="text-lg font-semibold mt-4 mb-2 text-gray-800 dark:text-gray-100">
+            Research Focus:
+          </h3>
           <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 mb-6 text-justify">
-            <li>How can we support open-source maintainers in better managing their software?</li>
-            <li>How can information from software users help maintainers improve their software?</li>
+            <li>
+              How can we support open-source maintainers in better managing
+              their software?
+            </li>
+            <li>
+              How can information from software users help maintainers improve
+              their software?
+            </li>
             <li>Can tests from one software help make other software safer?</li>
-            <li>Can looking at how people use software predict future problems?</li>
-            
+            <li>
+              Can looking at how people use software predict future problems?
+            </li>
           </ul>
 
           <div className="flex flex-wrap items-center gap-8 mt-6">
             <div className="flex items-center">
-              <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mr-2">Contacts:</h3>
+              <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mr-2">
+                Contacts:
+              </h3>
               <p className="text-gray-700 dark:text-gray-300">
-                <a href="/teamInfo/rachna" className="text-blue-600 hover:underline">Rachna Raj</a>,{" "}
-                <a href="/teamInfo/diego" className="text-blue-600 hover:underline">Dr. Diego Costa</a>
+                <a
+                  href="/teamInfo/rachna"
+                  className="text-blue-600 hover:underline"
+                >
+                  Rachna Raj
+                </a>
+                ,{" "}
+                <a
+                  href="/teamInfo/diego"
+                  className="text-blue-600 hover:underline"
+                >
+                  Dr. Diego Costa
+                </a>
               </p>
             </div>
 
             <div className="flex items-center">
-              <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mr-2">Status:</h3>
+              <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mr-2">
+                Status:
+              </h3>
               <p className="text-gray-700 dark:text-gray-300">Ongoing</p>
             </div>
           </div>
@@ -98,8 +127,8 @@ const projectDetail1 = () => {
               they are adopted?
             </li>
             <li>
-              Can we build systems that alert developers about vulnerabilities or
-              outdated dependencies in real-time?
+              Can we build systems that alert developers about vulnerabilities
+              or outdated dependencies in real-time?
             </li>
             <li>
               How can we assess the trustworthiness of software supply chain
@@ -110,34 +139,24 @@ const projectDetail1 = () => {
           <div className="flex flex-wrap items-center gap-8 mt-6">
             <div className="flex items-center">
               <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mr-2">
-                Contacts:
-              </h3>
-              <p className="text-gray-700 dark:text-gray-300">
+                Contact:&nbsp;
                 <a
                   href="/teamInfo/kawsar"
                   className="text-blue-600 hover:underline"
                 >
                   Kawsar Ahmed Bhuiyan
                 </a>
-                ,{" "}
-                <a
-                  href="/teamInfo/diego"
-                  className="text-blue-600 hover:underline"
-                >
-                  Dr. Diego Costa
-                </a>
-              </p>
+              </h3>
             </div>
 
             <div className="flex items-center">
-              <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mr-2">
-                Status:
+              <h3 className="text-lg text-gray-800 dark:text-gray-100 mr-2">
+                <span className="font-semibold">Status:</span> Ongoing
               </h3>
-              <p className="text-gray-700 dark:text-gray-300">Ongoing</p>
             </div>
           </div>
         </div>
-
+        
         {/* === Project Card Ends Here === */}
 
         <div className=" w-full ">
