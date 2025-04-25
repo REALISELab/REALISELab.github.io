@@ -21,8 +21,8 @@ const projectDetail1 = () => {
           </h1>
         </div>
 
-
-        <div className="mx-auto text-gray-700 text-lg w-full text-center my-10 px-5 max-w-4xl">
+        {/* Main Description */}
+        <div className="mx-auto text-gray-700 text-lg w-full text-left my-10 px-5 max-w-4xl leading-relaxed">
           <p className="mb-6">
             Machine learning models are increasingly used in high-stakes decision making, from credit approvals to criminal justice; however, they often produce biased outcomes that can disproportionately impact marginalized groups. While many bias mitigation techniques have been proposed, there remains little practical guidance on selecting the appropriate methods, how to use them, understanding their limitations, and anticipating their trade-offs.
           </p>
@@ -30,10 +30,9 @@ const projectDetail1 = () => {
             This project conducts a large-scale evaluation of ten state-of-the-art bias mitigation methods across diverse real-life datasets, models, and fairness metrics. By systematically analyzing the impact and robustness of these methods under real-world conditions, we aim to support practitioners in making informed and responsible choices when applying fairness interventions.
           </p>
 
-
-          <div className="text-left mt-8">
+          <div className="mt-8">
             <h2 className="text-xl font-semibold mb-3">Research Questions:</h2>
-            <ul className="list-disc list-inside text-left space-y-2">
+            <ul className="list-disc list-inside space-y-2">
               <li>
                 How effective are bias mitigation techniques at reducing unfair outcomes across different datasets and demographic groups?
               </li>
@@ -50,7 +49,7 @@ const projectDetail1 = () => {
           </div>
         </div>
 
-      
+        {/* Publications Section */}
         <div className="w-full mt-16">
           <span className="text-2xl font-bold flex justify-center text-gray-500">
             Related Publications:
