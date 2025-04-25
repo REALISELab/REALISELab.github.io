@@ -4,35 +4,61 @@ import PublicationsIteration from "../components/PublicationsIteration";
 
 const projectDetail1 = () => {
   return (
-<Layout>
+    <Layout>
       <div className="w-full">
         <div className="w-full md:w-1/3 flex justify-center mx-auto px-3 my-11">
           <img
             src="img/se4ai.png"
-            alt=""
+            alt="Bias Mitigation"
             className="rounded-xl w-full h-full"
           />
         </div>
+
+        {/* Title */}
         <div className="w-full mx-auto">
-          <span className=" text-2xl font-bold flex justify-center ">
-          {" "}
-          Boost your conversion rate{" "}
+          <h1 className="text-3xl font-bold text-center">
+            Bias Mitigation in Machine Learning-Based Systems
+          </h1>
+        </div>
+
+
+        <div className="mx-auto text-gray-700 text-lg w-full text-center my-10 px-5 max-w-4xl">
+          <p className="mb-6">
+            Machine learning models are increasingly used in high-stakes decision making, from credit approvals to criminal justice; however, they often produce biased outcomes that can disproportionately impact marginalized groups. While many bias mitigation techniques have been proposed, there remains little practical guidance on selecting the appropriate methods, how to use them, understanding their limitations, and anticipating their trade-offs.
+          </p>
+          <p className="mb-6">
+            This project conducts a large-scale evaluation of ten state-of-the-art bias mitigation methods across diverse real-life datasets, models, and fairness metrics. By systematically analyzing the impact and robustness of these methods under real-world conditions, we aim to support practitioners in making informed and responsible choices when applying fairness interventions.
+          </p>
+
+
+          <div className="text-left mt-8">
+            <h2 className="text-xl font-semibold mb-3">Research Questions:</h2>
+            <ul className="list-disc list-inside text-left space-y-2">
+              <li>
+                How effective are bias mitigation techniques at reducing unfair outcomes across different datasets and demographic groups?
+              </li>
+              <li>
+                What is the impact of bias mitigation techniques on machine learning model performance, and how significant are the trade-offs when improving fairness?
+              </li>
+              <li>
+                Which bias mitigation techniques are most likely to produce favorable outcomes, where both fairness and performance improve?
+              </li>
+              <li>
+                How robust are bias mitigation techniques when the data distribution shifts (data drift) and when applied across model variants through fine-tuning?
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      
+        <div className="w-full mt-16">
+          <span className="text-2xl font-bold flex justify-center text-gray-500">
+            Related Publications:
           </span>
         </div>
-        <p className="mx-auto text-gray-700 text-lg w-full text-center my-10 flex justify-center px-5">
-          Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam
-          vitae illo. Non aliquid explicabo necessitatibus unde. Sed
-          exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti
-          dicta.
-        </p>
-        <div className=" w-full ">
-          <span className=" text-2xl font-bold flex justify-center text-gray-500 ">
-            Related Publications:{" "}
-          </span>
+        <div className="w-1/2 flex justify-center mx-auto mt-4">
+          <PublicationsIteration project={"se4ai"} all={false} />
         </div>
-      </div>
-      <div className="w-1/2 flex justify-center mx-auto">
-      <PublicationsIteration project={"se4ai"} all={false}/>
       </div>
     </Layout>
   );
