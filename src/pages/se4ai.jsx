@@ -15,6 +15,13 @@ const projectDetail1 = () => {
           />
         </div>
 
+        <div className="w-full mx-auto">
+          <span className=" text-2xl font-bold flex justify-center ">
+            {" "}
+            Engineering Reliable AI Systems{" "}
+          </span>
+        </div>
+
         {/* === Project Card 2 Starts Here === */}
         <div className="max-w-4xl mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-xl p-8 my-10 border border-gray-200 dark:border-gray-700">
           {/* Card Title */}
