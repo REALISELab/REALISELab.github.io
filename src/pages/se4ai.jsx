@@ -56,12 +56,12 @@ const projectDetail1 = () => {
         {/* === Project Card 2 Starts Here === */}
         <div className="max-w-4xl mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-xl p-8 my-10 border border-gray-200 dark:border-gray-700">
           {/* Card Title */}
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-100">
+          <h1 className="text-3xl font-bold text-center mb-6 text-gray-800 dark:text-gray-100">
             Exploring the Lifecycle and Maintenance Practices of Pre-Trained Models in Open-Source Software
-          </h2>
+          </h1>
 
           {/* Abstract */}
-          <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-100">Abstract:</h3>
+{/*           <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-100">Abstract:</h3> */}
           <p className="text-gray-700 dark:text-gray-300 mb-6 text-justify">
             Pre-trained models (PTMs) are becoming a common component in open-source software (OSS) development, yet their roles, maintenance practices, and lifecycle challenges remain underexplored. This report presents a plan for an exploratory study to investigate how PTMs are utilized, maintained, and tested in OSS projects, focusing on models hosted on platforms like Hugging Face and PyTorch Hub. We plan to explore how PTMs are used in open-source software projects and their related maintenance practices, by mining software repositories that use PTMs, and analyze their code-base, historical data, and reported issues. This study aims to provide actionable insights into improving the use and sustainability of PTM in open-source projects and a step towards a foundation for advancing software engineering practices in the context of model dependencies.
           </p>
