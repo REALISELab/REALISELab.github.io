@@ -15,7 +15,31 @@ const projectDetail1 = () => {
           />
         </div>
 
-        {/* === Project Card 1 Starts Here === */}
+        {/* === Project Card 2 Starts Here === */}
+        <div className="max-w-4xl mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-xl p-8 my-10 border border-gray-200 dark:border-gray-700">
+          {/* Card Title */}
+          <h1 className="text-3xl font-bold text-center mb-6 text-gray-800 dark:text-gray-100">
+            Exploring the Lifecycle and Maintenance Practices of Pre-Trained Models in Open-Source Software
+          </h1>
+
+          {/* Abstract */}
+          <p className="text-gray-700 dark:text-gray-300 mb-6 text-justify">
+            Pre-trained models (PTMs) are becoming a common component in open-source software (OSS) development, yet their roles, maintenance practices, and lifecycle challenges remain underexplored. This report presents a plan for an exploratory study to investigate how PTMs are utilized, maintained, and tested in OSS projects, focusing on models hosted on platforms like Hugging Face and PyTorch Hub. We plan to explore how PTMs are used in open-source software projects and their related maintenance practices, by mining software repositories that use PTMs, and analyze their code-base, historical data, and reported issues. This study aims to provide actionable insights into improving the use and sustainability of PTM in open-source projects and a step towards a foundation for advancing software engineering practices in the context of model dependencies.
+          </p>
+
+          {/* Research Questions */}
+          <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-100">Research Questions:</h3>
+          <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300 mb-0">
+            <li>Profiling key characteristics of PTMs (licensing, domains, size, architecture) used in open-source projects.</li>
+            <li>Analyzing integration and usage patterns of PTMs, including roles in core functionality and loading strategies.</li>
+            <li>Investigating the lifecycle and maintenance of PTMs: longevity, evolution, and update frequency.</li>
+            <li>Assessing testing practices for PTM components: coverage analysis and test case evaluation.</li>
+            <li>Examining issue trackers to uncover common challenges and support needs for PTM usage.</li>
+          </ul>
+        </div>
+        {/* === Project Card 2 Ends Here === */}
+
+        {/* === Project Card 2 Starts Here === */}
         <div className="max-w-4xl mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-xl p-8 my-10 border border-gray-200 dark:border-gray-700">
           {/* Title */}
           <h1 className="text-3xl font-bold text-center mb-6 text-gray-800 dark:text-gray-100">
@@ -51,32 +75,9 @@ const projectDetail1 = () => {
             </li>
           </ul>
         </div>
-        {/* === Project Card 1 Ends Here === */}
-
-        {/* === Project Card 2 Starts Here === */}
-        <div className="max-w-4xl mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-xl p-8 my-10 border border-gray-200 dark:border-gray-700">
-          {/* Card Title */}
-          <h1 className="text-3xl font-bold text-center mb-6 text-gray-800 dark:text-gray-100">
-            Exploring the Lifecycle and Maintenance Practices of Pre-Trained Models in Open-Source Software
-          </h1>
-
-          {/* Abstract */}
-{/*           <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-100">Abstract:</h3> */}
-          <p className="text-gray-700 dark:text-gray-300 mb-6 text-justify">
-            Pre-trained models (PTMs) are becoming a common component in open-source software (OSS) development, yet their roles, maintenance practices, and lifecycle challenges remain underexplored. This report presents a plan for an exploratory study to investigate how PTMs are utilized, maintained, and tested in OSS projects, focusing on models hosted on platforms like Hugging Face and PyTorch Hub. We plan to explore how PTMs are used in open-source software projects and their related maintenance practices, by mining software repositories that use PTMs, and analyze their code-base, historical data, and reported issues. This study aims to provide actionable insights into improving the use and sustainability of PTM in open-source projects and a step towards a foundation for advancing software engineering practices in the context of model dependencies.
-          </p>
-
-          {/* Research Questions */}
-          <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-100">Research Questions:</h3>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300 mb-0">
-            <li><strong>RQ1:</strong> What are the characteristics of PTMs used in software projects?</li>
-            <li><strong>RQ2:</strong> How are PTMs used in software projects?</li>
-            <li><strong>RQ3:</strong> How do PTMs evolve in the software projects?</li>
-            <li><strong>RQ4:</strong> What are the testing practices related to PTMs in software projects?</li>
-            <li><strong>RQ5:</strong> What insights can be gained from issues related to PTMs in software projects?</li>
-          </ul>
-        </div>
         {/* === Project Card 2 Ends Here === */}
+
+        
 
         {/* Publications Section */}
         <div className="w-full mt-16">
