@@ -11,7 +11,7 @@ export const DefaultPublications = [
     videoLink: "",
     year: 2025,
     type: "Conferences",
-    project:""
+    project:"se4ai"
   },
     {
       title: "A Dataset of Performance Measurements and Alerts from Mozilla (Data Artifact)",
