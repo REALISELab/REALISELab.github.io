@@ -28,7 +28,7 @@ const projectDetail1 = () => {
           </p>
 
           {/* Research Questions */}
-          <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-100">Research Questions:</h3>
+          <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-100">Research Focus:</h3>
           <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300 mb-0">
             <li>Profiling key characteristics of PTMs (licensing, domains, size, architecture) used in open-source projects.</li>
             <li>Analyzing integration and usage patterns of PTMs, including roles in core functionality and loading strategies.</li>
@@ -36,6 +36,22 @@ const projectDetail1 = () => {
             <li>Assessing testing practices for PTM components: coverage analysis and test case evaluation.</li>
             <li>Examining issue trackers to uncover common challenges and support needs for PTM usage.</li>
           </ul>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-8 mt-6">
+            <div className="flex items-center">
+              <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mr-2">Contacts:</h3>
+              <p className="text-gray-700 dark:text-gray-300">
+                <a href="/teamInfo/matin" className="text-blue-600 hover:underline">Matin Koohjani</a>,{" "}
+                <a href="/teamInfo/diego" className="text-blue-600 hover:underline">Prof. Diego Costa</a>
+              </p>
+            </div>
+
+            <div className="flex items-center">
+              <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mr-2">Status:</h3>
+              <p className="text-gray-700 dark:text-gray-300">Ongoing</p>
+            </div>
+          </div>
         </div>
         {/* === Project Card 2 Ends Here === */}
 
@@ -58,7 +74,7 @@ const projectDetail1 = () => {
 
           {/* Research Questions */}
           <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">
-            Research Questions:
+            Research Focus:
           </h2>
           <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
             <li>
@@ -74,6 +90,18 @@ const projectDetail1 = () => {
               How robust are bias mitigation techniques when the data distribution shifts (data drift) and when applied across model variants through fine-tuning?
             </li>
           </ul>
+        </div>
+
+      <div className="flex flex-wrap items-center gap-8 mt-6">
+            <div className="flex items-center">
+              <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mr-2">Contacts:</h3>
+              <p className="text-gray-700 dark:text-gray-300">
+                <a href="/teamInfo/zak" className="text-blue-600 hover:underline">Zakaria Laib</a>,{" "}
+                <a href="/teamInfo/diego" className="text-blue-600 hover:underline">Prof. Diego Costa</a>
+              </p>
+            </div>
+
+          </div>
         </div>
         {/* === Project Card 2 Ends Here === */}
 
