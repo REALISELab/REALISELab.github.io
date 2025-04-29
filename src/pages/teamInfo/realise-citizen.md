@@ -19,7 +19,7 @@ This is how you get a picture from the public internet to put it in this page :
 
 
 In case you want the image to be hosted on the website, you can put it under `src/static/img` and refer to it like this :
-![Profile Picture](../../../static/img/concordia-logo.png)
+![Profile Picture](../../../static/img/concordia-logo-dark.png)
 
 You can even use HTML to embed sometihng like a picture like this :
 

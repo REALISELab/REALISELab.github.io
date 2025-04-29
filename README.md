@@ -102,11 +102,12 @@ In `content/Partners.js`, add an object in the partners array following this exa
     {
       name: 'FRQ - Nature et technologies',
       collaboration_topics: 'performance engineering, dependency management, SE4AI',
-      imagePath: 'Img/frqnt-logo.png',
+      imagePathDark: 'img/frqnt-logo-dark.png',
+      imagePathLight: 'img/frqnt-logo-light.png',
       link: 'https://frq.gouv.qc.ca/nature-et-technologies/'
     },
 ```
-
+The logos will show in bot the partners page (`<URL>/partners`) and in the main page
 3. **Save the changes**
 
 Make sure to save the changes
