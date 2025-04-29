@@ -102,8 +102,7 @@ In `content/Partners.js`, add an object in the partners array following this exa
     {
       name: 'FRQ - Nature et technologies',
       collaboration_topics: 'performance engineering, dependency management, SE4AI',
-      imagePathDark: 'img/frqnt-logo-dark.png',
-      imagePathLight: 'img/frqnt-logo-light.png',
+      imagePath: 'img/frqnt-logo.png',
       link: 'https://frq.gouv.qc.ca/nature-et-technologies/'
     },
 ```
