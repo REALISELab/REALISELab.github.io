@@ -12,8 +12,6 @@ Professor Diego Elias Costa (co-)designs and (co-)delivers courses related to So
 This course is part of the SE4AI Training Program, a training program on the development, deployment and servicing of Artificial Intelligence-based Software Systems. It introduces key concepts about using GenAI in Software Engineering practice and research. The course will include sessions on the topics of Prompt Engineering and Fine-tuning Large Language Models for Software Engineering Research. Subsequently, the course will focus on applying GenAI in Software Engineering research, covering the topics of Software Requirements, Software Design, Software Development, Software Testing, and Software Repair and Maintenance. Finally, we will cover special topics in the course related to the challenges of designing, implementing, and deploying systems with GenAI components and the ethical and societal implications of Generative AI. A course project involving a research project applying GenAI techniques to Software Engineering problems will be required.
 You could find more details on it [here](https://github.com/create-se4ai/engineering-ai-systems-course).
 
-<img src="../../static/img/se4ai-logo.png" alt="SE4AI Logo" width="50%" />
-
 
 ## Generative Artificial Intelligence for Software Engineering
 
