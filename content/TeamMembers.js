@@ -81,4 +81,12 @@ export const members = [
     linkedinUrl: 'https://www.linkedin.com/in/kawsarahmedbhuiyan',
     details: "teamInfo/kawsar"
   },
+  {
+   name: 'Khaled Chawa',
+   role: 'Undergraduate student',
+   imageUrl: 'img/khaled-chawa.jpg',
+   twitterUrl: '',
+   linkedinUrl: 'TeamMemberDetails',
+   details: 'teamInfo/khaled'
+  },
 ]
