@@ -1,5 +1,5 @@
 ---
-title: Yasmine
+title: Uswah
 ---
 
 ## Uswah Yusuf
@@ -16,7 +16,7 @@ Currently, I am a Mitacs research intern under the supervision of Dr. Diego Cost
 
 - Software Developer Intern at SpaceKraft Ltd, England (May 2024 - July 2024)
 - Junior Software Developer at SpaceKraft Ltd, England (July 2024 - May 2025)
-- Research Intern at REALISE Lab (June 2025 - Present)
+- Research Intern at REALISE Lab (June 2025 - Present)h
 
 ### Certifications
 - [Azure AI Fundamentals](https://www.credly.com/badges/400e683b-4dbd-4fbf-9f56-bdcb26ac9d90)
