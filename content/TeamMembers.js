@@ -89,4 +89,12 @@ export const members = [
    linkedinUrl: 'TeamMemberDetails',
    details: 'teamInfo/khaled'
   },
+  {
+     name: 'Uswah Yusuf',
+     role: 'Undergraduate student',
+     imageUrl: 'img/uswah_yusuf.jpg',
+     twitterUrl: '',
+     linkedinUrl: 'TeamMemberDetails',
+     details: 'teamInfo/uswah'
+    },
 ]
