@@ -17,8 +17,8 @@ Currently, I am a research visitor  at Concordia University at the REALISE Lab u
 ## Academic experience
 
 \- Senior Lecturer at \[An Najah National University\](https://www.najah.edu/) (August 2006-Present)  
-\- Research visitor at  \[Concordia University\](https://www.concordia.ca/) (August 2021-February 2022)  
 \- Research visitor at  \[Concordia University\](https://www.concordia.ca/) (June 2025-August 2025)
+\- Research visitor at  \[Concordia University\](https://www.concordia.ca/) (August 2021-February 2022)  
 
 ## Awards
 
