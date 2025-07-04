@@ -20,6 +20,7 @@ Currently, I am a research visitor  at Concordia University at the REALISE Lab u
 \- Research visitor at  \[Concordia University\](https://www.concordia.ca/) (June 2025-August 2025)
 \- Research visitor at  \[Concordia University\](https://www.concordia.ca/) (August 2021-February 2022)  
 
+
 ## Awards
 
 - 5th Palestine-Quebec Science Bridge (PQSB) (2025).
