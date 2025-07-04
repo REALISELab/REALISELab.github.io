@@ -97,4 +97,15 @@ export const members = [
      linkedinUrl: 'TeamMemberDetails',
      details: 'teamInfo/uswah'
     },
+    {
+    name: 'Haya Samaana',
+    role: 'Visitor',
+    imageUrl:
+      'img/Haya.jpg',
+    twitterUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/haya-samaana/',
+    details: "teamInfo/haya"
+  },
+
+
 ]
