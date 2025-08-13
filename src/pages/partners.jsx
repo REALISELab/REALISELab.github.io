@@ -19,40 +19,44 @@ const Partners = () => {
             </p>
           </div>
 
-          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 dark:border-gray-700 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {partners.map((partner) => (
-              <article
-                key={partner.name}
-                className="flex max-w-xl flex-col items-start justify-between"
-              >
-                <div className="group relative">
-                  <a
-                    href={partner.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="no-underline"
-                  >
-                    <div className="w-full h-48 flex items-center justify-center rounded-xl bg-white dark:bg-gray-200 shadow-sm">
-                      <img
-                        className="max-h-24 object-contain"
-                        src={partner.imagePath}
-                        alt={partner.name}
-                      />
+          <div className="mx-auto flex justify-center w-full">
+            <div className="mx-auto mt-10 grid grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:pt-16 lg:mx-0 w-full lg:grid-cols-3">
+              {partners.map((partner) => (
+                <article
+                  key={partner.name}
+                  className="flex max-w-xl flex-col items-start justify-between">
+                    <div className="group relative w-full h-48 rounded-xl transition hover:shadow-md dark:bg-gray-200 flex items-center justify-center">
+                      <a
+                        href={partner.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center w-full h-full">
+                        <img
+                          className="max-h-32 max-w-[90%] object-contain"
+                          src={partner.imagePath}
+                          alt={partner.name}
+                        />
+                      </a>
                     </div>
 
-                    <h5 className="mt-4 text-lg font-semibold text-gray-900 dark:text-white text-center">
-                      {partner.name}
-                    </h5>
-                  </a>
-                  <h5 className="mt-2 text-sm font-semibold text-gray-700 dark:text-white">
-                    Collaboration topics:
-                  </h5>
-                  <p className="text-sm text-gray-600 dark:text-gray-300">
-                    {partner.collaboration_topics}
-                  </p>
-                </div>
-              </article>
-            ))}
+                    {/* Text content below the image frame */}
+                    <div className="mt-4 text-center w-full">
+                      <h5 className="text-lg font-semibold text-gray-900 dark:text-white">
+                        {partner.name}
+                      </h5>
+                      <h6 className="mt-2 text-sm font-semibold text-gray-700 dark:text-white">
+                        Collaboration topics:
+                      </h6>
+                      <p className="text-sm text-gray-600 dark:text-gray-300">
+                        {partner.collaboration_topics}
+                      </p>
+                    </div>
+
+
+
+                </article>
+              ))}
+            </div>
           </div>
         </div>
       </div>

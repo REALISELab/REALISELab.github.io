@@ -109,11 +109,11 @@ const config = {
              label: "Courses",
              position: "left",
            },
-          //  {
-          //   to: "/partners",
-          //    label: "Partners",
-          //    position: "left",
-          //  },
+          {
+             to: "/partners",
+             label: "Partners",
+             position: "left",
+            },
            {
             to: "/blog",
              label: "News",
