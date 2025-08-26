@@ -1,6 +1,11 @@
 export const news = [
 
     {
+        title: 'Group summer Hike 2025',
+        description: 'August, 2025',
+        href:"/blog/group-hike-2025"
+    },
+    {
         title: 'Our plan to \'Explore the Lifecycle and Maintenance Practices of Pre-Trained Models in Open-Source Software Repositories\' has been accepted to MSR\'25! ',
         description: 'April, 2025',
         //  href:""
