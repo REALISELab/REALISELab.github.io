@@ -61,6 +61,14 @@ export default function Example() {
         </span>
         <div className="flex justify-center my-4 px-8">
           <img
+            src="img/group-pic-summer-2024.jpg"
+            alt="Group Picture"
+            className="w-full px- rounded-lg shadow-lg"
+            onClick={() => window.location.href = '/team'}
+          />
+        </div>
+        <div className="flex justify-center my-4 px-8">
+          <img
             src="img/group-pic-summer-2025.jpeg"
             alt="Group Picture"
             className="w-full px- rounded-lg shadow-lg"
