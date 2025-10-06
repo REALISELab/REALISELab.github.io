@@ -82,22 +82,22 @@ export const members = [
     details: "teamInfo/kawsar"
   },
   {
-   name: 'Khaled Chawa',
-   role: 'Undergraduate student',
-   imageUrl: 'img/khaled-chawa.jpg',
-   twitterUrl: '',
-   linkedinUrl: 'TeamMemberDetails',
-   details: 'teamInfo/khaled'
+    name: 'Khaled Chawa',
+    role: 'Undergraduate student',
+    imageUrl: 'img/khaled-chawa.jpg',
+    twitterUrl: '',
+    linkedinUrl: 'TeamMemberDetails',
+    details: 'teamInfo/khaled'
   },
   {
-     name: 'Uswah Yusuf',
-     role: 'Undergraduate student',
-     imageUrl: 'img/uswah_yusuf.jpg',
-     twitterUrl: '',
-     linkedinUrl: 'TeamMemberDetails',
-     details: 'teamInfo/uswah'
-    },
-    {
+    name: 'Uswah Yusuf',
+    role: 'Undergraduate student',
+    imageUrl: 'img/uswah_yusuf.jpg',
+    twitterUrl: '',
+    linkedinUrl: 'TeamMemberDetails',
+    details: 'teamInfo/uswah'
+  },
+  {
     name: 'Haya Samaana',
     role: 'Visitor',
     imageUrl:
@@ -105,6 +105,14 @@ export const members = [
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/haya-samaana/',
     details: "teamInfo/haya"
+  },
+  {
+    name: 'Anchi Li',
+    role: 'Undergraduate student',
+    imageUrl: 'img/anchili.jpg',
+    twitterUrl: '',
+    linkedinUrl: 'https://www.linkedin.com/in/www.linkedin.com/in/anchi-li-b2992a373/',
+    details: 'teamInfo/anchi'
   },
 
 
