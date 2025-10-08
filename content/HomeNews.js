@@ -1,6 +1,15 @@
 export const news = [
 
     {
+        title: 'Our paper on "ADPerf: Investigating and Testing Performance in Autonomous Driving Systems" was accepted at ASE 2025! Pre-print coming soon.',
+        description: 'September, 2025',
+    },
+    {
+        title: 'The REALISE Lab got 3rd place on Context Collection Competition organized by JetBrains! Congratulations Uswat! Pre-print coming soon.',
+        description: 'August, 2025',
+        // href:""
+    },
+    {
         title: 'Group summer Hike 2025',
         description: 'August, 2025',
         href:"/blog/group-hike-2025"
@@ -32,7 +41,7 @@ export const news = [
         href: "/blog/technical-leverage-2025", 
     },
     {
-        title: 'Our paper on "Early Detection of Performance Regressions by Bridging Local Performance Data and Architectural Models" has received the ACM SIGSOFT Distinsguished paper award at ICSE 2025!',
+        title: 'Our paper on "Early Detection of Performance Regressions by Bridging Local Performance Data and Architectural Models" has received the ACM SIGSOFT Distinguished paper award at ICSE 2025!',
         description: 'March, 2025',
         href:"/blog/performance-icse-2025"
     },
