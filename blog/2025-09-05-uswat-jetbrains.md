@@ -1,6 +1,6 @@
 ---
 slug: uswat-jetbrains
-title: Beyond REALISE Lab Group summer Hike 2025
+title: How Granularity and Order Drive Code Completion Quality
 tags: [paper]
 author: Uswat Yusuf, Genevieve Caumartin, Diego Elias Costa
 ---
