@@ -16,8 +16,8 @@ export const DefaultPublications = [
   {
     title: "ADPerf: Investigating and Testing Performance in Autonomous Driving Systems",
     venue: "Automated Software Engineering conference (ASE)",
-    authors: "Tri Minh-Triet Pham, Diego Elias Costa, Weyi Shang, Jinqiu Yang,
-    pdfPathHref: "",
+    authors: "Tri Minh-Triet Pham, Diego Elias Costa, Weyi Shang, Jinqiu Yang",
+    pdfPathHref: "https://arxiv.org/pdf/2510.13078",
     githubLink: "",
     datasetLink: "",
     presentationLink: "",
