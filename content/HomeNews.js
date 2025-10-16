@@ -1,6 +1,11 @@
 export const news = [
 
     {
+        title: 'Our paper on "Towards Supporting Open Source Library Maintainers with Community-Based Analytics" was accepted at ICSE 2026! Congratulations Rachna!',
+        description: 'October, 2025',
+        // href: ""
+    },
+    {
         title: 'Our paper on "ADPerf: Investigating and Testing Performance in Autonomous Driving Systems" was accepted at ASE 2025!',
         description: 'September, 2025',
         href: "https://arxiv.org/abs/2510.13078"
