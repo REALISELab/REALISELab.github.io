@@ -1,5 +1,19 @@
 export const DefaultPublications = [
   {
+    title: "Towards Supporting Open Source Library Maintainers with Community-Based Analytics",
+    venue: "International Conference on Software Engineering (ICSE)",
+    authors: "Rachna Raj, Diego Elias Costa",
+    pdfPathHref: "",
+    githubLink: "",
+    datasetLink: "",
+    presentationLink: "",
+    replicationPackageLink: "",
+    videoLink: "",
+    year: 2026,
+    type: "Conferences",
+    project:"dependency-management"
+  },
+  {
     title: "Beyond More Context: How Granularity and Order Drive Code Completion Quality",
     venue: "The Context Composition Challenge workshop, co-located with Automated Software Engineering (ASE) conference",
     authors: "Uswat Yusuf, Genevieve Caumartin, Diego Elias Costa",
