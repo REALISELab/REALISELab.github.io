@@ -143,7 +143,22 @@ export const DefaultPublications = [
       year: 2024,
       type: "Journals",
       project: "",
-      citation: ""
+      citation: `@article{10.1109/TSE.2024.3443741,
+        author = {Khatoonabadi, SayedHassan and Abdellatif, Ahmad and Costa, Diego Elias and Shihab, Emad},
+        title = {Predicting the First Response Latency of Maintainers and Contributors in Pull Requests},
+        year = {2024},
+        issue_date = {Oct. 2024},
+        publisher = {IEEE Press},
+        volume = {50},
+        number = {10},
+        issn = {0098-5589},
+        url = {https://doi.org/10.1109/TSE.2024.3443741},
+        doi = {10.1109/TSE.2024.3443741},
+        journal = {IEEE Trans. Softw. Eng.},
+        month = oct,
+        pages = {2529–2543},
+        numpages = {15}
+        }`
     },
     {
       title: "A Transformer-based Approach for Augmenting Software Engineering Chatbots Datasets",
