@@ -1,13 +1,14 @@
 export const news = [
 
     {
-        title: 'Our paper on "ADPerf: Investigating and Testing Performance in Autonomous Driving Systems" was accepted at ASE 2025! Pre-print coming soon.',
+        title: 'Our paper on "ADPerf: Investigating and Testing Performance in Autonomous Driving Systems" was accepted at ASE 2025!',
         description: 'September, 2025',
+        href: "https://arxiv.org/abs/2510.13078"
     },
     {
-        title: 'The REALISE Lab got 3rd place on Context Collection Competition organized by JetBrains! Congratulations Uswat! Pre-print coming soon.',
+        title: 'The REALISE Lab got 3rd place on Context Collection Competition organized by JetBrains! Congratulations Uswat!',
         description: 'August, 2025',
-        // href:""
+        href:"blog/uswat-jetbrains"
     },
     {
         title: 'Group summer Hike 2025',
