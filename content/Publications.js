@@ -14,6 +14,20 @@ export const DefaultPublications = [
     project:"dependency-management"
   },
   {
+    title: "ADPerf: Investigating and Testing Performance in Autonomous Driving Systems",
+    venue: "Automated Software Engineering conference (ASE)",
+    authors: "Tri Minh-Triet Pham, Diego Elias Costa, Weyi Shang, Jinqiu Yang,
+    pdfPathHref: "",
+    githubLink: "",
+    datasetLink: "",
+    presentationLink: "",
+    replicationPackageLink: "",
+    videoLink: "",
+    year: 2025,
+    type: "Conferences",
+    project:"perfomance-engineering"
+  },
+  {
     title: "Beyond More Context: How Granularity and Order Drive Code Completion Quality",
     venue: "The Context Composition Challenge workshop, co-located with Automated Software Engineering (ASE) conference",
     authors: "Uswat Yusuf, Genevieve Caumartin, Diego Elias Costa",
