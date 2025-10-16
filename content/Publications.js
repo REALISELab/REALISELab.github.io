@@ -1,5 +1,19 @@
 export const DefaultPublications = [
   {
+    title: "Beyond More Context: How Granularity and Order Drive Code Completion Quality",
+    venue: "The Context Composition Challenge workshop, co-located with Automated Software Engineering (ASE) conference",
+    authors: "Uswat Yusuf, Genevieve Caumartin, Diego Elias Costa",
+    pdfPathHref: "https://arxiv.org/abs/2510.06606",
+    githubLink: "",
+    datasetLink: "",
+    presentationLink: "",
+    replicationPackageLink: "",
+    videoLink: "",
+    year: 2025,
+    type: "Conferences",
+    project:"ai4se"
+  },
+  {
     title: "Exploring the Lifecycle and Maintenance Practices of Pre-Trained Models in Open-Source Software Repositories",
     venue: "The Mining Software Repositories (MSR) conference",
     authors: "Matin Koohjani, Diego Elias Costa",
