@@ -3,7 +3,7 @@ export const DefaultPublications = [
     title: "Towards Supporting Open Source Library Maintainers with Community-Based Analytics",
     venue: "International Conference on Software Engineering (ICSE)",
     authors: "Rachna Raj, Diego Elias Costa",
-    pdfPathHref: "",
+    pdfPathHref: "https://arxiv.org/abs/2510.15794",
     githubLink: "",
     datasetLink: "",
     presentationLink: "",
