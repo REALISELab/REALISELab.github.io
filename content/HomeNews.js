@@ -3,12 +3,12 @@ export const news = [
     {
         title: 'Rachna has been granted the Google 2025 North America PhD Fellowship in Software Engineering and Programming Languages! Congratulations Rachna!',
         description: 'November, 2025',
-        // href: ""
+        href: "blog/Rachna-Google-PhD-Fellowship"
     },
     {
         title: 'Our paper on "Towards Supporting Open Source Library Maintainers with Community-Based Analytics" was accepted at ICSE 2026! Congratulations Rachna!',
         description: 'October, 2025',
-        // href: ""
+        href: "https://arxiv.org/pdf/2510.15794"
     },
     {
         title: 'Our paper on "ADPerf: Investigating and Testing Performance in Autonomous Driving Systems" was accepted at ASE 2025!',
