@@ -1,4 +1,18 @@
 export const DefaultPublications = [
+    {
+    title: "Reformulate, Retrieve, Localize: Agents for Repository-Level Bug Localization",
+    venue: "Bots and Agents in Software Engineering workshop, co-located with International Conference on Software Engineering (ICSE)",
+    authors: "Genevieve Caumartin, Glaucia Melo",
+    pdfPathHref: "https://www.arxiv.org/abs/2512.07022",
+    githubLink: "",
+    datasetLink: "",
+    presentationLink: "",
+    replicationPackageLink: "",
+    videoLink: "",
+    year: 2026,
+    type: "Conferences",
+    project:"ai4se"
+  },
   {
     title: "Towards Supporting Open Source Library Maintainers with Community-Based Analytics",
     venue: "International Conference on Software Engineering (ICSE)",
