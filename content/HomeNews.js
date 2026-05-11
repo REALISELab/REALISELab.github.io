@@ -1,6 +1,11 @@
 export const news = [
 
     {
+        title: 'Our paper "LLM-Guided Mining of Performance-Related Commits at Scale" has been accepted at EASE 2026!',
+        description: 'April, 2026',
+        href: 'publications/PERFMINER_msr.pdf'
+    },
+    {
         title: 'Rachna has been granted the Google 2025 North America PhD Fellowship in Software Engineering and Programming Languages! Congratulations Rachna!',
         description: 'November, 2025',
         href: "blog/Rachna-Google-PhD-Fellowship"

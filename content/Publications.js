@@ -1,5 +1,19 @@
 export const DefaultPublications = [
     {
+    title: "LLM-Guided Mining of Performance-Related Commits at Scale",
+    venue: "30th International Conference on Evaluation and Assessment in Software Engineering (EASE), 2026",
+    authors: "Md Abul Kalam Azad, Ssm Tariq, Foyzul Hassan, Diego Elias Costa, Probir Roy",
+    pdfPathHref: "publications/PERFMINER_msr.pdf",
+    githubLink: "",
+    datasetLink: "",
+    presentationLink: "",
+    replicationPackageLink: "",
+    videoLink: "",
+    year: 2026,
+    type: "Conferences",
+    project: "performance-engineering"
+  },
+  {
     title: "Reformulate, Retrieve, Localize: Agents for Repository-Level Bug Localization",
     venue: "Bots and Agents in Software Engineering workshop, co-located with International Conference on Software Engineering (ICSE)",
     authors: "Genevieve Caumartin, Glaucia Melo",
