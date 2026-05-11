@@ -65,7 +65,7 @@ export const members = [
   },
   {
     name: 'Yasmine Drissi',
-    role: 'Undergraduate student',
+    role: 'Masters student',
     imageUrl:
       'img/yasmine-drissi.jpeg',
     twitterUrl: '',
