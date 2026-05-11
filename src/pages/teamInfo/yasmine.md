@@ -16,7 +16,7 @@ title: Yasmine
 ### Education
 
 - Pure and Applied Sciences DEC at Dawson College (August 2020 - August 2022) 
-- Bachelor's of Engineering in Computer Engineering at McGill University (August 2022 - Present)
+- Bachelor's of Engineering in Computer Engineering at McGill University (August 2022 - April 2026)
 
 ### Professional Experience
 
