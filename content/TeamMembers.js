@@ -47,7 +47,7 @@ export const members = [
   },
   {
     name: 'Matin Koohjani',
-    role: 'Masters student',
+    role: 'Alumni',
     imageUrl:
       'img/matin-koohjani.jpeg',
     twitterUrl: '',
@@ -56,7 +56,7 @@ export const members = [
   },
   {
     name: 'Adam Al Assil',
-    role: 'Undergraduate student',
+    role: 'Alumni',
     imageUrl:
       'img/adam-al-assil.jpg',
     twitterUrl: '#',
@@ -91,7 +91,7 @@ export const members = [
   },
   {
     name: 'Uswah Yusuf',
-    role: 'Undergraduate student',
+    role: 'Alumni',
     imageUrl: 'img/uswah_yusuf.jpg',
     twitterUrl: '',
     linkedinUrl: 'TeamMemberDetails',
@@ -108,7 +108,7 @@ export const members = [
   },
   {
     name: 'Anchi Li',
-    role: 'Undergraduate student',
+    role: 'Alumni',
     imageUrl: 'img/anchili.jpg',
     twitterUrl: '',
     linkedinUrl: 'https://www.linkedin.com/in/www.linkedin.com/in/anchi-li-b2992a373/',
