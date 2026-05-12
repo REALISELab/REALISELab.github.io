@@ -1,6 +1,11 @@
 export const news = [
 
     {
+        title: 'Our tutorial "Evaluating and Improving the Quality of LLM-Generated Code" has been accepted at FSE 2026! Please join our tutorial at FSE!',
+        description: 'March, 2026',
+        href: 'publications/fse2026tutorials-final3.pdf'
+    },
+    {
         title: 'Our paper "LLM-Guided Mining of Performance-Related Commits at Scale" has been accepted at EASE 2026!',
         description: 'April, 2026',
         href: 'publications/PERFMINER_msr.pdf'

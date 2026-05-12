@@ -1,5 +1,19 @@
 export const DefaultPublications = [
     {
+    title: "Evaluating and Improving the Quality of LLM-Generated Code",
+    venue: "34th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE Companion '26), Tutorial Track",
+    authors: "Glaucia Melo, Jessica Pourleyali, Genevieve Caumartin, Cor Yang-Smith, Diego Costa, Ahmad Abdellatif",
+    pdfPathHref: "publications/fse2026tutorials-final3.pdf",
+    githubLink: "",
+    datasetLink: "",
+    presentationLink: "",
+    replicationPackageLink: "",
+    videoLink: "",
+    year: 2026,
+    type: "Conferences",
+    project: "ai4se"
+  },
+  {
     title: "LLM-Guided Mining of Performance-Related Commits at Scale",
     venue: "30th International Conference on Evaluation and Assessment in Software Engineering (EASE), 2026",
     authors: "Md Abul Kalam Azad, Ssm Tariq, Foyzul Hassan, Diego Elias Costa, Probir Roy",
