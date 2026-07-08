@@ -42,9 +42,10 @@ Given the latest Artificial Intelligence technology and its potentially huge imp
 - Initiate and lead a group of women interested in building AI projects, “SheCodesAI”, with the goal of building a startup. This project was created to foster entrepreneurship in women interested in AI.
 - Mentor an undergraduate intern on context composition and code generation. Won 3rd place in the Context Collection Competition, hosted by JetBrains and Mistral AI. Paper was accepted for submission in the Context Collection Competition workshop collocated with ASE 2025.
 - Advise an undergraduate intern on the evaluation of methods to reduce the energy footprint of large language models for coding tasks. Paper in writing.
-- Program committee member for the 7th International Workshop on Bots and Agents in Software Engineering collocated with the 48th International Conference on Software Engineering (ICSE) 2026.
 - Junior program committee member for the 23rd Mining Software Repositories Conference, collocated with ICSE 2026. 
 - Shadow program committee member for ICSE 2026.
+- Program committee member for the 7th International Workshop on Bots and Agents in Software Engineering collocated with the 48th International Conference on Software Engineering (ICSE) 2026.
+- Tutorial co-presenter at FSE2026: "Evaluating and Improving the Quality of LLM-Generated Code" on the subject of Agentic Bug Localization, based on our paper "Reformulate, Retrieve, Localize: Agents for Bug Localization" presented at BoatSE 2026, colocated with ICSE.
 
 ### Volunteering
 - Volunteer at [CppNorth](https://cppnorth.ca/), the Canadian C++ Conference, July 21-23, 2025.
