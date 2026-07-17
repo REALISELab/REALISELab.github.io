@@ -1,5 +1,19 @@
 export const DefaultPublications = [
     {
+    title: "Exploring Statistical Change Point Detection Techniques for Performance Anomaly Detection at Mozilla",
+    venue: "MSc thesis. Master of Applied Science (Software Engineering), Concordia University, 2026",
+    authors: "Mohamed Bilel Besbes",
+    pdfPathHref: "publications/besbes-msc-thesis-2026.pdf",
+    githubLink: "",
+    datasetLink: "",
+    presentationLink: "",
+    replicationPackageLink: "",
+    videoLink: "",
+    year: 2026,
+    type: "Thesis",
+    project: "performance-engineering"
+  },
+  {
     title: "Rethinking Training Data for Generating Code Review Comments",
     venue: "International Conference on Software Maintenance and Evolution (ICSME), New Ideas and Emerging Results (NIER) track, 2026",
     authors: "Leonardo Centellas-Claros, Estefania Pakarati-Cofre, Juan Pablo Sandoval Alcocer, Diego Elias Costa",
