@@ -6,6 +6,11 @@ export const news = [
         href: 'publications'
     },
     {
+        title: 'Congratulations to Bilel, who successfully defended his MSc thesis "Exploring Statistical Change Point Detection Techniques for Performance Anomaly Detection at Mozilla"!',
+        description: 'June, 2026',
+        href: 'blog/bilel-msc-defense'
+    },
+    {
         title: 'Our tutorial "Evaluating and Improving the Quality of LLM-Generated Code" has been accepted at FSE 2026! Please join our tutorial at FSE!',
         description: 'March, 2026',
         href: 'publications/fse2026tutorials-final3.pdf'
