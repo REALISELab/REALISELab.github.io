@@ -107,6 +107,14 @@ export const members = [
     details: "teamInfo/haya"
   },
   {
+    name: 'Leonardo Sergio Centellas Claros',
+    role: 'Visitor',
+    imageUrl: 'img/default-photo.png',
+    twitterUrl: '',
+    linkedinUrl: 'TeamMemberDetails',
+    details: 'teamInfo/leonardo'
+  },
+  {
     name: 'Anchi Li',
     role: 'Alumni',
     imageUrl: 'img/anchili.jpg',
