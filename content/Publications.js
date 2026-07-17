@@ -1,5 +1,32 @@
 export const DefaultPublications = [
     {
+    title: "Rethinking Training Data for Generating Code Review Comments",
+    venue: "International Conference on Software Maintenance and Evolution (ICSME), New Ideas and Emerging Results (NIER) track, 2026",
+    authors: "Leonardo Centellas-Claros, Estefania Pakarati-Cofre, Juan Pablo Sandoval Alcocer, Diego Elias Costa",
+    pdfPathHref: "publications/icsme2026-nier-code-review-training-data.pdf",
+    githubLink: "",
+    datasetLink: "",
+    presentationLink: "",
+    replicationPackageLink: "",
+    videoLink: "",
+    year: 2026,
+    type: "Conferences",
+    project: "ai4se"
+  },
+  {
+    title: "What's Inside a GitHub Repository? An Empirical Study on the Contents of 10K Projects",
+    venue: "International Conference on Software Maintenance and Evolution (ICSME), New Ideas and Emerging Results (NIER) track, 2026",
+    authors: "Andre Hora, João Eduardo Montandon, Diego Elias Costa",
+    pdfPathHref: "https://arxiv.org/abs/2605.16701",
+    githubLink: "",
+    datasetLink: "",
+    presentationLink: "",
+    replicationPackageLink: "",
+    videoLink: "",
+    year: 2026,
+    type: "Conferences"
+  },
+  {
     title: "Evaluating and Improving the Quality of LLM-Generated Code",
     venue: "34th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE Companion '26), Tutorial Track",
     authors: "Glaucia Melo, Jessica Pourleyali, Genevieve Caumartin, Cor Yang-Smith, Diego Costa, Ahmad Abdellatif",

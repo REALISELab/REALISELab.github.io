@@ -1,6 +1,11 @@
 export const news = [
 
     {
+        title: 'Two papers "Rethinking Training Data for Generating Code Review Comments" and "What\'s Inside a GitHub Repository? An Empirical Study on the Contents of 10K Projects" have been accepted at the ICSME 2026 NIER track!',
+        description: 'July, 2026',
+        href: 'publications'
+    },
+    {
         title: 'Our tutorial "Evaluating and Improving the Quality of LLM-Generated Code" has been accepted at FSE 2026! Please join our tutorial at FSE!',
         description: 'March, 2026',
         href: 'publications/fse2026tutorials-final3.pdf'
