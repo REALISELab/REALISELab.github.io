@@ -39,7 +39,7 @@ function FacetGroup({ facet, options, selected, onToggle }) {
               >
                 <input
                   type="checkbox"
-                  className="rounded border-gray-300 dark:border-gray-600 text-blue-600 focus:ring-blue-500 dark:bg-gray-800"
+                  className="rounded border-2 border-gray-400 bg-white text-blue-600 focus:ring-blue-500 dark:border-gray-500 dark:bg-gray-700"
                   checked={isSelected}
                   disabled={disabled}
                   onChange={() => onToggle(facet.key, value)}
