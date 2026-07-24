@@ -1002,7 +1002,7 @@ export const DefaultPublications = [
     {
       title: "Empirical Analysis of Security Vulnerabilities in Python Packages",
       venue:
-        "ICSME: IEEE International Conference on Software Analysis, Evolution and Reengineering",
+        "SANER: IEEE International Conference on Software Analysis, Evolution and Reengineering",
       authors: "Mahmoud Alfadel, Diego Elias Costa, Emad Shihab",
       pdfPathHref:
         "publications/Empirical-Analysis-of-Security-Vulnerabilities-in-Python-Packages.pdf",
