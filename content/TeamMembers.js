@@ -28,6 +28,14 @@ export const members = [
     details: "teamInfo/genevieve"
   },
   {
+    name: 'Maryan Hussain',
+    role: 'PhD student',
+    imageUrl: 'img/default-photo.png',
+    twitterUrl: '',
+    linkedinUrl: 'https://www.linkedin.com/in/maryam-hussain-9a675a238/',
+    details: 'teamInfo/maryan'
+  },
+  {
     name: 'Zakaria Laib',
     role: 'Masters student',
     imageUrl:
