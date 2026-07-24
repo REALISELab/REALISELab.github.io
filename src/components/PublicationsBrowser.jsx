@@ -69,6 +69,7 @@ function FacetGroup({ facet, options, selected, onToggle }) {
 export default function PublicationsBrowser() {
   const [selection, setSelection] = useState(emptySelection);
   const [showCitation, setShowCitation] = useState({});
+  const [panelOpen, setPanelOpen] = useState(false);
 
   const toggleValue = (facetKey, value) =>
     setSelection((prev) => {
@@ -100,70 +101,84 @@ export default function PublicationsBrowser() {
   const activeCount = Object.values(selection).reduce((n, v) => n + v.length, 0);
 
   return (
-    <div className="flex flex-col lg:flex-row gap-8">
-      <aside className="lg:w-64 lg:shrink-0">
-        <div className="lg:sticky lg:top-24 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl p-4">
-          <div className="flex items-baseline justify-between mb-4">
-            <h3 className="text-base font-semibold text-gray-800 dark:text-gray-100 m-0">
-              Filters
-            </h3>
-            {activeCount > 0 && (
-              <button
-                type="button"
-                className="text-xs text-blue-600 dark:text-blue-400 bg-transparent border-0 p-0 cursor-pointer hover:underline"
-                onClick={() => setSelection(emptySelection())}
-              >
-                Clear all
-              </button>
-            )}
-          </div>
-          {facetOptions.map(({ facet, options }) => (
-            <FacetGroup
-              key={facet.key}
-              facet={facet}
-              options={options}
-              selected={selection[facet.key]}
-              onToggle={toggleValue}
-            />
-          ))}
-        </div>
-      </aside>
-
-      <div className="flex-1 min-w-0">
-        <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+    <div>
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 mb-6">
+        <button
+          type="button"
+          aria-expanded={panelOpen}
+          className="inline-flex items-center gap-2 text-sm font-medium text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg px-3 py-1.5 cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-700"
+          onClick={() => setPanelOpen((o) => !o)}
+        >
+          <span>{panelOpen ? "Hide filters" : "Filters"}</span>
+          {activeCount > 0 && (
+            <span className="inline-flex items-center justify-center min-w-[1.25rem] h-5 px-1.5 rounded-full bg-blue-600 text-white text-xs tabular-nums">
+              {activeCount}
+            </span>
+          )}
+        </button>
+        <span className="text-sm text-gray-600 dark:text-gray-400">
           {results.length === DefaultPublications.length
             ? `${results.length} publications`
             : `${results.length} of ${DefaultPublications.length} publications`}
-        </p>
+        </span>
+        {activeCount > 0 && (
+          <button
+            type="button"
+            className="text-sm text-blue-600 dark:text-blue-400 bg-transparent border-0 p-0 cursor-pointer hover:underline"
+            onClick={() => setSelection(emptySelection())}
+          >
+            Clear all
+          </button>
+        )}
+      </div>
 
-        {results.length === 0 && (
-          <p className="text-gray-600 dark:text-gray-400">
-            No publications match these filters.
-          </p>
+      <div className="flex flex-col lg:flex-row gap-8">
+        {panelOpen && (
+          <aside className="lg:w-64 lg:shrink-0">
+            <div className="lg:sticky lg:top-24 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl p-4">
+              {facetOptions.map(({ facet, options }) => (
+                <FacetGroup
+                  key={facet.key}
+                  facet={facet}
+                  options={options}
+                  selected={selection[facet.key]}
+                  onToggle={toggleValue}
+                />
+              ))}
+            </div>
+          </aside>
         )}
 
-        {byYear.map(([year, pubs]) => (
-          <section key={year}>
-            <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800 dark:text-gray-100">
-              {year}
-            </h2>
-            <div className="border-t border-gray-200 dark:border-gray-700 pt-4">
-              {pubs.map((pub) => {
-                const id = `${pub.year}-${pub.title}`;
-                return (
-                  <PublicationCard
-                    key={id}
-                    pub={pub}
-                    showCitation={showCitation[id]}
-                    onToggleCitation={() =>
-                      setShowCitation((prev) => ({ ...prev, [id]: !prev[id] }))
-                    }
-                  />
-                );
-              })}
-            </div>
-          </section>
-        ))}
+        <div className="flex-1 min-w-0">
+          {results.length === 0 && (
+            <p className="text-gray-600 dark:text-gray-400">
+              No publications match these filters.
+            </p>
+          )}
+
+          {byYear.map(([year, pubs]) => (
+            <section key={year}>
+              <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-800 dark:text-gray-100">
+                {year}
+              </h2>
+              <div className="border-t border-gray-200 dark:border-gray-700 pt-4">
+                {pubs.map((pub) => {
+                  const id = `${pub.year}-${pub.title}`;
+                  return (
+                    <PublicationCard
+                      key={id}
+                      pub={pub}
+                      showCitation={showCitation[id]}
+                      onToggleCitation={() =>
+                        setShowCitation((prev) => ({ ...prev, [id]: !prev[id] }))
+                      }
+                    />
+                  );
+                })}
+              </div>
+            </section>
+          ))}
+        </div>
       </div>
     </div>
   );
