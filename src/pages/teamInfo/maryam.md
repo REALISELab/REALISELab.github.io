@@ -4,7 +4,7 @@ title: Maryam
 
 ## Maryam Hussain
 
-I am a PhD student at the REALISE Lab, Concordia University, under the supervision of Professor [Diego Elias Costa](https://diegoeliascosta.github.io/).
+I am a PhD student at the REALISE Lab, Concordia University, under the supervision of Professor [Diego Elias Costa](/teamInfo/diego).
 
 ### Education
 
