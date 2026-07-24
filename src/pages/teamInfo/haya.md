@@ -3,7 +3,7 @@
 
 I am a Senior Lecturer in the Computer Engineering Department at An-Najah National University, Palestine. I received my B.Sc. in Computer Engineering from An-Najah National University in 2004 and earned my M.Sc. in Computer Engineering from Jordan University of Science and Technology in 2006\. In 2021–2022, I was a researcher at the DAS Lab, Concordia University (Canada)  under the supervision of Professor Emad Shihab, where I contributed to research in Software Engineering for AI (SE4AI), software ecosystems, and repository mining.
 
-Currently, I am a research visitor  at Concordia University at the REALISE Lab under the supervision of Professor \[Diego Elias Costa\](https://diegoeliascosta.github.io/). 
+Currently, I am a research visitor  at Concordia University at the REALISE Lab under the supervision of Professor [Diego Elias Costa](/teamInfo/diego). 
 
 ## Education
 

@@ -578,7 +578,7 @@ export const DefaultPublications = [
       authors:
         "Khaled Badran, Pierre-Olivier Cote, Amanda Kolopanis, Rached Bouchoucha, Antonio Collante, Diego Elias Costa, Emad Shihab, Foutse Khomh",
       pdfPathHref:
-        "https://diegoeliascosta.github.io/papers/Badran_Computer2022.pdf",
+        "publications/Can-Ensembling-Pre-processing-Algorithms-Lead-to-Better-Machine-Learning-Fairness.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -1005,7 +1005,7 @@ export const DefaultPublications = [
         "ICSME: IEEE International Conference on Software Analysis, Evolution and Reengineering",
       authors: "Mahmoud Alfadel, Diego Elias Costa, Emad Shihab",
       pdfPathHref:
-        "https://diegoeliascosta.github.io/papers/Alfadel_EMSE2023.pdf",
+        "publications/Empirical-Analysis-of-Security-Vulnerabilities-in-Python-Packages.pdf",
       githubLink: "",
       datasetLink: "https://zenodo.org/records/4158611",
       presentationLink: "",
