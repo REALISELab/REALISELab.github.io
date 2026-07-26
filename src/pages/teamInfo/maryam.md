@@ -1,7 +1,26 @@
 # Maryam Hussain
 import { FaEnvelope, FaLinkedin, FaGitHub } from 'react-icons/fa';
 
-<img src={require('../../../static/img/maryam.jpeg').default} alt="Profile Picture" style={{ width: '300px', height: 'auto', float: 'left', marginRight: '24px', marginBottom: '12px' }} />
+<style>{`
+  .profile-img {
+    width: 300px;
+    height: auto;
+    display: block;
+    float: left;
+    margin-right: 24px;
+    margin-bottom: 12px;
+  }
+  @media (max-width: 768px) {
+    .profile-img {
+      width: 100%;
+      float: none;
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+  }
+`}</style>
+
+<img src={require('../../../static/img/maryam.jpeg').default} alt="Profile Picture" className="profile-img" />
 
 I am a PhD student in Software Engineering at Concordia University and a member of the **REALISE Lab**, where I am supervised by **Prof. Diego Elias Damasceno Costa**.
 
@@ -105,7 +124,6 @@ As a Web Developer, I worked on designing and maintaining web applications while
 
 - Publications at the **IEEE/ACM International Conference on Automated Software Engineering (ASE)** and the **European Conference on Software Architecture (ECSA)**.
 - Graduate Research Assistant at AISEL Lab, contributing to AI-driven software engineering research.
-- Instructor at FAST–NUCES, teaching undergraduate Software Engineering and AI courses.
 - Best Final Year Project Nominee for **CodeStory VR**, an ICT-funded research project.
 
 ---
