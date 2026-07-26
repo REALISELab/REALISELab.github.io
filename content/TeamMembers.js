@@ -30,7 +30,7 @@ export const members = [
   {
     name: 'Maryam Hussain',
     role: 'PhD student',
-    imageUrl: 'img/default-photo.png',
+    imageUrl: 'img/maryaam_pfp.jpeg',
     twitterUrl: '',
     linkedinUrl: 'https://www.linkedin.com/in/maryam-hussain-9a675a238/',
     details: 'teamInfo/maryam'
