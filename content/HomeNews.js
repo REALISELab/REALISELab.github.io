@@ -1,6 +1,11 @@
 export const news = [
 
     {
+        title: 'Congratulations to Kawsar, who successfully defended his MSc thesis "Beyond Compliance: A Large Scale Study on the Completeness and Consistency of the GitHub SBOMs"!',
+        description: 'July, 2026',
+        href: 'blog/kawsar-msc-defense'
+    },
+    {
         title: 'Two papers "Rethinking Training Data for Generating Code Review Comments" and "What\'s Inside a GitHub Repository? An Empirical Study on the Contents of 10K Projects" have been accepted at the ICSME 2026 NIER track!',
         description: 'July, 2026',
         href: 'publications'
