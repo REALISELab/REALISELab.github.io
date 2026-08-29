@@ -1,5 +1,21 @@
 export const DefaultPublications = [
     {
+    title: "Beyond Compliance: A Large Scale Study on the Completeness and Consistency of the GitHub SBOMs",
+    venue: "MSc thesis. Master of Applied Science (Software Engineering), Concordia University, 2026",
+    authors: "Kawsar Ahmed Bhuiyan",
+    pdfPathHref: "publications/bhuiyan-msc-thesis-2026.pdf",
+    githubLink: "",
+    datasetLink: "",
+    presentationLink: "",
+    replicationPackageLink: "",
+    videoLink: "",
+    year: 2026,
+    type: "Thesis",
+    venueShort: "Thesis",
+    topics: ["dependency-management", "security", "mining-repositories"],
+    project: "dependency-management"
+  },
+    {
     title: "Exploring Statistical Change Point Detection Techniques for Performance Anomaly Detection at Mozilla",
     venue: "MSc thesis. Master of Applied Science (Software Engineering), Concordia University, 2026",
     authors: "Mohamed Bilel Besbes",
