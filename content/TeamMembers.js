@@ -75,7 +75,7 @@ export const members = [
     name: 'Yasmine Drissi',
     role: 'Masters student',
     imageUrl:
-      'img/yasmine-drissi.jpeg',
+      'img/yasmine-drissi.JPG',
     twitterUrl: '',
     linkedinUrl: 'https://ca.linkedin.com/in/yasmine-drissi-24043127a',
     details: "teamInfo/yasmine"

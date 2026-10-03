@@ -5,34 +5,47 @@ title: Yasmine
 ## Yasmine Drissi
 
 <div style={{ display: 'flex', alignItems: 'center' }}>
-  <img src={require('../../../static/img/yasmine-drissi.jpeg').default} alt="Me" style={{ width: '200px', marginRight: '60px' }} />
+  <img src={require('../../../static/img/yasmine-drissi.JPG').default} alt="Me" style={{ width: '200px', marginRight: '60px' }} />
   <div>
-    I am an undergraduate student in Computer Engineering attending McGill University. My studies have provided me with a comprehensive understanding of technology, from the basics of transistor communication to complexities of CPUs, machine languages, and artifical intelligence. However, I am particularly fascinated by the emerging applications and methodologies in Computer Science. Given the rapid growth of this field, I believe in the importance of continuously seeking improvements in software applications and exploring the various aspects of these tools.
-
-    The REALISE Lab aligns with my interests, especially as I work on dependency management in AI software tools under the supervision of Dr. Diego Costa.
+    I am a graduate student currently completing a Master of Applied Science in Software Engineering at Concordia University. As artificial intelligence continues to develop rapidly, I am interested in understanding how AI tools can be effectively integrated into the software engineering profession.
+    My interest in AI goes beyond its capabilities and potential for task automation. I am particularly interested in understanding how AI can be incorporated into software engineering workflows in ways that are practical, beneficial, and responsible. While AI offers exciting opportunities for improving software engineering practices, I believe it is equally important to critically evaluate its effectiveness, limitations, and impact in real-world industrial environments.
+    My research journey began with evaluating the capabilities of large language models in performing software engineering tasks, while also examining their limitations, including hallucinations. As a graduate student, my research now continues toward agentic AI, with a focus on analyzing how intelligent agents can be incorporated into software engineering workflows in industrial settings. 
   </div>
 </div>  
 
 ### Education
 
-- Pure and Applied Sciences DEC at Dawson College (August 2020 - August 2022) 
+- Master's of Applied Science in Software Engineering at Concordia University (May 2026 - Present)
 - Bachelor's of Engineering in Computer Engineering at McGill University (August 2022 - April 2026)
+- Pure and Applied Sciences DEC at Dawson College (August 2020 - August 2022) 
 
 ### Professional Experience
 
-- Research Intern at REALISE Lab (May 2024 - August 2024)
+- NLP Intern at Montreal Polytechnique (June 2026 - Present)
+- Master's Researcher in Agentic AI Applications at REALISE Lab (May 2026 - Present)
+- AI Applications Research Intern at REALISE Lab (May 2025 - August 2025)
+- AI Applications Research Intern at REALISE Lab (May 2024 - August 2024)
 
 ### Awards 
 
-- Academic Dean's semestrial Honours List Fall 2021
+- Concordia Merit Scholarship (May 2025) 
+- NSERC Undergraduate Student Research Award (May 2025)
+- NSERC Undergraduate Student Research Award (May 2024) 
+- Academic Dean's semestrial Honours List Winter 2022 
 - Academic Dean's semestrial Honours List Winter 2021
-- Academic Dean's semestrial Honours List Winter 2022
-- NSERC Undergraduate Student Research Award 
+- Academic Dean's semestrial Honours List Fall 2021
+
 
 ### Research Interests
 
-As the field of computer science is innovating at a rapid rate, I strive to ensure that dependency management remains an important aspect considered and maintained throughout the use of new methodologies/tools, specifically in AI. 
-
+- Agentic AI for Software Engineering
+- AI-Assisted Software Engineering
+- Large Language Models (LLMs)
+- AI Agents & Autonomous Software Engineering
+- Human–AI Collaboration in Software Development
+- Empirical Evaluation of AI Tools
+- Responsible & Trustworthy AI in Software Engineering
+- Software engineerig for AI Technical Debt, Architectural Anti-patterns
 
 ### Contact
 
