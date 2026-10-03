@@ -4,14 +4,9 @@ title: Yasmine
 
 ## Yasmine Drissi
 
-<div style={{ display: 'flex', alignItems: 'center' }}>
-  <img src={require('../../../static/img/yasmine-drissi.JPG').default} alt="Me" style={{ width: '200px', marginRight: '60px' }} />
-  <div>
-    I am a graduate student currently completing a Master of Applied Science in Software Engineering at Concordia University. As artificial intelligence continues to develop rapidly, I am interested in understanding how AI tools can be effectively integrated into the software engineering profession.
-    My interest in AI goes beyond its capabilities and potential for task automation. I am particularly interested in understanding how AI can be incorporated into software engineering workflows in ways that are practical, beneficial, and responsible. While AI offers exciting opportunities for improving software engineering practices, I believe it is equally important to critically evaluate its effectiveness, limitations, and impact in real-world industrial environments.
-    My research journey began with evaluating the capabilities of large language models in performing software engineering tasks, while also examining their limitations, including hallucinations. As a graduate student, my research now continues toward agentic AI, with a focus on analyzing how intelligent agents can be incorporated into software engineering workflows in industrial settings. 
-  </div>
-</div>  
+I am a graduate student currently completing a Master of Applied Science in Software Engineering at Concordia University. As artificial intelligence continues to develop rapidly, I am interested in understanding how AI tools can be effectively integrated into the software engineering profession.
+My interest in AI goes beyond its capabilities and potential for task automation. I am particularly interested in understanding how AI can be incorporated into software engineering workflows in ways that are practical, beneficial, and responsible. While AI offers exciting opportunities for improving software engineering practices, I believe it is equally important to critically evaluate its effectiveness, limitations, and impact in real-world industrial environments.
+My research journey began with evaluating the capabilities of large language models in performing software engineering tasks, while also examining their limitations, including hallucinations. As a graduate student, my research now continues toward agentic AI, with a focus on analyzing how intelligent agents can be incorporated into software engineering workflows in industrial settings. 
 
 ### Education
 
