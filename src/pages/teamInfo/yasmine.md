@@ -23,7 +23,7 @@ My research journey began with evaluating the capabilities of large language mod
 
 ### Awards 
 
-- Concordia Merit Scholarship (May 2025) 
+- Concordia Merit Scholarship (May 2026) 
 - NSERC Undergraduate Student Research Award (May 2025)
 - NSERC Undergraduate Student Research Award (May 2024) 
 - Academic Dean's semestrial Honours List Winter 2022 
