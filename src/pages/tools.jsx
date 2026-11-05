@@ -140,7 +140,7 @@ export default function Tools() {
               Tools &amp; Datasets
             </h1>
             <p className="mt-8 text-lg leading-8 text-gray-600 dark:text-gray-300">
-              Tools and datasets developed at REALISE Lab. Try them online,
+              Tools and datasets developed by REALISE Lab and collaborators. Try them online,
               install them locally, or reuse our data in your own research.
             </p>
           </div>
