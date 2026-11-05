@@ -6,8 +6,13 @@ import { FaGithub, FaRegFilePdf, FaPlay, FaBook } from "react-icons/fa";
 import { GoDatabase } from "react-icons/go";
 import { tools } from "../../content/Tools";
 
-const FILTERS = ["All", "Tool", "Dataset"];
-const FILTER_LABELS = { All: "All", Tool: "Tools", Dataset: "Datasets" };
+const FILTERS = ["All", "Tool", "Benchmark", "Dataset"];
+const FILTER_LABELS = { All: "All", Tool: "Tools", Benchmark: "Benchmarks", Dataset: "Datasets" };
+const TYPE_BADGE = {
+  Tool: "bg-blue-100 text-blue-800",
+  Benchmark: "bg-amber-100 text-amber-800",
+  Dataset: "bg-emerald-100 text-emerald-800",
+};
 
 function ExternalLink({ href, icon, label }) {
   if (!href) return null;
@@ -54,9 +59,7 @@ function ToolCard({ tool }) {
       <div className="flex flex-wrap items-center gap-2 mb-2">
         <span
           className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${
-            tool.type === "Dataset"
-              ? "bg-emerald-100 text-emerald-800"
-              : "bg-blue-100 text-blue-800"
+            TYPE_BADGE[tool.type] || TYPE_BADGE.Tool
           }`}
         >
           {tool.type}

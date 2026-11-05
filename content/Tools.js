@@ -4,7 +4,7 @@
 // Fields:
 //   slug         unique id (also used for the detail page path, if any)
 //   name         display name
-//   type         "Tool" | "Dataset"
+//   type         "Tool" | "Benchmark" | "Dataset"
 //   description  one or two sentences
 //   tags         optional list of topics (e.g., "dependency-management", "se4ai")
 //   tryLink      optional external link where people can try it (HF Space, Streamlit, web app, ...)
@@ -72,6 +72,44 @@ export const tools = [
       title: "A Dataset of Performance Measurements and Alerts from Mozilla (Data Artifact)",
       venue: "ICPE 2025",
       url: "https://arxiv.org/abs/2503.16332",
+    },
+    image: "",
+  },
+  {
+    slug: "spotjmhbugs",
+    name: "SpotJMHBugs",
+    type: "Tool",
+    description:
+      "A SpotBugs plugin that statically detects bad practices in JMH (Java Microbenchmark Harness) benchmarks, such as unused returned computations, accumulation inside loops, final primitive inputs, per-invocation fixtures, and zero forks.",
+    tags: ["performance-engineering"],
+    tryLink: "",
+    githubLink: "https://github.com/DiegoEliasCosta/spotjmhbugs",
+    datasetLink: "",
+    docsLink: "",
+    detailsPage: "/tools/spotjmhbugs",
+    paper: {
+      title: "What's Wrong With My Benchmark Results? Studying Bad Practices in JMH Benchmarks",
+      venue: "IEEE TSE 2019",
+      url: "https://asgaard.ece.ualberta.ca/papers/Journal/TSE_2019_Costa_Whats_Wrong_With_My_Benchmark_Results_Studying_Bad_Practices_in_JMH_Benchmarks.pdf",
+    },
+    image: "",
+  },
+  {
+    slug: "collectionsbench",
+    name: "CollectionsBench",
+    type: "Benchmark",
+    description:
+      "A JMH benchmark suite for comparing Java collection libraries (JDK, Fastutil, Guava, Koloboke, HPPC, Eclipse Collections, Trove, and more) on lists, sets, and maps under a common set of workloads.",
+    tags: ["performance-engineering"],
+    tryLink: "",
+    githubLink: "https://github.com/DiegoEliasCosta/CollectionsBench",
+    datasetLink: "",
+    docsLink: "",
+    detailsPage: "/tools/collectionsbench",
+    paper: {
+      title: "Empirical Study of Usage and Performance of Java Collections",
+      venue: "ICPE 2017",
+      url: "https://doi.org/10.1145/3030207.3030221",
     },
     image: "",
   },

@@ -1,0 +1,57 @@
+---
+title: SpotJMHBugs
+description: A SpotBugs plugin for static analysis of JMH benchmarks.
+---
+
+[← All tools & datasets](/tools)
+
+# SpotJMHBugs
+
+SpotJMHBugs is a [SpotBugs](https://spotbugs.github.io/) plugin that statically analyzes
+[JMH](https://github.com/openjdk/jmh) microbenchmarks and flags bad practices that can silently
+invalidate benchmark results.
+
+**Source code:** [github.com/DiegoEliasCosta/spotjmhbugs](https://github.com/DiegoEliasCosta/spotjmhbugs) (MIT license)
+
+## Bad practices detected
+
+| Code | Bad practice |
+|------|--------------|
+| `RETU` | Not using the returned computation |
+| `LOOP` | Using accumulation to consume values inside a loop |
+| `FINAL` | Using final primitives for benchmark inputs |
+| `INVO` | Running fixture methods for each benchmark method invocation |
+| `FORK` | Configuring benchmarks with zero forks |
+
+## Build
+
+Requires Java 8 or higher.
+
+```bash
+git clone https://github.com/DiegoEliasCosta/spotjmhbugs.git
+cd spotjmhbugs
+./mvnw package   # produces spotJMHbugs.jar
+```
+
+## Use it with the SpotBugs command line
+
+1. Download a SpotBugs binary release from [github.com/spotbugs/spotbugs/releases](https://github.com/spotbugs/spotbugs/releases) and set `SPOTBUGS_HOME` to the extracted folder.
+2. Copy `spotJMHbugs.jar` into `$SPOTBUGS_HOME/plugin/`.
+3. Check that the plugin is loaded:
+
+```bash
+java -jar $SPOTBUGS_HOME/lib/spotbugs.jar -textui -showPlugins
+```
+
+## Use it in a Maven project
+
+Add the `spotbugs-maven-plugin` with SpotJMHBugs as a plugin dependency, and exclude JMH-generated
+classes with a `spotbugs-exclude.xml` filter. Running `mvn verify` then fails the build when bad
+practices are found. See the [repository README](https://github.com/DiegoEliasCosta/spotjmhbugs#readme)
+for the full `pom.xml` and filter configuration.
+
+## How to cite
+
+Diego Costa, Cor-Paul Bezemer, Philipp Leitner, and Artur Andrzejak.
+[What's Wrong With My Benchmark Results? Studying Bad Practices in JMH Benchmarks](https://asgaard.ece.ualberta.ca/papers/Journal/TSE_2019_Costa_Whats_Wrong_With_My_Benchmark_Results_Studying_Bad_Practices_in_JMH_Benchmarks.pdf).
+IEEE Transactions on Software Engineering (TSE), 2019.

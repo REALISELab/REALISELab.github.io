@@ -1,0 +1,55 @@
+---
+title: CollectionsBench
+description: A JMH benchmark suite for Java collection libraries.
+---
+
+[← All tools & datasets](/tools)
+
+# CollectionsBench
+
+CollectionsBench is a benchmark suite for evaluating Java collection libraries under a homogeneous
+set of test cases, built on [JMH](https://github.com/openjdk/jmh). It covers more than 100
+collection implementations of lists, sets, and maps (including primitive `int` variants).
+
+**Source code:** [github.com/DiegoEliasCosta/CollectionsBench](https://github.com/DiegoEliasCosta/CollectionsBench)
+
+## What it covers
+
+- **Libraries:** JDK, Fastutil, Guava, Koloboke, HPPC, Eclipse Collections, Trove, Javolution, Mahout, CoreNLP, Agrona, and Apache Commons Collections
+- **Benchmarks:** `singleOperations`, `intsingleoperations`, `set`, `intset`, `wordcount`, `concurrency`, `stackoverflow`
+- **Payloads:** uniform and dictionary-based (Zipfian, drawn from Wikipedia words) integers and strings
+
+## Build
+
+Requires Java 8. The input data is stored with Git LFS.
+
+```bash
+git clone https://github.com/DiegoEliasCosta/CollectionsBench.git
+cd CollectionsBench
+git lfs install && git lfs pull
+./gradlew shadowJar   # produces benchmarks.jar
+```
+
+## Run
+
+Running the full suite takes weeks, so select the benchmarks and implementations you need:
+
+```bash
+# Only the word count benchmarks
+java -jar benchmarks.jar .*benchmarks.wordcount.*
+
+# Only specific implementations (comma-separated)
+java -jar benchmarks.jar -p impl=JDK_ARRAY
+
+# Standard JMH options (warmup iterations, iterations, forks)
+java -jar benchmarks.jar -wi 20 -i 30 -r 5
+
+# All options
+java -jar benchmarks.jar -h
+```
+
+## How to cite
+
+Diego Costa, Artur Andrzejak, Janos Seboek, and David Lo.
+[Empirical Study of Usage and Performance of Java Collections](https://doi.org/10.1145/3030207.3030221).
+ACM/SPEC International Conference on Performance Engineering (ICPE), 2017.
