@@ -95,6 +95,11 @@ const config = {
              position: "left",
            },
           {
+            to: "/tools",
+            label: "Tools & Datasets",
+            position: "left",
+          },
+          {
             to: "/contact",
              label: "Contact Us",
              position: "right",
@@ -146,6 +151,10 @@ const config = {
               {
                 label: "Publications",
                 to: "/publications",
+              },
+              {
+                label: "Tools & Datasets",
+                to: "/tools",
               },
               
               // {
