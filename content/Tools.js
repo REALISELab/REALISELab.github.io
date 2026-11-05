@@ -37,4 +37,23 @@ export const tools = [
     },
     image: "",
   },
+  {
+    slug: "github-file-history",
+    name: "GitHub File History",
+    type: "Tool",
+    description:
+      "Track how the files, directories, and file extensions of a GitHub repository evolve over time, using data from the GitHub API.",
+    tags: ["mining-repositories"],
+    tryLink: "https://andrehora.github.io/file-history/",
+    githubLink: "https://github.com/andrehora/file-history",
+    datasetLink: "",
+    docsLink: "",
+    detailsPage: "",
+    paper: {
+      title: "What's Inside a GitHub Repository? An Empirical Study on the Contents of 10K Projects",
+      venue: "ICSME 2026, NIER track",
+      url: "https://arxiv.org/abs/2605.16701",
+    },
+    image: "",
+  },
 ];
