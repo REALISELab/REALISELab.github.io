@@ -56,4 +56,23 @@ export const tools = [
     },
     image: "",
   },
+  {
+    slug: "mozilla-performance-dataset",
+    name: "Mozilla Performance Measurements and Alerts",
+    type: "Dataset",
+    description:
+      "One year (May 2023 to May 2024) of Mozilla's performance testing data: 5,655 performance time series, 17,989 performance alerts, and annotations of the resulting bugs, as CSV files with the scripts used to collect them (CC BY 4.0).",
+    tags: ["performance-engineering"],
+    tryLink: "",
+    githubLink: "",
+    datasetLink: "https://doi.org/10.5281/zenodo.14642238",
+    docsLink: "",
+    detailsPage: "",
+    paper: {
+      title: "A Dataset of Performance Measurements and Alerts from Mozilla (Data Artifact)",
+      venue: "ICPE 2025",
+      url: "https://arxiv.org/abs/2503.16332",
+    },
+    image: "",
+  },
 ];

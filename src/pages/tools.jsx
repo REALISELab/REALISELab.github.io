@@ -25,8 +25,13 @@ function ExternalLink({ href, icon, label }) {
 
 function ToolCard({ tool }) {
   const image = useBaseUrl(tool.image || "");
-  const tryHref = tool.tryLink || tool.detailsPage;
-  const tryIsExternal = Boolean(tool.tryLink);
+  // Primary call to action: hosted demo, then detail page, then (for datasets) the download.
+  const datasetIsPrimary =
+    !tool.tryLink && !tool.detailsPage && tool.type === "Dataset" && Boolean(tool.datasetLink);
+  const tryHref = tool.tryLink || tool.detailsPage || (datasetIsPrimary ? tool.datasetLink : "");
+  const tryIsExternal = Boolean(tool.tryLink) || datasetIsPrimary;
+  const tryLabel = datasetIsPrimary ? "Get the dataset" : "Try it";
+  const TryIcon = datasetIsPrimary ? GoDatabase : FaPlay;
 
   const title = tool.detailsPage ? (
     <Link to={tool.detailsPage} className="text-gray-900 dark:text-white hover:underline">
@@ -97,18 +102,20 @@ function ToolCard({ tool }) {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700 hover:text-white hover:no-underline"
             >
-              <FaPlay size={12} /> Try it
+              <TryIcon size={14} /> {tryLabel}
             </a>
           ) : (
             <Link
               to={tryHref}
               className="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700 hover:text-white hover:no-underline"
             >
-              <FaPlay size={12} /> Try it
+              <TryIcon size={14} /> {tryLabel}
             </Link>
           ))}
         <ExternalLink href={tool.githubLink} icon={<FaGithub size={18} />} label="GitHub" />
-        <ExternalLink href={tool.datasetLink} icon={<GoDatabase size={18} />} label="Dataset" />
+        {!datasetIsPrimary && (
+          <ExternalLink href={tool.datasetLink} icon={<GoDatabase size={18} />} label="Dataset" />
+        )}
         <ExternalLink href={tool.docsLink} icon={<FaBook size={16} />} label="Docs" />
         <ExternalLink
           href={tool.paper && tool.paper.url}
