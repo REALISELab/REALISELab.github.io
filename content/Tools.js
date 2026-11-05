@@ -76,6 +76,25 @@ export const tools = [
     image: "",
   },
   {
+    slug: "mozilla-change-point-annotations",
+    name: "Mozilla Performance Change Point Annotations",
+    type: "Dataset",
+    description:
+      "174 Mozilla performance time series with change points manually annotated by 11 Mozilla engineers, plus annotation task metadata. A practitioner-validated ground truth for evaluating performance regression and change point detection methods (CC BY 4.0).",
+    tags: ["performance-engineering"],
+    tryLink: "",
+    githubLink: "",
+    datasetLink: "https://doi.org/10.5281/zenodo.20382079",
+    docsLink: "",
+    detailsPage: "",
+    paper: {
+      title: "Exploring Statistical Change Point Detection Techniques for Performance Anomaly Detection at Mozilla",
+      venue: "arXiv 2026",
+      url: "https://arxiv.org/abs/2606.18377",
+    },
+    image: "",
+  },
+  {
     slug: "spotjmhbugs",
     name: "SpotJMHBugs",
     type: "Tool",
