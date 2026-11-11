@@ -37,9 +37,9 @@ export default function Example() {
               <span>
                 Our current research focuses on:
                 <ul className="list-disc ml-5">
+                  <li><b>AI Development Agents</b></li>
                   <li><b>Software Performance Testing</b></li>
                   <li><b>Open-Source Software Development and Dependency Management</b></li>
-                  <li><b>Software Development Assistants</b></li>
                   <li><b>Maintenance and Reliability of AI-Based Systems</b></li>
                 </ul>
               </span>
