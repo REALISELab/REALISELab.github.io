@@ -117,9 +117,9 @@ export const members = [
   {
     name: 'Leonardo Sergio Centellas Claros',
     role: 'Visitor',
-    imageUrl: 'img/default-photo.png',
+    imageUrl: 'img/leonardo.jpeg',
     twitterUrl: '',
-    linkedinUrl: 'TeamMemberDetails',
+    linkedinUrl: 'https://www.linkedin.com/in/leonardo-centellas-claros/',
     details: 'teamInfo/leonardo'
   },
   {
