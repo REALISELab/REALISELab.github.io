@@ -41,4 +41,10 @@ export const partners = [
       imagePath: 'img/adacel-logo.png',
       link: 'https://www.adacel.com/'
     },
+    {
+      name: 'FieldTurf',
+      collaboration_topics: 'AI and AI Agents for Business Analytics',
+      imagePath: 'img/fieldturf-logo.png',
+      link: 'https://www.fieldturf.com/'
+    },
 ];
